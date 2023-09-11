@@ -1,0 +1,22 @@
+.btn {
+    /* Layout */
+    width: 100px;
+    height: 23px;
+    border: 1px solid black;
+    border-radius: 15px;
+    /* front */
+    margin: 20px;
+    padding:9px;
+    background-color:color(display-p3 red green blue)
+}
+.btp::after {
+    background-color: bisque;
+}
+.btn::before {
+
+}
+
+.btn:hover {
+    background-color: blue;
+
+}

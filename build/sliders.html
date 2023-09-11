@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="SEO">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/sliders.css">
+</head>
+
+<body>
+    <header>
+    <nav class="navbar">
+        <!-- Icône -->
+        <div class="navbar-icon">
+            <img src="path_to_your_icon.png" alt="Logo">
+        </div>
+    
+    <!-- Menu déroulant des cours -->
+    <div class="dropdown">
+        <button class="dropbtn">Cours</button>
+        <div class="dropdown-content">
+            <a href="#">Language</a>
+            <div class="sub-dropdown">
+                <a href="http://oc.univers-mc.cloud/pages/cours.html">cours/a>
+                <a href="#">HTML</a>
+                <a href="#">CSS</a>
+                <a href="#">JavaScript</a>
+                <a href="#">React</a>
+                <!-- Autres langages front-end -->
+            </div>
+            <a href="#">FullStack</a>
+            <div class="sub-dropdown">
+                <a href=backend>backend</a>
+                <a href=frontend>frontend</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu des projets -->
+    <div class="dropdown">
+        <button class="dropbtn">Projets</button>
+        <div class="dropdown-content">
+            <a href="#">Projet 1</a>
+            <a href="#">Projet 2</a>
+            <a href="http://oc.univers-mc.cloud/pages/projets/P3/index.html">Projet3</a>
+            <!-- Liste des 12 projets -->
+        </div>
+    </div
+    
+        <!-- Menu des soutenances -->
+        <div class="dropdown">
+            <button class="dropbtn">Soutenances</button>
+            <div class="dropdown-content">
+                <a href="#">Session 1nitiation</a>
+                <a href="#">Mise à jours web-site Session SK8(html&css)</a>
+                <a href="#">session programmation (html&css) site-web BooKie</a>
+                <!-- Autres sessions de soutenance -->
+            </div>
+        </div>
+    
+        <!-- Menu des crédits -->
+        <div class="dropdown">
+            <button class="dropbtn">Crédits</button>
+            <div class="dropdown-content">
+                <a href="#">About Portfolio</a>
+            </div>
+        </div>
+    </nav>
+    </header>    
+    <main>
+        <!-- Structure de base du composant slider dans /components/sliders -->
+
+<section class="slider-section">
+    <!-- Bloc 1 : Liste des slides -->
+    <div class="slider-list">
+        <ul>
+            <li>Slide 1</li>
+            <li>Slide 2</li>
+            <li>Slide 3</li>
+            <!-- ... autres slides ... -->
+        </ul>
+    </div>
+    
+    <!-- Bloc 2 : Représentation visuelle du slide actif -->
+    <div class="slider-display">
+        <div class="slide active">
+            <!-- Contenu du slide 1, cela pourrait être du texte, des images, des vidéos, etc. -->
+        </div>
+        <div class="slide">
+            <!-- Contenu du slide 2 -->
+        </div>
+        <!-- ... autres slides ... -->
+    </div>
+    
+    <!-- Bloc 3 : Boutons d'interaction et indicateurs de progression -->
+    <div class="slider-controls">
+        <button class="prev-slide">Précédent</button>
+        <!-- Indicateurs de progression -->
+        <div class="slide-indicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+            <!-- ... autres indicateurs ... -->
+        </div>
+        <button class="next-slide">Suivant</button>
+    </div>
+</section>
+    </div>
+    </main>
+    <footer>
+        <h2>Roadmap</h2>
+        <ul class="roadmap-list">
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="cours.php">Cours</a>
+                <ul>
+                    <li><a href="frontend.php">Front-end</a>
+                        <ul>
+                            <li><a href="html.php">HTML</a></li>
+                            <li><a href="css.php">CSS</a></li>
+                            <!-- Autres cours front-end -->
+                        </ul>
+                    </li>
+                    <li><a href="backend.php">Back-end</a>
+                        <!-- Cours back-end ici -->
+                    </li>
+                </ul>
+            </li>
+            <li><a href="projets.php">Projets</a></li>
+            <li><a href="soutenances.php">Soutenances</a></li>
+            <li><a href="credits.php">Crédits</a></li>
+        </ul>
+    </footer>    
+</body>
+</html>

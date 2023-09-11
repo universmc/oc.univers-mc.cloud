@@ -1,0 +1,49 @@
+{
+    "ML.py": {},
+    "assets": {},
+    "components": {
+      "header": {},
+      "MainContainer": {},
+      "footer": {},
+      "slides": {},
+      "card": {},
+      "setup": {},
+      "other_component": {}
+    },
+    "notes-GPT-codex.md": {},
+    "scripts": {
+      "script.js": {},
+      "main.js": {}
+    },
+    "styles": {
+      "index.css": {},
+      "main.css": {}
+    },
+    "api": {
+      "react": {},
+      "build": {
+        "components": {},
+        "pages": {},
+        "Makefile": {}
+      },
+      "lirv": {},
+      "database": {}
+    },
+    "index.html": {},
+    "mapset.md": {},
+    "pages": {
+      "cours": {},
+      "projets": {},
+      "soutenances": {},
+      "skill-labs": {}
+    },
+    "ia": {
+      "model": {},
+      "kernel": {},
+      "neofs": {}
+    },
+    "srv": {
+      "nodejs": {}
+    }
+  }
+  

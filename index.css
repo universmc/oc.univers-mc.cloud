@@ -1,0 +1,386 @@
+body {
+    width:100%;
+}
+
+
+/* HEADER */
+
+/* NavBar */
+header {
+    width: 90%;
+}
+/* Hero Bannier */
+/* ... */
+
+/* Hero Bannier */
+.heroBanner {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+}
+.Kernel-ban-containe {
+    display: flex;
+    flex-direction: column;
+}
+.tensor-svg {
+    display: flex;
+    flex: row;
+    
+}
+.cloudBlock {
+    display: grid;
+    grid-template-areas: calc(1.1.1);
+}
+.textBlock, .cloudBlock, .tooltipBlock {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+#actionButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#actionButton:hover {
+    background-color: #555;
+}
+
+.content-section {
+    padding: 20px 0;
+}
+
+/* ... */
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar-icon img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content, .sub-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.sub-dropdown {
+    left: 100%;
+    top: 0;
+}
+
+.dropdown-content a, .sub-dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content, .dropdown-content:hover .sub-dropdown {
+    display: block;
+}
+
+.dropdown-content a:hover, .sub-dropdown a:hover {
+    background-color: #f1f1f1;
+}
+main {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+/* MainContainer */
+
+.container-table {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+}
+
+.cell {
+    width: 33.3%;
+    height: 33.3%;
+    border: 1px solid #ddd;
+}
+.central-cell {
+    display: flex;
+    justify-content: space-between;
+    width: 987px;
+    border: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* formation oc */
+/* information */
+.formation-OC {
+    display: flex;
+    justify-content: center;
+}
+.info {
+
+}
+
+.ico-oc {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article-card {
+    justify-content: space-between;
+    width: 80%;
+    display: flex;
+    gap:35px;
+}
+.card {
+
+}
+.card-dev {
+
+    /* layout */
+    display: flex;
+    width: 400px;
+    height: 50px;
+    border: #555 1px solid;
+    border-radius: 15px;
+
+    /* Front styles */
+    font-size: 23px;
+    margin: 8px;
+    padding: 8px;
+
+}
+.card-dev img {
+    padding: 5px;
+
+}
+.card-dev:hover {
+    background-color: #555;
+}
+.card-dev-info {
+
+}
+.card-dev-info span {
+    font-size: 13px;
+}
+
+.card-html img {
+    height: 123px;
+}
+.card-css img {
+    height: 123px;
+
+}
+
+
+
+
+
+
+.kernel {
+    order:2;
+    /* layout */
+    display: flex;
+    justify-content: space-between;
+    width: 987px;
+    height: auto;
+    /* front */
+
+    
+}
+
+.aside-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap:10 px;
+}
+.aside {
+    /* layout */
+    display: flex;
+    justify-content: start;
+    width: 32%;
+    /* front */
+    margin: 1%;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+
+}
+.aside-menu {
+    margin:1px;
+}
+
+_
+
+.content {
+    /* layout */
+    width: 65%;
+    height: auto;
+    /* front */
+    margin: 1px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+}
+
+
+/* ARTICLE slider */
+.slide {
+    width: 987px;
+    height: 440px;
+    border-radius: 25px;
+    background-color: #ddd;;
+
+}
+.slide-and-ls {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+
+}
+.slide-content {
+    width: 90%;
+    height: 377px;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border: #333;
+    border-radius: 20px;
+    margin: 3px;
+
+}
+.slide-ls{
+    background-color: #dd5;
+
+}
+/* skill LAB */
+.skill-lab {
+    /* layout */
+    display: flex;
+    border: 1px;
+    /* front */
+    background-color: #ddd;
+}
+.lab {
+    background-color: white;
+}
+.skill-content {
+    /* layout */
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+    width: 987px;
+    background-color: #ddd;
+    border-radius: 15px;
+
+}
+#input {
+    /* layout */
+    display: flex;
+    border: 1px;
+    width: 20%;
+    background-color: beige;
+}
+#output {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    background-color: bisque;
+}
+#output table {
+    background-color:dodgerblue;
+}
+/* IMPORTANT TABLE CONFIG IN HTML <STYLE> */
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: black;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.roadmap-list, .roadmap-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.roadmap-list a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+
+.roadmap-list a:hover {
+    background-color: #555;
+}
+
+.roadmap-list ul {
+    margin-left: 20px;
+}

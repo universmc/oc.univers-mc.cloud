@@ -1,0 +1,60 @@
+<!-- Slide1.html (et faites la même chose pour les autres slides) -->
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Présentation - Projet Riding City</title>
+    </head>
+<body>
+        <!-- Contenu du slide ici -->
+        <div class="slide">
+            <header>
+                <img src="../images/oc.png" alt="Introduction">
+                <h1>Projet Riding City (Html/css)</h1>
+            </header>
+            <main>
+              <div class="sommaire_nav_slides">
+                <nav>
+                  <ul>
+                    <li><a href="index.html">Présentation</a></li>
+                    <li><a href="slide1.html">Contexte de la Mission</a></li>
+                    <li><a href="slide2.html">Objectif de la Mission</a></li>
+                    <li><a href="slide3.html">Code de Départ</a></li>
+                    <li><a href="slide4.html">Etape 1 : Section Membre Fondateur</a></li>
+                    <li><a href="slide5.html">Etape 2 : Section Téléchargement</a></li>
+                    <li><a href="slide6.html">... de développement</a></li>
+                    <li><a href="slide7.html">Slide 2</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div id="nav-buttons">
+            <a href="slide1.html" class="pagination">1/7</a>
+        </div>
+    </footer>
+
+    <script>
+        const navButtons = document.getElementById('nav-buttons');
+        let currentSlide = 1;
+
+        function updateNavButtons() {
+            navButtons.innerHTML = '';
+            if (currentSlide > 1) {
+                navButtons.innerHTML += `<a href="slide${currentSlide - 1}.html" class="round-button">${currentSlide - 1}/7</a>`;
+            }
+            navButtons.innerHTML += `<a href="slide${currentSlide + 1}.html" class="round-button">${currentSlide + 1}/7</a>`;
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            updateNavButtons();
+        });
+    </script>
+</body>
+</html>

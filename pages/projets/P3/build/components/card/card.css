@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+
+}
+.card-container {
+    border-radius: 20px;
+    background-color: darkgrey;
+    border:1px;
+
+}
+.card img {
+    border-radius: 20px;
+
+}
+
+.info {
+    background-color: white;
+    border:1px solid black;
+    padding: 20px;
+
+}
+.info h3 {
+
+}
+.info p {
+
+}
+info a {
+
+}
