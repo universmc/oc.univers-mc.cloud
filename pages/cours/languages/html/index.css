@@ -1,0 +1,178 @@
+body {
+    width:100%;
+}
+
+
+/* HEADER */
+header {
+    width: 100%;
+}
+
+    /* NavBar */
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        background-color: #333;
+        padding: 10px;
+    }
+
+    .navbar-icon img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .dropbtn {
+        background-color: #333;
+        color: white;
+        padding: 10px 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown-content, .sub-dropdown {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    .sub-dropdown {
+        left: 100%;
+        top: 0;
+    }
+
+    .dropdown-content a, .sub-dropdown a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-content, .dropdown-content:hover .sub-dropdown {
+        display: block;
+    }
+
+    .dropdown-content a:hover, .sub-dropdown a:hover {
+        background-color: #f1f1f1;
+    }
+
+
+
+main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    /* Hero Bannier */
+    .heroBanner {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 20px 0;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .btn-html_card, .btn-css_card, .btn-js_card {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        width: 33%;
+        background-color: #f9f9f9;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+    }
+    .btn-html_card img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .btn-css_card img{
+
+        width: 32px;
+        height: 32px;
+    }
+    .btn-js_card img {
+        width: 32px;
+        height: 32px;
+    }
+
+/* ... */
+.content-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+.class-metier {
+    width: 90%;
+}
+
+/* ... */
+
+/* Styles pour la section globale */
+.course-content {
+    display: flex; /* Utilisation de Flexbox */
+    justify-content: space-between; /* Espacement entre les blocs */
+    align-items: flex-start; /* Alignement en haut */
+}
+
+/* Style du bloc "start" (sommaire) */
+.course-start {
+    flex: 1; /* Le bloc "start" prendra tout l'espace disponible à gauche */
+    padding: 20px; /* Ajoutez de la marge pour l'espacement */
+    background-color: #f0f0f0; /* Ajoutez une couleur de fond */
+}
+
+/* Style du bloc "end" (présentation du développement, exemples, etc.) */
+.course-end {
+    flex: 2; /* Le bloc "end" prendra le double d'espace à droite */
+    padding: 20px; /* Ajoutez de la marge pour l'espacement */
+}
+
+/* styles/index-html.css */
+pre {
+    background-color: #1e1e1e; 
+}
+/* Fonds sombres pour les codes HTML */
+code {
+/* Couleur de fond sombre */
+    color: #7125bd; /* Texte en blanc */
+    padding: 2px 5px; /* Marge intérieure pour un meilleur espacement */
+    border-radius: 4px; /* Coins arrondis */
+}
+
+/* Styles pour les balises HTML */
+code.tag {
+    color: #d4bfff; /* Couleur violette pour les balises */
+}
+
+/* Styles pour les chevrons < > */
+code.chevron {
+    color: #ff9e64; /* Couleur orange pour les chevrons */
+}
+
+/* Styles pour les attributs CSS */
+code.attribute {
+    color: #5cb3ff; /* Couleur bleue pour les attributs */
+}
+
+/* Exemple de style pour une classe CSS */
+code.class {
+    color: #ff6b6b; /* Couleur rouge pour les classes CSS */
+}
+
+/* Exemple de style pour une ID CSS */
+code.id {
+    color: #ffcc5c; /* Couleur jaune pour les ID CSS */
+}

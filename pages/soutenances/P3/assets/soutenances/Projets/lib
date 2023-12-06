@@ -1,0 +1,26 @@
+.CREATE DATABASE ProjectManagementDB;
+
+USE ProjectManagementDB;
+
+CREATE TABLE Categories (
+    categoryID INT AUTO_INCREMENT PRIMARY KEY,
+    categoryName VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE DetailsActions (
+    detailID INT AUTO_INCREMENT PRIMARY KEY,
+    categoryID INT,
+    actionDescription TEXT,
+    deadline DATE,
+    responsible VARCHAR(255),
+    resources TEXT,
+    FOREIGN KEY (categoryID) REFERENCES Categories(categoryID)
+);
+
+INSERT INTO Categories (categoryName) VALUES 
+('Formation'),
+('Gestion des Projets'),
+('Développement Web'),
+('Calendrier ASCII'),
+('Production'),
+('Projet Allocation Universelle');

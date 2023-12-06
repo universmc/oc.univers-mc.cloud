@@ -1,0 +1,23 @@
+// Définir un style de texte ASCII
+.ascii-art {
+    font-family: monospace; // Utilisez une police de caractères monospace pour un rendu ASCII
+    white-space: pre; // Préservez les espaces et les sauts de ligne
+    font-size: 18px; // Ajustez la taille de police selon vos besoins
+    line-height: 1.2; // Définissez la hauteur de ligne
+    background-color: #000; // Couleur d'arrière-plan noire
+    color: #00FF00; // Couleur du texte (vert dans cet exemple)
+    padding: 20px; // Espace de rembourrage pour améliorer la lisibilité
+    border: 2px solid #00FF00; // Bordure autour de l'art ASCII
+    border-radius: 5px; // Coins arrondis pour la bordure
+  }
+  
+  // Exemple de texte ASCII
+  .ascii-art-content {
+    content: " _____    _______  __   __  _______  _______ ";
+    &:before {
+      content: "\A";
+    }
+  }
+  
+  // Ajoutez d'autres styles ASCII au besoin
+  

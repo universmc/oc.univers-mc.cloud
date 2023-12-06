@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description de la ML pour le référencement">
+    <meta name="keywords" content="mots-clés, pertinents, pour, votre, contenu">
+    <link rel="stylesheet" href="../../styles/index.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- Icône -->
+            <div class="navbar-icon">
+                <img src="path_to_your_icon.png" alt="Logo">
+            </div>
+        
+            <!-- Menu déroulant des cours -->
+            <div class="dropdown">
+                <button class="dropbtn"><a href="pages/cours/cours.html">Cours</a></button>
+                <div class="dropdown-content">
+                    <a href="#">Language</a>
+                    <div class="sub-dropdown">
+                        <a href="pages/cours/languages/html/index.html">HTML</a>
+                        <a href="pages/cours/languages/css/index.html">CSS</a>
+                        <a href="pages/cours/languages/js/index.html">JavaScript</a>
+                        <a href="#">React</a>
+                        <!-- Autres langages front-end -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu des projets -->
+            <div class="dropdown">
+                <button class="dropbtn">Projets</button>
+                <div class="dropdown-content">
+                    <a href="#">Projet 1</a>
+                    <a href="#">Projet 2</a>
+                    <a href="pages/projets/P3/index.html">Projet3</a>
+                    <!-- Liste des 12 projets -->
+                </div>
+            </div>
+        
+            <!-- Menu des soutenances -->
+            <div class="dropdown">
+                <button class="dropbtn">Soutenances</button>
+                <div class="dropdown-content">
+                    <a href="pages/soutenances/sessions/S1/index.html">Session 1</a>
+                    <a href="pages/soutenances/sessions/S2/index.html">Session 2</a>
+                    <a href="pages/soutenances/sessions/S3/index.html">Session 3</a>
+                    <!-- Autres sessions de soutenance -->
+                </div>
+            </div>
+            
+            <!-- Notes lab skill -->
+            <div class="dropdown">
+                <button class="dropbtn">Skill-lab</button>
+                <div class="dropdown-content">
+                    <a href="#">Session 1</a>
+                    <!-- Autres sessions de soutenance -->
+                </div>
+            </div>
+
+            <!-- Menu des crédits -->
+            <div class="dropdown">
+                <button class="dropbtn">Crédits</button>
+                <div class="dropdown-content">
+                    <a href="#">About Portfolio</a>
+                </div>
+            </div>
+        </nav>
+    </header>    
+    <main>
+        <div class="heroBanner">
+            <button class="btn-html_card">
+                <img src="assets/img/hB/html5-img.png">
+                HTML5</button>
+            <button class="btn-html_card">
+                <img src="assets/img/hB/css-img.png" alt="css-img">
+                <span>css</span>
+            </button>
+            <button class="btn-js_card">
+                <img src="assets/img/hB/js-img.png" alt="js-img">JavaScript</button>
+        </div>
+        <section class="course-content">
+            <!-- Bloc "start" (sommaire) -->
+            <aside class="element-sommaire">
+                <h2>Sommaire du Cours CSS</h2>
+                <ul>
+                    <li><a href="#section1">Introduction aux notions de skill</a></li>
+                    <li><a href="#section2">Setup HTML+CSS</a></li>
+                </ul>
+            </aside>
+            
+            <!-- Bloc "end" (présentation du développement, exemples, etc.) -->
+            <div class="plande-développement">
+                <section id="section1">
+                    <!-- Kernel du formulaire -->
+                    <div class="bloc">input</div>
+                    <div class="bloc">output</div>
+                    <div class="bloc">algorithm</div>
+                </section>
+                <section id="section2">
+                    <h2>Setup HTML+CSS</h2>
+                    <div class="setup-container">
+                        <!-- Formulaire de paramétrage CSS -->
+                        <div class="css-form">
+                            <h3>Paramètres CSS</h3>
+                            <form id="css-settings-form">
+                                <h3>Paramétrage CSS</h3>
+                            
+                                <!-- Section Media Queries -->
+                                <fieldset>
+                                    <legend>Media Queries</legend>
+                                    <label>
+                                        Taille d'écran :
+                                        <select name="media_query">
+                                            <option value="max-width:600px">Mobile</option>
+                                            <option value="max-width:900px">Tablette</option>
+                                            <option value="min-width:901px">Desktop</option>
+                                        </select>
+                                    </label>
+                                </fieldset>
+                            
+                                <!-- Section Taille et Position -->
+                                <fieldset>
+                                    <legend>Taille et Position</legend>
+                                    <label>
+                                        Taille du bloc:
+                                        <input type="text" id="blockSize" placeholder="ex: 20px">
+                                    </label>
+                                    <label>
+                                        Display:
+                                        <select name="display">
+                                            <option value="block">Block</option>
+                                            <option value="inline">Inline</option>
+                                            <option value="flex">Flex</option>
+                                            <option value="grid">Grid</option>
+                                        </select>
+                                    </label>
+                                    <!-- ... Ajouter d'autres champs pour flex-wrap, position, etc. ... -->
+                                </fieldset>
+                            
+                                <!-- Section Couleur et Bordure -->
+                                <fieldset>
+                                    <legend>Couleur et Bordure</legend>
+                                    <label>
+                                        Couleur:
+                                        <input type="color" id="color">
+                                    </label>
+                                    <label>
+                                        Bordure (ex: '2px solid red'):
+                                        <input type="text" id="border" placeholder="ex: 2px solid red">
+                                    </label>
+                                </fieldset>
+                            
+                                <!-- Section Texte -->
+                                <fieldset>
+                                    <legend>Texte</legend>
+                                    <label>
+                                        Taille de police:
+                                        <input type="text" id="fontSize" placeholder="ex: 16px">
+                                    </label>
+                                    <!-- ... Ajouter d'autres champs pour font-family, text-align, etc. ... -->
+                                </fieldset>
+                            
+                                <!-- Choix du composant ou de la page à styliser -->
+                                <fieldset>
+                                    <legend>Application du style à:</legend>
+                                    <label>
+                                        Composant/Page:
+                                        <select name="target_component">
+                                            <option value="header">Header</option>
+                                            <option value="footer">Footer</option>
+                                            <!-- ... Ajouter d'autres composants/pages préexistants ... -->
+                                        </select>
+                                    </label>
+                                </fieldset>
+                            
+                                <button type="button" id="applyBtn">Appliquer les paramètres</button>
+                            </form>
+                        </div>
+                
+                        <!-- Zone de prévisualisation -->
+                        <div class="preview">
+                            <section id="preview">
+                                <header>Exemple d'en-tête</header>
+                                <article>
+                                    Ceci est un exemple de contenu.
+                                    <img src="example.jpg" alt="Exemple d'image">
+                                    <p>Exemple de paragraphe.</p>
+                                    <a href="#">Lien d'exemple</a>
+                                </article>
+                                <footer>Exemple de pied de page</footer>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                <section id="section3">
+                    <h2>Sélecteurs CSS</h2>
+                    
+                    <p>Dans cette section, nous allons explorer en détail les différents types de sélecteurs CSS que vous pouvez utiliser pour cibler et styliser des éléments HTML. Les sélecteurs CSS sont un élément essentiel pour appliquer des styles spécifiques à des parties de votre page web.</p>
+                
+                    <!-- Intégration du formulaire de configuration CSS pour la section 3 -->
+                    <div class="css-form-section3">
+                        <h3>Paramètres CSS</h3>
+                        <form id="css-settings-form-section3">
+                            <!-- Ajoutez ici les champs de configuration CSS pour cette section -->
+                            
+                            <button type="button" id="applyBtn-section3">Appliquer les paramètres</button>
+                        </form>
+                    </div>
+                    
+                    <!-- Zone de prévisualisation pour la section 3 -->
+                    <div class="preview-section3">
+                        <section id="preview-section3">
+                            <header>Exemple d'en-tête</header>
+                            <article>
+                                Ceci est un exemple de contenu.
+                                <p>Exemple de paragraphe.</p>
+                                <a href="#">Lien d'exemple</a>
+                            </article>
+                            <footer>Exemple de pied de page</footer>
+                        </section>
+                    </div>
+                </section>
+                
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

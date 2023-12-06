@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kernel.css">
+    <title>Kernel Component</title>
+</head>
+<body>
+
+<div class="kernel">
+    <div class="row">
+        <div class="input sommaire-plan">
+            <!-- Contenu de l'élément sommaire -->
+            <h2>Éléments Sommaire</h2>
+            <ul>
+                <!-- Insérer les éléments sommaire ici -->
+                <li><div id="step1">Introduction au dev</div></li>
+                <li><div id="step1">Configuration</div></li>
+                <li><div id="step2">Mockup-wirefram</div></li>
+                <li><div id="step3">Markup-html</div></li>
+                <li><div id="step4">css-settup</div></li>
+                <li><div id="step5">media-querie</div></li>
+                <li><div id="step6">SASS</div></li>
+                <li><div id="step7">W3C</div></li>
+                <li><div id="step8">adhoc</div></li>
+
+                <!-- ... -->
+            </ul>
+        </div>
+        <div class="output plan-block">
+            <!-- Contenu du plan de développement -->
+            <h2>Plan de Développement</h2>
+            <div class="output-content">
+
+                <!-- Insérer le plan de développement ici -->
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="block algo-block">
+            <!-- Contenu des algorithmes -->
+            <h2>Algorithmes</h2>
+            <div class="algo-content">
+                <!-- Insérer les algorithmes ici -->
+                <div class="kernel-block">
+                    <div class="input-block">
+                        <!-- Sommaire -->
+                        <aside class="dev-menu">
+                            <h2>list</h2>
+                            <li><a href="#step1" onclick="showStep(0)">step1</a></li>
+                            <!-- Ajoutez les autres étapes ici... -->
+                        </aside>
+                    </div>
+            
+                    <div class="output-block">
+                        <!-- Contenu de l'étape -->
+                        <section id="step_content">
+                            <!-- Le contenu de l'étape sera affiché ici -->
+                        </section>
+                    </div>
+            
+                    <div class="algorithm-block">
+                        <!-- Bloc pour l'algorithme -->
+                        <!-- Vous pouvez ajouter le loader ici -->
+                    </div>
+                </div>
+            
+                <script>
+                    function showStep(step) {
+                        // Ici, vous pouvez définir le contenu de l'étape en fonction du numéro de l'étape
+                        var stepContent = "Contenu de l'étape " + step;
+                        document.getElementById('step_content').innerHTML = stepContent;
+                        
+                        // Vous pouvez également ajouter le code pour le loader ici si nécessaire
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

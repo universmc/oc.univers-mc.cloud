@@ -1,0 +1,40 @@
+{
+    "courses": [
+    {
+    "title": "Machine Learning",
+    "path": "MachineLearning",
+    "description": "Explorez les concepts fondamentaux du Machine Learning.",
+    "modules": [
+        {
+        "title": "Introduction",
+        "path": "index.html",
+        "description": "Introduction générale au Machine Learning."
+        },
+        {
+        "title": "Modèles",
+        "path": "models",
+        "description": "Découvrez différents modèles, y compris NeoFS."
+        },
+        {
+        "title": "Scripts",
+        "path": "script",
+        "description": "Utilisation de scripts, comme ascii.css."
+        }
+    ]
+    },
+        {
+        "title": "Fullstack Development",
+        "path": "fullstack",
+        "description": "Plongez dans le développement Fullstack et explorez la pile technologique.",
+        "modules": [
+        ]
+        },
+    {
+        "title": "Languages",
+        "path": "languages",
+        "description": "Explorez divers langages de programmation.",
+        "modules": [
+        ]
+    }
+    ]
+}

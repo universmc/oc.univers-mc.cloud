@@ -1,0 +1,45 @@
+/* styles/index-html.css */
+pre {
+        /* Layout */
+        width: auto;
+        height: auto;
+        padding: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        background-color: #1e1e1e;
+        border-radius: 14px; 
+}
+/* Fonds sombres pour les codes HTML */
+code {
+/* Couleur de fond sombre */
+    color: #ffffff; /* Texte en blanc */
+    padding: 2px 5px; /* Marge intérieure pour un meilleur espacement */
+    border-radius: 4px; /* Coins arrondis */
+}
+
+/* Styles pour les balises HTML */
+code.tag {
+    color: #d4bfff; /* Couleur violette pour les balises */
+}
+
+/* Styles pour les chevrons < > */
+code.chevron {
+    color: #ff9e64; /* Couleur orange pour les chevrons */
+}
+
+/* Styles pour les attributs CSS */
+code.attribute {
+    color: #5cb3ff; /* Couleur bleue pour les attributs */
+}
+
+/* Exemple de style pour une classe CSS */
+code.class {
+    color: #ff6b6b; /* Couleur rouge pour les classes CSS */
+}
+
+/* Exemple de style pour une ID CSS */
+code.id {
+    color: #ffcc5c; /* Couleur jaune pour les ID CSS */
+}

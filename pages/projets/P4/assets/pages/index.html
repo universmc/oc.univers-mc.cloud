@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cours sur les animations en CSS et Sass">
+    <meta name="keywords" content="CSS, Sass, animations, développement web">
+    <link rel="stylesheet" href="style.css">
+    <title>Cours sur les Animations en CSS et Sass</title>
+</head>
+<body>
+    <header>
+        <h1>Cours sur les Animations en CSS et Sass</h1>
+    </header>
+    <main>
+        <aside id="sommaire">
+            <!-- Chapitre 1 -->
+            <section id="chapitre1">
+                <h2>Les annimation en SASS</h2>
+            </section>
+            <!-- Chapitre 2 -->
+            <section id="chapitre2">
+                <h2>Installation</h2>
+            </section>
+            <!-- Chapitre 3 -->
+            <section id="chapitre3">
+                <h2>Les variables</h2>
+            </section>
+                    <!-- Chapitre 4 -->
+            <section id="chapitre4">
+                <h2>Les mixins</h2>
+            </section>
+
+            <!-- Chapitre 5 -->
+            <section id="chapitre5">
+                <h2>Les sélecteurs imbriqués</h2>
+            </section>
+
+            <!-- Chapitre 6 -->
+            <section id="chapitre6">
+                <h2>Les opérations</h2>
+            </section>
+
+            <!-- Chapitre 7 -->
+            <section id="chapitre7">
+                <h2>Les imports</h2>
+            </section>
+
+            <!-- Chapitre 8 -->
+            <section id="chapitre8">
+                <h2>Les fonctions Sass</h2>
+            </section>
+
+            <!-- Chapitre 9 -->
+            <section id="chapitre9">
+                <h2>Les directives de contrôle</h2>
+            </section>
+        </aside>
+        <div id="contenu" class="contenu">
+        <!-- Contenu du chapitre 1 -->
+            <section id="chapitre1">
+            <article>
+                <!-- Contenu du chapitre 1 -->
+                <h3 class="titre-chapitre">Qu'est-ce que Sass?</h3>
+                <p>Sass est un préprocesseur CSS qui étend les fonctionnalités du CSS classique en ajoutant des fonctionnalités telles que les variables, les mixins et les sélecteurs imbriqués.</p>
+            </article>
+            </section>
+
+            <!-- Contenu du chapitre 2 -->
+            <section id="chapitre2">
+                <article>
+                    <!-- Contenu du chapitre 2 -->
+                    <h3>Installation et utilisation de Sass</h3>
+                    <p>Il existe plusieurs façons d'installer Sass, dont l'utilisation de npm, Ruby, ou en utilisant des outils comme VSCode avec des extensions.</p>
+                </article>
+            </section>
+
+            <!-- Contenu du chapitre 3 -->
+            <section id="chapitre3">
+                <article>
+                    <!-- Contenu du chapitre 3 -->
+                    <h3>Utilisation des Variables</h3>
+                    <p>Dans ce chapitre, nous explorerons l'utilisation puissante des variables Sass pour simplifier la gestion des propriétés réutilisables.</p>
+            
+                <section class="sub-chapter">
+                    <h4>Introduction aux variables Sass</h4>
+                    <p>Expliquer l'utilité des variables Sass et comment elles simplifient la gestion des propriétés réutilisables.</p>
+            
+                    <!-- Exemple de code -->
+                    <div class="code-example">
+                        <h5>Code Sass</h5>
+                        <pre class="language-scss">
+                            <code>
+                                $primary-color: #3498db;
+                                $secondary-color: #2ecc71;
+            
+                                body {
+                                    background-color: $primary-color;
+                                    color: $secondary-color;
+                                }
+            
+                                .header {
+                                    background-color: $primary-color;
+                                    color: #fff;
+                                }
+            
+                                .footer {
+                                    background-color: $secondary-color;
+                                    color: #fff;
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+            
+                <section class="sub-chapter">
+                    <h4>Personnalisation des animations avec des variables</h4>
+                    <p>Démontrer comment l'utilisation de variables peut rendre les animations plus flexibles et faciles à personnaliser.</p>
+            
+                    <!-- Exemple de code -->
+                    <div class="code-example">
+                        <h5>Code Sass</h5>
+                        <pre class="language-scss">
+                            <code>
+                                $animation-duration: 1s;
+                                $animation-easing: ease-in-out;
+            
+                                .animated-element {
+                                    animation: slide-in $animation-duration $animation-easing;
+                                }
+            
+                                @keyframes slide-in {
+                                    from {
+                                        transform: translateX(-100%);
+                                    }
+                                    to {
+                                        transform: translateX(0);
+                                    }
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+            
+                <section class="sub-chapter">
+                    <h4>Thème sombre et clair avec des variables</h4>
+                    <p>Créer un système de thème sombre et clair en utilisant des variables pour les couleurs.</p>
+            
+                    <!-- Exemple de code -->
+                    <div class="code-example">
+                        <h5>Code Sass</h5>
+                        <pre class="language-scss">
+                            <code>
+                                $dark-theme: true;
+            
+                                body {
+                                    background-color: if($dark-theme, #2c3e50, #ecf0f1);
+                                    color: if($dark-theme, #ecf0f1, #2c3e50);
+                                }
+            
+                                .header {
+                                    background-color: if($dark-theme, #34495e, #3498db);
+                                    color: #fff;
+                                }
+            
+                                .footer {
+                                    background-color: if($dark-theme, #34495e, #3498db);
+                                    color: #fff;
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+            
+                <section class="sub-chapter">
+                    <h4>Utilisation des variables dans les médias queries</h4>
+                    <p>Montrer comment utiliser des variables pour simplifier la gestion des points de rupture dans les médias queries.</p>
+            
+                    <!-- Exemple de code -->
+                    <div class="code-example">
+                        <h5>Code Sass</h5>
+                        <pre class="language-scss">
+                            <code>
+                                $breakpoint-small: 576px;
+                                $breakpoint-medium: 768px;
+                                $breakpoint-large: 992px;
+            
+                                @media screen and (min-width: $breakpoint-small) {
+                                    // Styles pour les écrans de taille small et supérieure
+                                }
+            
+                                @media screen and (min-width: $breakpoint-medium) {
+                                    // Styles pour les écrans de taille medium et supérieure
+                                }
+            
+                                @media screen and (min-width: $breakpoint-large) {
+                                    // Styles pour les écrans de taille large et supérieure
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+            </section>
+
+            <!-- Ajoutez d'autres sections de contenu ici -->
+            <!-- Contenu du chapitre 4 -->
+            <section id="chapitre4" class="mixins-section">
+                <article>
+                    <!-- Contenu du chapitre 4 -->
+                    <h3>Utilisation des Mixins</h3>
+                    <p>Les mixins sont un moyen puissant de réutiliser du code et d'appliquer rapidement des styles à différents éléments.</p>
+                </article>
+        
+                <!-- Sous-chapitre sur l'introduction aux mixins -->
+                <section class="sub-chapter">
+                    <!-- Contenu du sous-chapitre -->
+                    <h4>Introduction aux mixins</h4>
+                    <p>Comprendre les bases des mixins et comment ils peuvent améliorer la modularité de votre code.</p>
+                    
+                    <!-- Exemple de code -->
+                    <div class="code-example">
+                        <h5>Code Sass</h5>
+                        <pre class="language-scss">
+                            <code>
+                                <div class="loader-style">
+                                @mixin border-radius($radius) {
+                                    border-radius: $radius;
+                                }
+                                </div>
+                            </code>
+                        </pre>
+                    </div>
+                    
+                </section>
+
+            <!-- Contenu du chapitre 5 -->
+            <section id="chapitre5">
+                <article>
+                    <!-- Contenu du chapitre 5 -->
+                    <h3>Les sélecteurs imbriqués en Sass</h3>
+                    <p>Les sélecteurs imbriqués permettent de structurer le code Sass de manière plus lisible, en reflétant la hiérarchie HTML.</p>
+                </article>
+            </section>
+
+            <!-- Contenu du chapitre 6 -->
+            <section id="chapitre6">
+                <article>
+                    <!-- Contenu du chapitre 6 -->
+                    <h3>Les opérations en Sass</h3>
+                    <p>Les opérations en Sass permettent d'effectuer des calculs sur les valeurs des propriétés CSS, offrant ainsi plus de flexibilité dans la conception.</p>
+                </article>
+            </section>
+
+            <!-- Contenu du chapitre 7 -->
+            <section id="chapitre7">
+                <article>
+                    <!-- Contenu du chapitre 7 -->
+                    <h3>Les imports en Sass</h3>
+                    <p>L'utilisation d'imports en Sass facilite la gestion de projets volumineux en répartissant le code dans des fichiers séparés.</p>
+                </article>
+            </section>
+
+            <!-- Contenu du chapitre 8 -->
+            <section id="chapitre8">
+                <article>
+                    <!-- Contenu du chapitre 8 -->
+                    <h3>Les fonctions Sass</h3>
+                    <p>Les fonctions Sass offrent une variété d'outils pour manipuler les valeurs et les couleurs, améliorant ainsi la flexibilité du style.</p>
+                </article>
+            </section>
+            <section id="chapitre9-contenu">
+                <article>
+                    <!-- Contenu du chapitre 9 -->
+                    <h3>Les directives de contrôle en Sass</h3>
+                    <p>Les directives de contrôle, telles que les boucles et les conditions, permettent d'ajouter de la logique au code Sass, offrant une personnalisation avancée du style.</p>
+            </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <span><p>cc by mc</p></span>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "make-css",
+  "version": "1.0.0",
+  "description": "sass scss css anime html",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make-css": "make-css.scss style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

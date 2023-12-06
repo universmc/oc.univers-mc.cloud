@@ -1,0 +1,13 @@
+.btn {
+  background: #011c37;
+  color: #15DEA5;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 1.85rem 3rem;
+  border-radius: 10rem;
+}
+.btn:hover {
+  transform: scale(1.15);
+}
+
+/*# sourceMappingURL=annimation-sass.css.map */
