@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="projets.css">
+    <meta name="description" content="Description de la ML pour le référencement">
+    <meta name="keywords" content="mots-clés, pertinents, pour, votre, contenu">
+    <link rel="stylesheet" href="../../src/styles/index.css">
+    <title>index - Projets</title>
 </head>
 
 <body>
@@ -11,191 +14,111 @@
     <nav class="navbar">
         <!-- Icône -->
         <div class="navbar-icon">
-            <img src="path_to_your_icon.png" alt="Logo">
+            <img src="path_to_your_icon.png" alt="Logo"><a href="pages/admin/admin.html">[-¡_]</a>
         </div>
     
-<!-- Menu déroulant des cours -->
-<div class="dropdown">
-    <button class="dropbtn">Cours</button>
-    <div class="dropdown-content">
-        <a href="#">Language</a>
-        <div class="sub-dropdown">
-            <a href="htpp://oc.univers-mc.cloud/pages/cours.html">index</a>
-            <a href="#">HTML</a>
-            <a href="#">CSS</a>
-            <a href="#">JavaScript</a>
-            <a href="#">React</a>
-            <!-- Autres langages front-end -->
-        </div>
-        <a href="#">FullStack</a>
-        <div class="sub-dropdown">
-            <a href=backend>backend</a>
-            <a href=frontend>frontend</a>
-            <!-- Langages back-end -->
-        </div>
-    </div>
-</div>
-
-<!-- Menu des projets -->
-<div class="dropdown">
-    <button class="dropbtn">Projets</button>
-    <div class="dropdown-content">
-        <a href="#">Projet 1</a>
-        <a href="#">Projet 2</a>
-        <a href="htpp://oc.univers-mc.cloud/pages/projets/P3/P3.html">Projet3</a>
-        <!-- Liste des 12 projets -->
-    </div>
-</div>
-    
-        <!-- Menu des soutenances -->
-        <div class="dropdown">
-            <button class="dropbtn">Soutenances</button>
-            <div class="dropdown-content">
-                <a href="#">Session 1</a>
-                <!-- Autres sessions de soutenance -->
-            </div>
-        </div>
-    
-                <!-- notes lab skill -->
-                <div class="dropdown">
-                    <button class="dropbtn">Skill-lab</button>
-                    <div class="dropdown-content">
-                        <a href="#">Session 1</a>
-                        <!-- Autres sessions de soutenance -->
+            <!-- Menu déroulant des cours -->
+            <div class="dropdown">
+                <button class="dropbtn"><a href="pages/cours/cours.html">Cours</a></button>
+                <div class="dropdown-content">
+                    <a href="#">Language</a>
+                    <div class="sub-dropdown">
+                        <a href="pages/cours/languages/html/index.html">HTML</a>
+                        <a href="pages/cours/languages/css/index.html">CSS</a>
+                        <a href="pages/cours/languages/sass/index.html">SASS</a>
+                        <a href="pages/cours/languages/ascii/index.html">ascii</a>
+                        <a href="pages/cours/languages/js/index.html">JavaScript</a>
+                        <a href="#">React</a>
+                        <!-- Autres langages front-end -->
                     </div>
                 </div>
-
-        <!-- Menu des crédits -->
-        <div class="dropdown">
-            <button class="dropbtn">Crédits</button>
-            <div class="dropdown-content">
-                <a href="#">About Portfolio</a>
             </div>
-        </div>
-    </nav>
-    </header>    
-    <main>
-        <div class="containair-table">
-        <table>
-            <tr>
-                <td class="topLeft">╔</td>
-                <td class="topHorizontal">═</td>
-                <td class="topRight">╗</td>
-            </tr>
-            <tr>
-                <td class="verticalLeft">║</td>
-                <td class="central-cell">
-                    <div class="kernel">
-                        <aside>
-                            <ul>
-                                <li><a href="#introduction">Introduction</a></li>
-                                <li><a href="#balises">Les balises</a></li>
-                                <li><a href="#semantique">Balisage sémantique</a></li>
-                                <!-- D'autres entrées pour votre sommaire -->
-                            </ul>
-                        </aside>
-                        <section class="content">
-                            <article class="input">
-                                <span>input-container</span>
-                            </article>
-                            <article class="#algorithm">
-                                <span class="algo-container">algorithm container</span>
-                            </article>
-                            <article class="output">
-                                <section>
-                                    <article id="introduction">
-                                        <span>
-                                            <p>
 
-                                                <h3>Introduction :</h3>
-                                                    L'évolution rapide de la technologie nous rappelle souvent l'importance de nos racines numériques. En combinant le charme du style ASCII avec les techniques de développement full stack actuelles, nous souhaitons créer une interface rétro pour notre site web dédié au machine learning. Cette approche non seulement célèbre nos débuts numériques, mais offre également une représentation unique et intuitive des complexités du machine learning.
-
-                                                1. Inputs : Préparation des Données
-                                                    Description : Transformation de notre NLP en un format texte.
-
-                                                    Avantages :
-
-                                                Modularité et flexibilité dans la représentation de l'information.
-                                                Assure une bonne base pour la conversion ultérieure en composants graphiques ASCII.
-                                                2. Algorithme : Transformation en Style ASCII
-                                                    Description : Convertir les informations textuelles en représentations graphiques ASCII.
-
-                                                    Exemple de Composant en ASCII:
-
-                                                <br>
-                                                ╔══════════╗<br>
-                                                ║ _Machine_  ║<br>
-                                                ╠══════════╣<br>
-                                                ║ _Learning_ ║<br>
-                                                ╚══════════╝<br>
-
-                                                3. Output : Programmation Full Stack
-                                                    Description : Intégration de ces représentations ASCII dans notre front-end via des styles CSS utilisant les unicodes.
-
-                                                    Exemple de CSS avec Unicode pour le composant ci-dessus :
-
-                                                css
-                                                Copy code
-                                                .ascii-box {
-                                                    border: 1px solid;
-                                                    border-image: url("U+2550");
-                                                }
-
-                                                .ascii-title {
-                                                    font-family: "ASCII Retro";
-                                                    content: "U+2554Machine LearningU+2557";
-                                                }
-                                                Conclusion :
-                                                En combinant le style rétro de l'ASCII avec la modernité du développement full stack, nous sommes en mesure de créer une interface qui est non seulement esthétiquement agréable, mais aussi fonctionnellement robuste. C'est une fusion du charme nostalgique avec les prouesses technologiques actuelles pour offrir une expérience utilisateur unique sur notre site web dédié au machine learning.
-                                            </p>
-                                        </span><!-- Contenu pour l'introduction -->
-                                    </article>
-                                
-                                    <article id="balises">
-                                        <!-- Contenu pour les balises -->
-                                    </article>
-                                
-                                    <article id="semantique">
-                                        <!-- Contenu pour le balisage sémantique -->
-                                    </article>
-                                    
-                                    <!-- D'autres sections pour votre contenu -->
-                                </section>
-                                <span class="algo-output-container">output-container</span>                            </article>
-                        </section>
+            <!-- Menu des projets -->
+            <div class="dropdown">
+                <button class="dropbtn"><a href="pages/projets/index.html">Projets</a></button>
+                <div class="dropdown-content">
+                    <a href="#">Projet 1</a>
+                    <a href="pages/projets/P3/index.html">Projet3</a>
+                    <a href="pages/projets/P3/index.html">Projet3</a>
+                    <a href="pages/projets/P4/index.html">Projet4</a>
+                    <!-- Liste des 12 projets -->
+                </div>
+            </div>
+    
+            <!-- Menu des soutenances -->
+            <div class="dropdown">
+                <button class="dropbtn">Soutenances</button>
+                <div class="dropdown-content">
+                    <a href="pages/soutenances/sessions/S1/index.html">Session 1</a>
+                    <a href="pages/soutenances/sessions/S2/index.html">Session 2</a>
+                    <a href="pages/soutenances/sessions/S3/index.html">Session 3</a>
+                    <!-- Autres sessions de soutenance -->
+                </div>
+            </div>
+        
+                    <!-- notes lab skill -->
+                    <div class="dropdown">
+                        <button class="dropbtn">Skill-lab</button>
+                        <div class="dropdown-content">
+                            <a href="#">Session 1</a>
+                            <!-- Autres sessions de soutenance -->
+                        </div>
                     </div>
-                </td>
-                <td class="verticalRight">║</td>
-            </tr>
-            <tr>
-                <td class="bottomLeft">╚</td>
-                <td class="bottomHorizontal">═</td>
-                <td class="bottomRight">╝</td>
-            </tr>
-        </table>
-    </div>
+
+            <!-- Menu des crédits -->
+            <div class="dropdown">
+                <button class="dropbtn">Crédits</button>
+                <div class="dropdown-content">
+                    <a href="#">About Portfolio</a>
+                </div>
+            </div>
+    </nav>
+    </header> 
+       
+    <main>
+        <section class="heroBanner">
+            <div class="row-hb">
+                <div class="todols">
+                <button class="btn-html_card">
+                    <img src="assets/img/hB/html5-img.png">
+                    HTML5</button>
+                <button class="btn-html_card">
+                    <img src="assets/img/hB/css-img.png" alt="css-img">
+                    <span>css</span>
+                </button>
+                <button class="btn-js_card">
+                    <img src="assets/img/hB/js-img.png" alt="js-img">JavasCript</button>
+                </buttone>
+                </div>
+                <div class="content-sections">
+            <section class="class-metier">
+                <div class="presentation">
+                    <h2>Métier de Programmeur, Développeur, Intégrateur Web</h2>
+                    <p>Le monde de la programmation, du développement web et de l'intégration est en constante évolution, offrant des opportunités passionnantes et diversifiées pour ceux qui choisissent cette carrière.</p>
+                    <p>En tant que programmeur, vous êtes un artisan numérique qui transforme des concepts et des idées en applications, sites web et logiciels fonctionnels. Vous êtes le maître d'œuvre derrière les coulisses, garantissant que tout fonctionne en douceur.</p>
+                    <p>En tant que développeur, vous êtes un créateur de solutions technologiques. Vous codez des fonctionnalités, résolvez des problèmes et créez des expériences utilisateur exceptionnelles. Votre travail contribue à donner vie à des projets numériques.</p>
+                    <p>En tant qu'intégrateur web, vous êtes un artiste du web. Vous traduisez les maquettes en pages web interactives, en veillant à ce qu'elles soient compatibles avec tous les appareils et navigateurs. Votre rôle est essentiel pour une expérience utilisateur optimale.</p>
+                    
+                    <!-- Insérez ici une image de votre code source -->
+                    <img src="chemin/vers/votre/code/source.png" alt="Code source de votre projet" />
+                    <!-- Insérez ici une image de la représentation graphique côté client -->
+                    <img src="chemin/vers/la/representation/graphique.png" alt="Représentation graphique côté client"/>
+                </div>
+            <section>
+
+
+                </div>
+            </div>
+            <div class="node">
+                <div class="loader">x</div>
+            </div>
+        </section>
     </main>
     <footer>
-        <h2>Roadmap</h2>
-        <ul class="roadmap-list">
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="cours.php">Cours</a>
-                <ul>
-                    <li><a href="frontend.php">Front-end</a>
-                        <ul>
-                            <li><a href="html.php">HTML</a></li>
-                            <li><a href="css.php">CSS</a></li>
-                            <!-- Autres cours front-end -->
-                        </ul>
-                    </li>
-                    <li><a href="backend.php">Back-end</a>
-                        <!-- Cours back-end ici -->
-                    </li>
-                </ul>
-            </li>
-            <li><a href="projets.php">Projets</a></li>
-            <li><a href="soutenances.php">Soutenances</a></li>
-            <li><a href="credits.php">Crédits</a></li>
-        </ul>
-    </footer>    
-</body>
+
+    </footer>
+    <script src="src/js/scripts.js"></script>
+    </body>
+</html>
+    

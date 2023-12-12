@@ -1,0 +1,616 @@
+@charset "UTF-8";
+body {
+  width: 100%;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+}
+
+/* NavBar */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar-icon img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content, .sub-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.sub-dropdown {
+  left: 100%;
+  top: 0;
+}
+
+.dropdown-content a, .sub-dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content, .dropdown-content:hover .sub-dropdown {
+  display: block;
+}
+
+.dropdown-content a:hover, .sub-dropdown a:hover {
+  background-color: #f1f1f1;
+}
+
+main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Hero Bannier */
+.heroBanner {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 2px solid #ddd;
+}
+
+.btn-html_card, .btn-css_card, .btn-js_card {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  width: 33%;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.btn-html_card img {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-css_card img {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-js_card img {
+  width: 32px;
+  height: 32px;
+}
+
+/* ... */
+.content-sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+}
+
+.class-metier {
+  width: 90%;
+}
+
+/* ... */
+/* Styles pour la section globale */
+.course-content {
+  display: flex; /* Utilisation de Flexbox */
+  justify-content: space-between; /* Espacement entre les blocs */
+  align-items: flex-start; /* Alignem2ent en haut */
+  padding: 20px;
+}
+
+/* Style du bloc "start" (sommaire) */
+.course-start {
+  flex: 1; /* Le bloc "start" prendra tout l'espace disponible à gauche */
+  padding: 20px; /* Ajoutez de la marge pour l'espacement */
+  background-color: #f0f0f0; /* Ajoutez une couleur de fond */
+  width: 80%;
+}
+
+/* Style du bloc "end" (présentation du développement, exemples, etc.) */
+.course-end {
+  flex: 2; /* Le bloc "end" prendra le double d'espace à droite */
+  padding: 20px; /* Ajoutez de la marge pour l'espacement */
+}
+
+/* styles/index-html.css */
+.row-init {
+  /* LAYOUT */
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  height: 15px;
+  width: 610px;
+  justify-content: flex-start;
+  background-color: gray;
+}
+
+.row-init-g {
+  background-color: green;
+}
+
+.row-init-y {
+  background-color: yellow;
+}
+
+.row-init-r {
+  background-color: red;
+}
+
+.row-init a:hover a:focus a:visited {
+  border-bottom: #5cb3ff;
+  color: green;
+}
+
+pre {
+  /* Layout */
+  width: auto;
+  height: auto;
+  padding: 100px;
+  margin: 25px;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  background-color: #1e1e1e;
+  border-radius: 24px;
+}
+
+/* Fonds sombres pour les codes HTML */
+code {
+  /* Couleur de fond sombre */
+  color: #ffffff; /* Texte en blanc */
+  padding: 2px 5px; /* Marge intérieure pour un meilleur espacement */
+  border-radius: 4px; /* Coins arrondis */
+}
+
+code .html {
+  background-color: yellow;
+}
+
+code .css {
+  background-color: Green;
+}
+
+/* Styles pour les balises HTML */
+code.tag {
+  color: #d4bfff; /* Couleur violette pour les balises */
+}
+
+/* Styles pour les chevrons < > */
+code.chevron {
+  color: #ff9e64; /* Couleur orange pour les chevrons */
+}
+
+/* Styles pour les attributs CSS */
+code.attribute {
+  color: #5cb3ff; /* Couleur bleue pour les attributs */
+}
+
+/* Exemple de style pour une classe CSS */
+code.class {
+  color: #ff6b6b; /* Couleur rouge pour les classes CSS */
+}
+
+/* Exemple de style pour une ID CSS */
+code.id {
+  color: #ffcc5c; /* Couleur jaune pour les ID CSS */
+}
+
+/* Ajout de styles spécifiques pour la section1 */
+#section1 {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* Styles pour le formulaire de configuration */
+.css-form {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.css-form h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+/* Styles pour la prévisualisation */
+.preview {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#preview header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+#preview article {
+  padding: 20px;
+}
+
+#preview footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+#section2 {
+  background-color: #f9f9f9;
+  padding: 20px;
+  /* Ajoutez des styles de mise en page pour la section 2 */
+}
+
+/* Styles pour le formulaire de personnalisation de la section 2 */
+#section2 .css-form-section2 {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#section2 .css-form-section2 h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#section2 .css-form-section2 fieldset {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#section2 .css-form-section2 legend {
+  font-weight: bold;
+}
+
+/* Styles pour la prévisualisation de la section 2 */
+#section2 .preview-section2 {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#section2 #preview-section2 header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+#section2 #preview-section2 article {
+  padding: 20px;
+}
+
+#section2 #preview-section2 footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Styles spécifiques pour la section 3 */
+/* Styles pour la prévisualisation de la section 3 */
+/* Styles spécifiques pour la section 3 */
+#section3 {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+pre .tag {
+  color: white;
+  margin-left: 120px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 65%;
+  justify-content: center;
+}
+
+/* Section 4 - Propriétés CSS */
+#section4 {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+#section4 h2 {
+  color: #333;
+}
+
+#section4 p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Styles pour les exemples de propriétés CSS */
+.box-model-example {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.box-model-example header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.box-model-example main {
+  padding: 20px;
+}
+
+.box-model-example footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Styles pour les balises <pre> et <code> */
+pre {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Styles pour les balises <h3> */
+h3 {
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Styles pour les exemples de code CSS */
+.tag {
+  color: #ff6b6b;
+}
+
+.attribute {
+  color: #5cb3ff;
+}
+
+.class {
+  color: #ffcc5c;
+}
+
+.id {
+  color: #d4bfff;
+}
+
+/* Styles pour les exemples de boîtes imbriquées */
+.section3 .box-model-example {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.section3 .box-model-example p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Section 5 - Positionnement en CSS (Layout) */
+/* Paramétrage pour la section 5 */
+#section5 {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+#section5 h2 {
+  color: #333;
+  font-size: 24px; /* Augmenter légèrement la taille du titre h2 */
+  margin-bottom: 10px; /* Ajouter un espace en bas du titre */
+}
+
+#section5 h3 {
+  color: #666;
+  margin-top: 20px;
+  font-size: 20px; /* Augmenter légèrement la taille du titre h3 */
+}
+
+#section5 p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px; /* Ajouter un espace en bas des paragraphes */
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles pour la table */
+.containair-table {
+  width: 100%;
+  border-collapse: collapse; /* Fusionner les bordures de cellules */
+  margin: 20px 0;
+}
+
+.cell {
+  border: 1px solid #ddd; /* Ajouter une bordure aux cellules */
+  padding: 10px; /* Ajouter de la marge intérieure pour l'espacement */
+  text-align: center; /* Centrer le texte dans les cellules */
+}
+
+.central-cell {
+  background-color: #f9f9f9; /* Couleur de fond pour la cellule centrale */
+}
+
+/* Styles pour les éléments à l'intérieur de la table */
+.kernel {
+  padding: 20px; /* Ajouter de l'espacement autour du noyau */
+  text-align: center; /* Centrer le contenu du noyau */
+}
+
+.init_RowContainer {
+  display: flex;
+  justify-content: space-between; /* Espacement égal entre les éléments */
+}
+
+.init_colonne1,
+.init_colonne2 {
+  flex: 1; /* Les colonnes occupent le même espace */
+}
+
+/* Styles spécifiques pour les balises <bloc> */
+bloc {
+  font-weight: bold;
+}
+
+/* Styles pour la table de noyau */
+.kernel-table {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Styles pour l'en-tête */
+.kernel-header {
+  text-align: center;
+}
+
+.kernel-header h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Styles pour les sections */
+.kernel-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.kernel-section h4 {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Styles pour les codes d'entrée, de sortie et d'algorithme */
+.code-input,
+.code-output,
+.code-algorithm {
+  background-color: #611f1f;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+/* Personnalisez davantage les couleurs et les styles selon vos préférences. */
+/* Styles pour les exemples de code CSS */
+code.tag {
+  color: #ff6b6b;
+}
+
+code.attribute {
+  color: #5cb3ff;
+}
+
+code.class {
+  color: #ffcc5c;
+}
+
+code.id {
+  color: #d4bfff;
+}
+
+.animation-example {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.animation-example pre {
+  border-radius: 15px;
+}
+
+.animation-example code {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn {
+  margin-top: 130px;
+  background: rgb(114, 93, 133);
+  width: 150px;
+  height: min-content;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 1.85rem 3rem;
+  border-radius: 10rem;
+  transition-property: transform;
+  transition-duration: 1000ms;
+}
+.btn:hover {
+  transform: scale(1.15);
+}
+
+/* Ajoutez d'autres styles au besoin */
+/* Ajoutez d'autres styles au besoin */
+/* Styles pour le formulaire de personnalisation de la section 3 */
+/* Ajoutez des règles CSS spécifiques pour les éléments personnalisés par le formulaire de la section 3 */
+/* Ajoutez des règles CSS spécifiques pour les éléments personnalisés par le formulaire de la section 3 */
+/* ... Ajoutez d'autres styles au besoin ... */
+/* Ajoutez des règles CSS spécifiques pour les éléments personnalisés par le formulaire de la section 2 */
+/* ... Ajoutez d'autres styles au besoin ... */
+
+/*# sourceMappingURL=main.css.map */

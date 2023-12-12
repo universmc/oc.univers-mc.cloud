@@ -1,15 +1,13 @@
 {
-  "name": "sass-test",
-  "version": "1.0.1",
-  "description": "sass-",
+  "name": "projets",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "make-sass":"sass --watch build/sass.scss src/styles/index.css"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "sass": "^1.67.0"
-  }
+  "license": "ISC"
 }
