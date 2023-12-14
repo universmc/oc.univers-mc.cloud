@@ -1,5 +1,52 @@
 <div class="step2_config">
     <article>
+        <div class="">
+        <div class="code-src">
+            <h3>Resception des sources</h3>
+            <div class="src">                    
+                <div class="init-vscode"></div>
+                <h2>1.Initalisation environnement de develloppemnt</h2>
+                <img src="assets/img/mockup/vscode.png" alt="Image de clonage du répertoire depuis GitHub">
+                <div class="editor">
+
+                    <div>
+                        <?php include "../../../env-edit/env-edit.php";?>
+                    </div>
+                    <pre class="venv-edit">
+                        <code>git clone https://github.com/univers-mmc/ohmyfood.git</code>
+                    </pre>
+                    <div class="init-git">
+                        <pre>
+                            <code class="c++">make @mkdir src & @cd src > git init -y</code>
+                            <code class="git">repertory universmc/[Ohmyfood].git new /src /build /livr /asset</code>
+                            <code class="shell">touch src/css/style.css build/style/sass-index.scss retaurant/index.html<code>
+                        </pre>
+                    </div>
+                </div>
+
+                    <div class="init-figma3">
+                        <h4>Protoype / maquele</h4>
+                        <div class=img-content>
+                            <img src="../assets/img/figmat.png">
+                        </div>
+                    </div>
+                        <!-- image figma -->
+                        <span class="commit">commentaire et description nlp de la maquette</span>
+                    </div>
+                    <div class="buidl">
+                        <h4>text et images</h4>
+                        <!-- img du text list flex row list image -->
+                    </div>
+                    <div class="docs">
+                        <div class="readme.md"><h4>git hub readme.md</h4></div>
+                        <h4>Biefing</h4>
+                        <span>Chartre graphique :</span> 
+                        <button>Telecharger biefing</botton>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     <h2>Step 2 - Configuration de l'Environnement de Développement</h2>
         <p>
             Avant de commencer le projet Ohmyfood, suivez ces étapes pour configurer votre environnement de développement.
@@ -10,10 +57,7 @@
                 Clonez le répertoire source du projet à partir de GitHub :
             </li>
         </ol>
-        <img src="assets/img/mockup/vscode.png" alt="Image de clonage du répertoire depuis GitHub">
-        <pre>
-            <code>git clone https://github.com/univers-mmc/ohmyfood.git</code>
-        </pre>
+
 
             <ol start="2">
                 <li>
@@ -52,24 +96,6 @@
                     git push -u origin main
                 </code>
             </pre>
-            </div>
-            <div class="code-src">
-                    <h3>Resception des sources</h3>
-                    <div class="docs">
-                        <h4>1.Maquette Prototype Desktop et Mobile</h4>
-                        <!-- image figma -->
-                        <span class="commit">commentaire et description nlp de la maquette</span>
-                    </div>
-                    <div class="docs">
-                        <h4>text et images</h4>
-                        <!-- img du text list flex row list image -->
-                    </div>
-                    <div class="docs">
-                        <h4>Biefing</h4>
-                        <span>Chartre graphique :</span> 
-                        <button>Telecharger biefing</botton>
-                    </div>
-                </div>
             </div>
             <div class="plannification">
                 <!-- Template step by step -->

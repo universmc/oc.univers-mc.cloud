@@ -17,11 +17,50 @@ html, body {
     --body-background: rgb(0, 0, 0);
     --cours-coutent-color: white;
 
-    --black09-color: rgba(20, 20, 20, 0.772);
-    --black09-color: rgba(20, 20, 20, 0.896);
     --black09-color: rgb(10, 10, 10);
     --black10-color: rgb(0, 0, 0);
 }
+/* **************************** */
+/*      .__________.___.        */
+/* +___/  Composent \(/)\_______+*/
+
+.edit-code {
+    display:flex;
+    background-color: #293c33;
+}
+
+.editor{
+    display: flex;
+    background-color: #080808; /* root --pre #color:; */
+    width: 144px;
+    height: 55px;
+}
+
+code {
+    display: flex;
+}
+.html-content{}
+.css.content{}
+.terminal-content {}
+.step2_config {
+    display: flex;
+    min-height: 100%;
+    min-width: 100%;
+}
+.shell{
+    display: flex;
+}
+
+.html-code {}
+.css-code {}
+.sh-code {}
+.git-code {}
+.node-code {}
+
+.btn-circl
+
+
+
 
 /* **************************** */
 /*      .__________.___.        */
