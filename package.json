@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "make-sass":"sass --watch build/sass.scss src/styles/index.css"
+    "make-sass": "sass --watch build/styles/index.scss src/css/index.css"
   },
   "author": "",
   "license": "ISC",

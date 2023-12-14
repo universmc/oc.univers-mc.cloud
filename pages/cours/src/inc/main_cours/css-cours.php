@@ -1,0 +1,416 @@
+<div class="cours-content">
+    <div class="left-content">
+        <aside class="cours-start">
+            <h2>Sommaire du Cours CSS</h2>
+            <ul>
+                <li><a href="#section1">Introduction à CSS</a></li>
+                <li><a href="#section2">Incorporation de CSS</a></li>
+                <li><a href="#section3">Sélecteurs CSS</a></li>
+                <li><a href="#section4">Propriétés CSS</a></li>
+                <li><a href="#section5">Boîte modèle CSS</a></li>
+                <li><a href="#section6">Positionnement CSS</a></li>
+                <li><a href="#section7">Flexbox et CSS Grid</a></li>
+                <li><a href="#section8">Annimation en CSS</a></li>
+                <li><a href="#section8">Pseudo-classes et Pseudo-éléments</a></li>
+                <li><a href="#section9">Transitions et Animations</a></li>
+                <li><a href="#section10">Media Queries</a></li>
+                <li><a href="#section11">Bonnes pratiques CSS</a></li>
+                <li><a href="#section12">Projet Pratique</a></li>
+                <li><a href="#section13">Références et Ressources</a></li>
+            </ul>
+        </aside>
+        </div>
+        <div class="right-content">
+        <div class="cours-end">
+            <section id="section1">
+                <h2>Section 1 : Introduction à CSS</h2>
+                
+                <p>Dans cette première section, nous allons plonger dans le monde de CSS (Cascading Style Sheets) et comprendre son rôle essentiel dans la conception web moderne. CSS est un langage de style qui permet de définir l'apparence et la mise en page des pages web.</p>
+            
+                <p>Le langage CSS s'inscrit dans le cadre du web sémantique, où chaque élément de la page est marqué et structuré de manière significative. Cela signifie que chaque balise HTML a un rôle précis à jouer, ce qui facilite la compréhension du contenu par les navigateurs et les moteurs de recherche. Grâce à CSS, nous pouvons ajouter de la beauté et de la cohérence à notre contenu tout en maintenant la structure sémantique de notre page.</p>
+            
+                <p>Dans cette section, nous commencerons par explorer les bases de CSS, en abordant notamment la façon de cibler des éléments spécifiques, d'appliquer des styles et de gérer la mise en page. Vous découvrirez également comment créer des règles CSS pour différentes tailles d'écran grâce aux media queries, ce qui vous permettra d'optimiser l'expérience utilisateur sur divers appareils.</p>
+            
+                <!-- Intégration du formulaire de configuration en HTML -->
+                <div class="css-form">
+                    <h3>Paramètres CSS</h3>
+                    <form id="css-settings-form">
+                        <!-- Section Media Queries -->
+                        <fieldset>
+                            <legend>Media Queries</legend>
+                            <label>
+                                Taille d'écran :
+                                <select name="media_query">
+                                    <option value="max-width:600px">Mobile</option>
+                                    <option value="max-width:900px">Tablette</option>
+                                    <option value="min-width:901px">Desktop</option>
+                                </select>
+                            </label>
+                        </fieldset>
+            
+                        <!-- ... Autres sections ... -->
+            
+                        <button type="button" id="applyBtn">Appliquer les paramètres</button>
+                    </form>
+                </div>
+                
+                <!-- Zone de prévisualisation des Media Queries -->
+                <div class="preview">
+                    <section id="preview">
+                        <header>Exemple d'en-tête</header>
+                        <article>
+                            Ceci est un exemple de contenu.
+                            <img src="example.jpg" alt="Exemple d'image">
+                            <p>Exemple de paragraphe.</p>
+                            <a href="#">Lien d'exemple</a>
+                        </article>
+                        <footer>Exemple de pied de page</footer>
+                    </section>
+                </div>
+            </section>
+            <section id="section2">
+                <h2>Sélecteurs CSS</h2>
+                
+                <p>Les sélecteurs CSS sont des motifs utilisés pour sélectionner des éléments HTML auxquels vous souhaitez appliquer des styles. Ils jouent un rôle essentiel dans la mise en page et la conception web.</p>
+            
+                <!-- Sélecteur d'élément -->
+                <h3>Sélecteur d'Élément</h3>
+                <p>Le sélecteur d'élément cible tous les éléments d'un type particulier. Par exemple, pour cibler tous les paragraphes, vous pouvez utiliser :</p>
+                <pre><code class="tag">p</code> {
+                /* Vos styles ici */
+            }</pre>
+            
+                <!-- Sélecteur de classe -->
+                <h3>Sélecteur de Classe</h3>
+                <p>Le sélecteur de classe permet de cibler des éléments ayant une classe spécifique. Voici comment vous pouvez l'utiliser :</p>
+                <pre><code class="class">.ma-classe {
+                /* Vos styles ici */
+            }</code></pre>
+            
+                <!-- Sélecteur d'ID -->
+                <h3>Sélecteur d'ID</h3>
+                <p>Le sélecteur d'ID cible un élément unique avec un ID spécifique :</p>
+                <pre><code class="id">#mon-id {
+                /* Vos styles ici */
+            }</code></pre>
+            
+                <!-- Plus d'exemples de sélecteurs CSS -->
+            
+                <!-- Styles pour le balisage sémantique -->
+                <h3>Styles pour le Balisage Sémantique</h3>
+                <p>Appliquons ces sélecteurs CSS à notre balisage sémantique :</p>
+                <pre><code class="tag">h1</code> {
+                color: #ff6b6b; /* Couleur rouge pour les titres */
+            }
+            
+            <code class="class">.section-title {
+                font-size: 24px; /* Taille de police pour les titres de section */
+            }</code>
+            
+            <code class="id">#section1 {
+                background-color: #f9f9f9; /* Fond gris pour la section 1 */
+            }</code></pre>
+            
+                <!-- Ajoutez plus d'exemples au besoin -->
+            
+            </section>
+                
+                
+            <section id="section4">
+                <h2>Propriétés CSS</h2>
+                
+                <p>Les propriétés CSS sont des paramètres qui définissent l'apparence et la mise en page des éléments HTML. Chaque propriété a une valeur associée qui spécifie comment l'élément doit être stylé.</p>
+            
+                <!-- Propriété "color" -->
+                <h3>Propriété "color"</h3>
+                <p>La propriété "color" est utilisée pour définir la couleur du texte. Voici un exemple :</p>
+                <pre><code class="attribute">color</code>: <span style="color: red;">red</span>;</pre>
+            
+                <!-- Propriété "font-size" -->
+                <h3>Propriété "font-size"</h3>
+                <p>La propriété "font-size" contrôle la taille de la police. Vous pouvez utiliser différentes unités de mesure :</p>
+                <pre><code class="attribute">font-size</code>: <span style="font-size: 16px;">16px</span>;</pre>
+            
+                <!-- Propriété "background-color" -->
+                <h3>Propriété "background-color"</h3>
+                <p>La propriété "background-color" définit la couleur de fond d'un élément. Par exemple :</p>
+                <pre><code class="attribute">background-color</code>: <span style="background-color: #f9f9f9;">#f9f9f9</span>;</pre>
+            
+                <!-- Plus d'exemples de propriétés CSS -->
+            
+                <!-- Utilisation de CSS avec le balisage sémantique -->
+                <h3>Utilisation de CSS avec le Balisage Sémantique</h3>
+                <p>Appliquons ces propriétés CSS à notre balisage sémantique :</p>
+                <pre><code class="tag">h1</code> {
+                <code class="attribute">color</code>: <span style="color: red;">red</span>;
+            }
+            
+            <code class="class">.section-title</code> {
+                <code class="attribute">font-size</code>: <span style="font-size: 24px;">24px</span>;
+            }
+            
+            <code class="id">#section1</code> {
+                <code class="attribute">background-color</code>: <span style="background-color: #f9f9f9;">#f9f9f9</span>;
+            }</pre>
+            
+                <!-- Ajoutez plus d'exemples de propriétés CSS au besoin -->
+            
+            </section>
+            <section class="section3">
+                <p>Une notion fondamentale en CSS est le modèle de boîte (ou modèle de bloc). Chaque élément HTML est considéré comme une boîte rectangulaire dans CSS, et le modèle de boîte définit comment cette boîte est affichée, dimensionnée et espacée.</p>
+                <h3>Les éléments de base du modèle de boîte CSS</h3>
+                <p>Le modèle de boîte CSS se compose de plusieurs éléments clés :</p>
+                <ul>
+                    <li><strong>Sélecteur HTML</strong> : C'est l'élément HTML que vous souhaitez styler, tel qu'un <code>&lt;div&gt;</code> ou un <code>&lt;p&gt;</code>.</li>
+                    <li><strong>Propriétés CSS</strong> : Ce sont les règles que vous définissez pour l'apparence de l'élément, comme la couleur, la taille de la police, la marge, etc.</li>
+                    <li><strong>Contenu</strong> : C'est le texte ou les éléments à l'intérieur de la boîte, tels que du texte, des images, etc.</li>
+                    <li><strong>Rembourrage (padding)</strong> : C'est l'espace entre le contenu et la bordure de la boîte.</li>
+                    <li><strong>Bordure (border)</strong> : C'est la ligne qui entoure la boîte et sépare le contenu du rembourrage.</li>
+                    <li><strong>Marge (margin)</strong> : C'est l'espace entre la bordure de la boîte et les autres éléments de la page.</li>
+                    <li><strong>Largeur (width) et hauteur (height)</strong> : Ce sont les dimensions de la boîte.</li>
+                </ul>
+                <h3>Exemple de modèle de boîte CSS</h3>
+                <p>Imaginons que nous voulons styler un paragraphe (<code>&lt;p&gt;</code>) :</p>
+                <pre><code class="tag">p</code> {
+                <code class="attribute">color</code>: <span style="color: blue;">blue</span>;
+                <code class="attribute">font-size</code>: <span style="font-size: 16px;">16px</span>;
+                <code class="attribute">padding</code>: <span style="padding: 10px;">10px</span>;
+                <code class="attribute">border</code>: <span style="border: 1px solid #ddd;">1px solid #ddd</span>;
+                <code class="attribute">margin</code>: <span style="margin: 20px;">20px</span>;
+                <code class="attribute">width</code>: <span style="width: 300px;">300px</span>;
+                <code class="attribute">height</code>: <span style="height: 150px;">150px</span>;
+                </pre>
+                <p>Dans cet exemple, nous appliquons des propriétés CSS au paragraphe (<code>&lt;p&gt;</code>). Le texte à l'intérieur de la boîte sera en bleu avec une taille de police de 16 pixels. Il y aura un rembourrage de 10 pixels entre le contenu et la bordure, une bordure de 1 pixel solide de couleur grise, et une marge de 20 pixels autour de la boîte. La largeur de la boîte est de 300 pixels et la hauteur est de 150 pixels.</p>
+                <h3>Boîtes imbriquées</h3>
+                
+                <p>Il est important de noter que les boîtes peuvent être imbriquées les unes dans les autres. Par exemple, vous pouvez avoir une <code>&lt;div&gt;</code> contenant un <code>&lt;p&gt;</code>. Chaque boîte a son propre modèle de boîte et ses propres propriétés CSS.</p>
+                
+                <pre><code class="tag">div</code> {
+                <code class="attribute">width</code>: <span style="width: 300px;">300px</span>;
+                <code class="attribute">height</code>: <span style="height: 150px;">150px</span>;
+                <code class="attribute">border</code>: <span style="border: 1px solid #ddd;">1px solid #ddd</span>;
+            }
+
+                
+            <code class="tag">p</code>
+            {
+                
+                <code class="attribute">color</code>: <span style="color: blue;">blue</span>;
+                
+                <code class="attribute">font-size</code>: <span style="font-size: 16px;">16px</span>;
+                
+                <code class="attribute">padding</code>: <span style="padding: 10px;">10px</span>;
+                
+                <code class="attribute">margin</code>: <span style="margin: 20px;">20px</span>;
+                
+            }</pre>
+                
+            <p>Dans cet exemple, nous avons un modèle de boîte pour la <code>&lt;div&gt;</code> et un autre modèle de boîte pour le <code>&lt;p&gt;</code> à l'intérieur de la <code>&lt;div&gt;</code>.</p>
+            
+            <h2>Modélisation de boîtes en CSS</h2>
+
+            
+            <!-- Wireframe avec des blocs sémantiques -->
+            
+            <div class="box-model-example">
+                    <header>
+                
+                    <h1>Titre de la page</h1>
+                
+                    </header>
+                    <main>
+                
+                    <h2>Contenu principal</h2>
+
+                        <p>Le contenu principal de la page va ici.</p>
+
+                    </main>
+
+                    <footer>
+
+                    <p>Pied de page</p>
+
+                    </footer>
+            </div>
+    
+    <!-- Explication du modèle de boîte en CSS -->
+    <div class="box-model-explanation">
+        <!-- Ajoutez des explications sur la modélisation des boîtes en CSS, les marges, les bordures, le rembourrage, etc. -->
+    </div>
+                    // intrductiion CCS 
+    </section>
+    <section id="section5">
+    <h2>Positionnement en CSS (Layout)</h2>
+    
+    <p>Le positionnement en CSS est l'art de contrôler l'agencement et la disposition des éléments HTML sur une page web. Il existe plusieurs techniques de positionnement, chacune ayant ses propres avantages et cas d'utilisation.</p>
+
+    <!-- Ajoutez ici des explications sur les différents types de positionnement en CSS -->
+
+    <h3>Positionnement de base : le flux normal</h3>
+    <p>Par défaut, les éléments HTML suivent le flux normal du document, qui est un flux en bloc. Cela signifie que les éléments sont empilés les uns sur les autres dans l'ordre où ils apparaissent dans le code HTML.</p>
+    <div class="main-container">
+        <table class="containair-table">
+            <tr>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+            </tr>
+            <tr>
+                <td class="cell"></td>
+                <td class="central-cell">
+                    <div class="kernel-table">
+                        <div class="kernel-header">
+                            <h3>Kernel Table</h3>
+                        </div>
+                        <div class="kernel-section input-section">
+                            <h4>Input</h4>
+                            <pre><code class="code-input">/* Votre code d'entrée ici */</code></pre>
+                        </div>
+                        <div class="kernel-section output-section">
+                            <h4>Output</h4>
+                            <pre><code class="code-output">/* Votre code de sortie ici */</code></pre>
+                        </div>
+                        <div class="kernel-section algorithm-section">
+                            <h4>Algorithm</h4>
+                            <pre><code class="code-algorithm">/* Votre algorithme ici */</code></pre>
+                        </div>
+                    </div>
+                    
+                </td>
+                <td class="cell"></td>
+            </tr>
+            <tr>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+            </tr>
+        </table>
+    </div>
+
+    <pre><code class="tag">div</code> {
+        <code class="attribute">display</code>: <span style="display: block;">block;</span>
+    }
+
+    <code class="tag">span</code> {
+        <code class="attribute">display</code>: <span style="display: inline;">inline;</span>
+    }</pre>
+
+    <!-- Ajoutez plus d'informations sur le flux normal et les éléments en bloc/inline -->
+
+    <h3>Positionnement avancé : Flexbox</h3>
+    <p>Flexbox est une technique de positionnement puissante qui permet de créer des mises en page flexibles et réactives. Elle est particulièrement utile pour aligner des éléments horizontalement ou verticalement.</p>
+
+    <pre><code class="tag">.container</code> {
+        <code class="attribute">display</code>: <span style="display: flex;">flex;</span>
+        <code class="attribute">justify-content</code>: <span style="justify-content: center;">center;</span>
+        <code class="attribute">align-items</code>: <span style="align-items: center;">center;</span>
+    }
+
+    <code class="tag">.item</code> {
+        <code class="attribute">flex</code>: <span style="flex: 1;">1;</span>
+    }</pre>
+
+    <!-- Ajoutez plus d'informations sur Flexbox et des exemples -->
+
+    <h3>Positionnement avancé : CSS Grid</h3>
+    <p>CSS Grid est une technique de positionnement bidimensionnelle qui permet de créer des grilles complexes de manière efficace. Elle est idéale pour les mises en page de type tableau.</p>
+
+    <pre><code class="tag">.grid-container</code> {
+        <code class="attribute">display</code>: <span style="display: grid;">grid;</span>
+        <code class="attribute">grid-template-columns</code>: <span style="grid-template-columns: repeat(3, 1fr);">repeat(3, 1fr);</span>
+        <code class="attribute">grid-gap</code>: <span style="grid-gap: 20px;">20px;</span>
+    }
+
+    <code class="tag">.grid-item</code> {
+        <code class="attribute">grid-column</code>: <span style="grid-column: span 2;">span 2;</span>
+        <code class="attribute">grid-row</code>: <span style="grid-row: 1 / 3;">1 / 3;</span>
+    }</pre>
+
+    <!-- Ajoutez plus d'informations sur CSS Grid et des exemples -->
+
+    <!-- Ajoutez d'autres sections sur d'autres techniques de positionnement au besoin -->
+
+</section>
+<section id="annimation-css" class="annimation-css">
+    <h2>Annimation en CSS</h2>
+    <section id="animation-css">
+        <h2>Introduction aux Animations en CSS</h2>
+        <p>Dans cette section, nous explorerons les nombreuses possibilités d'animations en CSS.</p>
+
+        <!-- Exemple d'animation -->
+        <h3>Exemple d'Animation : Hover</h3>
+        <div class="animation-example">
+            <pre>
+                <code>.annimation-css .btn {
+                background: rgb(114, 93, 133);
+                width: 150px;
+                color: white;
+                font-size: 1rem;
+                cursor: pointer;
+                padding: 1.85rem 3rem;
+                border-radius: 10rem;
+                transition-property: transform;
+                transition-duration: 1000ms;
+                &:hover {
+                    transform: scale(1.15);
+                }
+                </code>
+            </pre>
+            <div class="btn">
+                <span>btn #annimation</span>
+            </div>
+        </div>
+        
+        <!-- Exemple d'animation : Ajoutez d'autres exemples ici -->
+
+        <!-- Balise sémantique pour une liste des pseudoclasses -->
+        <h3>Liste des Pseudoclasses en CSS</h3>
+        <ul>
+            <li><code>:hover</code> - Survol de la souris</li>
+            <li><code>:active</code> - Clic de l'utilisateur</li>
+            <li><code>:focus</code> - Focus sur l'élément</li>
+            <li><code>:checked</code> - Case à cocher ou bouton radio cochés</li>
+            <li><code>:enabled</code> - Élément interactif activé</li>
+            <li><code>:disabled</code> - Élément interactif désactivé</li>
+            <!-- Ajoutez d'autres pseudoclasses ici -->
+        </ul>
+    <section class="exemple">
+            <div class="annimation-form-css">
+                <div class="form">
+                    <div class="form__group">
+                        <label for="">email</label>
+                        <input type="email" name="" id="">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="btn">
+                    C'est partiii!
+                </div>  
+                <div class="ball"></div>
+            </div>
+            <arcticle class="sass">
+                <h1></h1>
+                <p>je vous propose dans ce cours de répondre aux trois questions suivantes :
+
+                    <li>
+                        <ul>Comment écrire du CSS qui soit clair, organisé et surtout bien structuré ?</ul>
+                    
+                        <ul>Comment m’assurer que mon code est maintenable ?</ul>
+                    
+                        <ul>Comment coder plus vite et de manière plus efficace ?</ul>
+                </li>
+                </p>
+            </arcticle>
+    </section>
+        <!-- Ajoutez d'autres sections sur les animations en CSS -->
+
+    </section>
+    
+
+</section>
+
+                    //intégration du formulaire de setup en html
+</section>
+    </div>
+</div>

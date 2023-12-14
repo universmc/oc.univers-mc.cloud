@@ -48,7 +48,7 @@ PYTHON := $(VENV_NAME)/bin/python
 # INSTALLATION
 
 install: $(VENV_NAME)
-$(PYTHON) -m pip install -r requirements.txt
+$(PYTHON) -m pip3 install -r requirements.txt
 
 npm install  # Installer les dépendances, si nécessaire
 # Autres commandes d'installation si nécessaire

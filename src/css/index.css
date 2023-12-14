@@ -3,38 +3,266 @@
 /*      _______________        */
 /* ____/  Init lyaout  \_______*/
 html, body {
-  min-width: 100vh;
   min-height: 100vh;
-  padding: 0px;
-  margin: 0px;
-}
-
-body {
+  max-width: 100%;
   margin: 0;
+  padding: 0;
 }
 
-/* *************************** */
-/*      _______________        */
-/* ____/    HERDER     \_______*/
+:root {
+  --header-color:rgb(5, 3, 6);
+  --html-color: #3b1616;
+  --css-color: #5c4719;
+  --js-color: #063120;
+  --php-color: #11233e;
+  --sql-color: #2c052d;
+  --body-background: rgb(0, 0, 0);
+  --cours-coutent-color: white;
+  --black09-color: rgba(20, 20, 20, 0.772);
+  --black09-color: rgba(20, 20, 20, 0.896);
+  --black09-color: rgb(10, 10, 10);
+  --black10-color: rgb(0, 0, 0);
+}
+
+/* **************************** */
+/*      .__________.___.        */
+/* +___/  Inc HOME \(/)\_______+*/
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-home {
+  display: flex;
+  flex-direction: row;
+  min-height: 100px;
+}
+
+.todols {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.btn-html_card {
+  display: flex;
+  width: 300px;
+  height: 70px;
+}
+
+.btn-css_card {
+  display: flex;
+  width: 300px;
+  height: 70px;
+}
+
+.btn-js_card {
+  display: flex;
+  width: 300px;
+  height: 70px;
+}
+
+.content-sections {
+  display: flex;
+  background-color: white;
+  height: 100%;
+}
+
+.class-metsoutenancesier {
+  display: flex;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+}
+
+.loading-content {
+  width: 300px;
+  height: 40px;
+}
+
+/* ************************************* */
+/*      .__________.___.                 */
+/* +___/  COURS     \(/)\_______________+*/
+.home_howto {
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  min-height: 98%;
+  margin: 5px;
+}
+
+.cours-content {
+  display: contents;
+  background-color: var(--cours-coutent-color);
+}
+
+.left-content {
+  display: flex;
+  min-width: 20%;
+  min-height: 100%;
+  background-color: #797979;
+}
+
+.right-content {
+  display: flex;
+  justify-content: center;
+  min-width: 80%;
+  min-height: 100%;
+  background-color: white;
+}
+
+.dashboard {
+  width: 80%;
+}
+
+.menu-dev {
+  display: flex;
+}
+
+.dev-content {
+  display: flex;
+}
+
+.db_cours-frontend {
+  width: 80%;
+}
+
+.html-content {
+  display: contents;
+}
+
+.db_cours-backend {
+  width: 80%;
+}
+
+/* ***********************************  */
+/*      .__________________.___.        */
+/* +___/  P. Projets        \(/)\_______+*/
+.projets-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 1%;
+  gap: 10px;
+}
+
+.projet-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100px;
+  background-color: rgb(245, 241, 241);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/* PROJet4 */
+.step3_mission-objectif {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interface {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.Ohmyfood-device {
+  justify-content: space-around;
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ***********************************  */
+/*      .__________________.___.        */
+/* +___/  P4 - step-by-step \(/)\_______+*/
+.step-by-step {
+  display: flex;
+  justify-content: center;
+  min-width: 97%;
+  min-height: 90%;
+  padding: 2%;
+}
+
+.windows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  min-width: 95%;
+  min-height: 610px;
+}
+
+.template-content {
+  min-width: 100%;
+}
+
+.step-loader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 35px;
+  background-color: var(--sql-color);
+}
+
+.btn-step {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.btn-step:hover {
+  width: 130%;
+  height: 110%;
+  background-color: darkorchid;
+}
+
+.step1_intro {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+/******************  */
+/*      header       */
+/* ***************** */
 header {
-  min-width: 100vh;
-  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  min-height: 10vh;
 }
 
 /* NavBar */
 .navbar {
   display: flex;
-  min-width: 100vh;
-  min-height: 10vh;
+  min-width: 100%;
+  min-height: 10%;
   align-items: center;
-  background-color: #333;
-  padding: 10px;
+  background-color: var(--header-color);
 }
 
-.navbar-icon img {
+.navbar-icon {
   width: 50px;
   height: 50px;
-  margin-right: 20px;
 }
 
 .dropdown {
@@ -44,9 +272,8 @@ header {
 }
 
 .dropbtn {
-  background-color: #333;
+  background-color: #6a0a0a;
   color: white;
-  padding: 10px 16px;
   border: none;
   cursor: pointer;
 }
@@ -56,6 +283,7 @@ header {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
+  padding: 10px;
   z-index: 1;
 }
 
@@ -66,7 +294,6 @@ header {
 
 .dropdown-content a, .sub-dropdown a {
   color: black;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
@@ -79,806 +306,286 @@ header {
   background-color: #f1f1f1;
 }
 
-/* Hero Bannier */
-.heroBanner {
+/* Hero-ban */
+.hero-ban {
   display: flex;
-  flex-direction: column;
-  min-height: 40vh;
   min-width: 80vh;
-  background-color: #d3d2d2;
-  margin: 20px;
-  border-radius: 5%;
-}
-.heroBanner:hover {
-  background-color: #e3e3e3;
+  min-height: 100%;
+  background-color: #241f2e;
 }
 
-.row-hb {
+.row-W {
   display: flex;
   flex-direction: row;
-  min-width: 100%;
-}
-
-.todols {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  min-height: 60%;
-  min-width: 30vh;
-  margin: 10px;
-}
-
-.btn-html_card, .btn-css_card, .btn-js_card {
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
   width: 100%;
-  align-items: center;
-  background-color: #f9f9f9;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
 }
 
-.btn-html_card img {
-  width: 32px;
-  height: 32px;
+.coln-h {
+  width: 10px;
+  height: 100%;
 }
 
-.btn-css_card img {
-  width: 32px;
-  height: 32px;
+.coln-H {
+  width: 10px;
+  height: 100%;
 }
 
-.btn-js_card img {
-  width: 32px;
-  height: 32px;
-}
-
-.content {
-  min-width: 75%;
-  min-height: 90%;
-  background-color: #1e1e1e;
-}
-
-.dev-mode {
+.bloc-html {
   display: flex;
-  min-width: 100%;
-  min-height: 90%;
-  flex-direction: column;
-  background-color: #f8f4f4;
-  border-radius: 20px;
+  margin: 3px;
+  border-radius: 5px;
+  width: 20%;
+  background-color: var(--html-color);
 }
 
-.coln-container {
+.bloc-css {
   display: flex;
-  flex-direction: column;
-  z-index: 1;
-  min-width: 100vh;
-  background-color: #611f1f;
+  margin: 3px;
+  border-radius: 5px;
+  width: 20%;
+  background-color: var(--css-color);
 }
 
-.coln01 {
+.bloc-js {
   display: flex;
-  min-width: 20%;
-  background-color: black;
+  margin: 3px;
+  border-radius: 5px;
+  width: 20%;
+  background-color: var(--js-color);
 }
 
-.coln02 {
+.bloc-php {
   display: flex;
-  min-width: 20%;
-  background-color: black;
+  margin: 3px;
+  border-radius: 5px;
+  width: 20%;
+  background-color: var(--php-color);
 }
 
-.coln03 {
+.bloc-sql {
   display: flex;
-  min-width: 20%;
-  background-color: black;
+  margin: 3px;
+  border-radius: 5px;
+  width: 20%;
+  background-color: var(--sql-color);
 }
 
-/* node loader */
-.node {
-  display: flex;
-  min-width: 100vh;
-  height: 34px;
-  align-items: center;
-  text-align: center;
-  background-color: #666;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.loader {
-  display: flex;
-  min-width: 97%;
-  border: 1px;
-}
-
-.step_loader {
-  display: flex;
-  min-width: 100%;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.step_ {
-  background-color: rgb(43, 12, 59);
-  border-radius: 50%;
-  height: 32px;
-  width: 32px;
-}
-.step_:hover {
-  background-color: rgb(84, 25, 114);
-  height: 34px;
-  width: 34px;
-}
-
-/* ... */
-/* *************************** */
-/*      _________             */
-/* ____/  MAIN   \____________*/
+/****************** */
+/*      main        */
+/* ***************** */
 main {
-  min-width: 100vh;
-  min-height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.Cours-dev {
   display: flex;
   justify-content: center;
-}
-
-.step-Methode {
-  width: 90%;
-}
-
-.env {
-  display: flex;
-  width: 100%;
-  height: auto;
-}
-
-.step-c {
-  display: flex;
-  flex-direction: row;
-}
-
-.row-c {
-  width: 30%;
-  height: 400px;
-  background-color: #ae9595;
-  border-radius: 20px 0 0 20px;
-}
-
-.coln-c {
-  background-color: rgb(70, 70, 96);
-  border-radius: 0 20px 20px 0;
-  width: 70%;
-  height: 400px;
-}
-
-.Frontend_k {
-  min-width: 50%;
-  min-height: 60%;
-}
-
-.row-init_k {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  min-height: 70%;
-}
-
-.row-init_k.html {
-  min-width: 25%;
-}
-
-.row-init_k.css {
-  min-width: 25%;
-}
-
-.kernel.javascript {
   min-width: 100%;
+  min-height: 70VH;
+  background-color: black;
 }
 
-.setup {
+.step-content {
   display: flex;
-  flex-direction: row;
-}
-
-.content-sections {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
-  width: 80%;
-}
-
-.output {
-  background-color: darkolivegreen;
-}
-
-.row-init_k {
-  display: flex;
-  flex-direction: row;
-  width: 50%;
-}
-
-.html {
-  width: 25%;
-  background-color: #ffcc5c;
-}
-
-.css {
-  width: 25%;
-  background-color: #ff9e64;
-}
-
-.javascript {
-  background-color: #ff6b6b;
-}
-
-.sass {
-  height: 10%;
-  background-color: indianred;
-}
-
-.backend {
-  display: flex;
-  flex-direction: row;
-}
-
-.php {
-  height: 10%;
-  background-color: cornflowerblue;
-}
-
-.sql {
-  background-color: darkslateblue;
-}
-
-.algorithm {
-  background-color: chartreuse;
-}
-
-.class-metier {
+  flex-direction: column;
   width: 90%;
 }
 
-.MainConainer {
-  background-color: aquamarine;
-}
-
-footer {
-  min-height: 20vh;
-  background-color: #1e1e1e;
-}
-
-/* ... */
-/* Styles pour la section globale */
-.course-content {
-  display: flex; /* Utilisation de Flexbox */
-  justify-content: space-between; /* Espacement entre les blocs */
-  align-items: flex-start; /* Alignem2ent en haut */
-  padding: 20px;
-}
-
-/* Style du bloc "start" (sommaire) */
-.course-start {
-  flex: 1; /* Le bloc "start" prendra tout l'espace disponible à gauche */
-  padding: 20px; /* Ajoutez de la marge pour l'espacement */
-  background-color: #f0f0f0; /* Ajoutez une couleur de fond */
-  width: 80%;
-}
-
-/* Style du bloc "end" (présentation du développement, exemples, etc.) */
-.course-end {
-  flex: 2; /* Le bloc "end" prendra le double d'espace à droite */
-  padding: 20px; /* Ajoutez de la marge pour l'espacement */
-}
-
-/* styles/index-html.css */
-.row-init {
-  /* LAYOUT */
-  display: flex;
-  flex-direction: row;
-  padding-left: 0px;
-  height: 15px;
-  width: 610px;
-  justify-content: flex-start;
-  background-color: gray;
-}
-
-.row-init-g {
-  background-color: green;
-}
-
-.row-init-y {
-  background-color: yellow;
-}
-
-.row-init-r {
-  background-color: red;
-}
-
-.row-init a:hover a:focus a:visited {
-  border-bottom: #5cb3ff;
-  color: green;
-}
-
-pre {
-  /* Layout */
-  width: auto;
-  height: auto;
-  padding: 100px;
-  margin: 25px;
-  gap: 20px;
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-  background-color: #1e1e1e;
-  border-radius: 24px;
-}
-
-/* Fonds sombres pour les codes HTML */
-code {
-  /* Couleur de fond sombre */
-  color: #ffffff; /* Texte en blanc */
-  padding: 2px 5px; /* Marge intérieure pour un meilleur espacement */
-  border-radius: 4px; /* Coins arrondis */
-}
-
-code .html {
-  background-color: yellow;
-}
-
-code .css {
-  background-color: Green;
-}
-
-/* Styles pour les balises HTML */
-code.tag {
-  color: #d4bfff; /* Couleur violette pour les balises */
-}
-
-/* Styles pour les chevrons < > */
-code.chevron {
-  color: #ff9e64; /* Couleur orange pour les chevrons */
-}
-
-/* Styles pour les attributs CSS */
-code.attribute {
-  color: #5cb3ff; /* Couleur bleue pour les attributs */
-}
-
-/* Exemple de style pour une classe CSS */
-code.class {
-  color: #ff6b6b; /* Couleur rouge pour les classes CSS */
-}
-
-/* Exemple de style pour une ID CSS */
-code.id {
-  color: #ffcc5c; /* Couleur jaune pour les ID CSS */
-}
-
-/* Ajout de styles spécifiques pour la section1 */
-#section1 {
-  background-color: #f9f9f9;
-  padding: 20px;
-}
-
-/* Styles pour le formulaire de configuration */
-.css-form {
-  margin: 20px 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.css-form h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-fieldset {
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-}
-
-legend {
-  font-weight: bold;
-}
-
-/* Styles pour la prévisualisation */
-.preview {
-  margin: 20px 0;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-#preview header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
-
-#preview article {
-  padding: 20px;
-}
-
-#preview footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
-
-#section2 {
-  background-color: #f9f9f9;
-  padding: 20px;
-  /* Ajoutez des styles de mise en page pour la section 2 */
-}
-
-/* Styles pour le formulaire de personnalisation de la section 2 */
-#section2 .css-form-section2 {
-  margin: 20px 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-#section2 .css-form-section2 h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-#section2 .css-form-section2 fieldset {
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-}
-
-#section2 .css-form-section2 legend {
-  font-weight: bold;
-}
-
-/* Styles pour la prévisualisation de la section 2 */
-#section2 .preview-section2 {
-  margin: 20px 0;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-#section2 #preview-section2 header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
-
-#section2 #preview-section2 article {
-  padding: 20px;
-}
-
-#section2 #preview-section2 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
-
-/* Styles spécifiques pour la section 3 */
-/* Styles pour la prévisualisation de la section 3 */
-/* Styles spécifiques pour la section 3 */
-#section3 {
-  background-color: #f9f9f9;
-  padding: 20px;
-}
-
-pre .tag {
-  color: white;
-  margin-left: 120px;
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-  width: 65%;
-  justify-content: center;
-}
-
-/* Section 4 - Propriétés CSS */
-#section4 {
-  background-color: #f9f9f9;
-  padding: 20px;
-  margin: 20px 0;
-}
-
-#section4 h2 {
-  color: #333;
-}
-
-#section4 p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-/* Styles pour les exemples de propriétés CSS */
-.box-model-example {
-  margin: 20px 0;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-.box-model-example header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
-
-.box-model-example main {
-  padding: 20px;
-}
-
-.box-model-example footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
-
-/* Styles pour les balises <pre> et <code> */
-pre {
-  background-color: #1e1e1e;
-  color: #ffffff;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 10px 0;
-}
-
-code {
-  font-family: "Courier New", Courier, monospace;
-}
-
-/* Styles pour les balises <h3> */
-h3 {
-  color: #333;
-  margin-top: 20px;
-}
-
-/* Styles pour les exemples de code CSS */
-.tag {
-  color: #ff6b6b;
-}
-
-.attribute {
-  color: #5cb3ff;
-}
-
-.class {
-  color: #ffcc5c;
-}
-
-.id {
-  color: #d4bfff;
-}
-
-/* Styles pour les exemples de boîtes imbriquées */
-.section3 .box-model-example {
-  margin: 20px 0;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-.section3 .box-model-example p {
-  font-size: 16px;
-  line-height: 1.4;
-}
-
-/* Section 5 - Positionnement en CSS (Layout) */
-/* Paramétrage pour la section 5 */
-#section5 {
-  background-color: #f9f9f9;
-  padding: 20px;
-  margin: 20px 0;
-}
-
-#section5 h2 {
-  color: #333;
-  font-size: 24px; /* Augmenter légèrement la taille du titre h2 */
-  margin-bottom: 10px; /* Ajouter un espace en bas du titre */
-}
-
-#section5 h3 {
-  color: #666;
-  margin-top: 20px;
-  font-size: 20px; /* Augmenter légèrement la taille du titre h3 */
-}
-
-#section5 p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 15px; /* Ajouter un espace en bas des paragraphes */
-}
-
-.main-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Styles pour la table */
-.containair-table {
-  width: 100%;
-  border-collapse: collapse; /* Fusionner les bordures de cellules */
-  margin: 20px 0;
-}
-
-.cell {
-  border: 1px solid #ddd; /* Ajouter une bordure aux cellules */
-  padding: 10px; /* Ajouter de la marge intérieure pour l'espacement */
-  text-align: center; /* Centrer le texte dans les cellules */
-}
-
-.central-cell {
-  background-color: #f9f9f9; /* Couleur de fond pour la cellule centrale */
-}
-
-/* Styles pour les éléments à l'intérieur de la table */
-.kernel {
-  padding: 20px; /* Ajouter de l'espacement autour du noyau */
-  text-align: center; /* Centrer le contenu du noyau */
-  background-color: coral;
+.step {
   border-radius: 10px;
-  margin: 20px;
 }
 
-.init_RowContainer {
-  display: flex;
-  justify-content: space-between; /* Espacement égal entre les éléments */
-}
-
-.init_colonne1,
-.init_colonne2 {
-  flex: 1; /* Les colonnes occupent le même espace */
-}
-
-/* Styles spécifiques pour les balises <bloc> */
-bloc {
-  font-weight: bold;
-}
-
-/* Styles pour la table de noyau */
-.kernel-table {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 20px;
-  margin: 20px 0;
-}
-
-/* Styles pour l'en-tête */
-.kernel-header {
-  text-align: center;
-}
-
-.kernel-header h3 {
-  font-size: 24px;
-  color: #333;
-}
-
-/* Styles pour les sections */
-.kernel-section {
-  margin-top: 20px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-.kernel-section h4 {
-  font-size: 20px;
-  color: #666;
-  margin-bottom: 10px;
-}
-
-/* Styles pour les codes d'entrée, de sortie et d'algorithme */
-.code-input,
-.code-output,
-.code-algorithm {
-  background-color: #611f1f;
-  padding: 10px;
-  border-radius: 5px;
-  font-family: monospace;
-}
-
-/* Personnalisez davantage les couleurs et les styles selon vos préférences. */
-/* Styles pour les exemples de code CSS */
-code.tag {
-  color: #ff6b6b;
-}
-
-code.attribute {
-  color: #5cb3ff;
-}
-
-code.class {
-  color: #ffcc5c;
-}
-
-code.id {
-  color: #d4bfff;
-}
-
-.animation-example {
+.step {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  justify-content: center;
+  background-color: rgb(179, 179, 179);
+  min-width: 100%;
+  min-height: 100%;
+  gap: 20px;
 }
 
-.animation-example pre {
-  border-radius: 15px;
+.step1_ {
+  width: 70%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #3c2929;
+}
+.step1_:hover {
+  width: 90%;
+  height: 100%;
+  background-color: #322222;
 }
 
-.animation-example code {
+.step2_dev {
+  width: 70%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #3a293c;
+}
+.step2_dev:hover {
+  width: 90%;
+  height: 100%;
+  background-color: #2a1e2b;
+}
+
+.step3_inter {
+  width: 70%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #30293c;
+}
+.step3_inter:hover {
+  width: 90%;
+  height: 100%;
+  background-color: #241f2e;
+}
+
+.step4_auto-ML {
+  width: 70%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #293c33;
+}
+.step4_auto-ML:hover {
+  width: 90%;
+  height: 100%;
+  background-color: #16211c;
+}
+
+.step5_it-IA {
+  width: 70%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #3c3b29;
+}
+.step5_it-IA:hover {
+  width: 90%;
+  height: 100%;
+  background-color: #55543a;
+}
+
+.btn-circle {
   display: flex;
-  justify-content: flex-start;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: black;
+  color: rgb(197, 190, 203);
+  font-size: smaller;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.btn-circle:hover {
+  width: 64px;
+  height: 64px;
+  font-size: larger;
 }
 
-.btn {
-  margin-top: 130px;
-  background: rgb(114, 93, 133);
-  width: 150px;
-  height: min-content;
-  color: white;
-  font-size: 1rem;
-  cursor: pointer;
-  padding: 1.85rem 3rem;
-  border-radius: 10rem;
-  transition-property: transform;
-  transition-duration: 1000ms;
-}
-.btn:hover {
-  transform: scale(1.15);
+.init_td {
+  background-color: #2a633b;
 }
 
-.annimation-css {
+.init_row {
   display: flex;
+  flex-direction: row;
+  background-color: #2a633b;
 }
 
-/* Ajoutez d'autres styles au besoin */
-/* Ajoutez d'autres styles au besoin */
-/* Styles pour le formulaire de personnalisation de la section 3 */
-/* Ajoutez des règles CSS spécifiques pour les éléments personnalisés par le formulaire de la section 3 */
-/* Ajoutez des règles CSS spécifiques pour les éléments personnalisés par le formulaire de la section 3 */
-/* ... Ajoutez d'autres styles au besoin ... */
-/* Ajoutez des règles CSS spécifiques pour les éléments personnalisés par le formulaire de la section 2 */
-/* ... Ajoutez d'autres styles au besoin ... */
-/* responsive TABLETTE  */
+.init_coln {
+  min-width: 10px;
+  background-color: #2a4163;
+}
+
+td {
+  background-color: #b07118;
+}
+
+/* div content */
+/******************  */
+/*      footer       */
+/* ***************** */
+footer {
+  display: flex;
+  min-width: 100%;
+  min-height: 10vh;
+  background-color: #333;
+}
+
+/* ================================== */
 @media (min-width: 768px) and (max-width: 1023px) {
+  /* Break point F device @media screwn } */
+  /* *************************** */
+  /*      _______________        */
+  /* ____/  Init lyaout  \_______*/
   html, body {
     min-height: 100%;
     max-width: 100%;
     margin: 0;
     padding: 0;
   }
+  /* IOS android */
+  /******************  */
+  /*      header       */
+  /* ***************** */
   /****************** */
-  /*      header       */
+  /*      main        */
   /* ***************** */
+  /* div content */
+  /******************  */
+  /*      footer       */
+  /* ***************** */
+  /* ================================== */
 }
-/* responsive TABLETTE  */
+/* [📱]-{Desktop}- responsive */
 @media (min-width: 1053px) and (max-width: 1440px) {
+  /* *************************** */
+  /*      _______________        */
+  /* ____/ 📱Init lyaout  \_______*/
   html, body {
     min-height: 100%;
     max-width: 100%;
     margin: 0;
     padding: 0;
   }
-  /* ***************** */
+  /******************  */
   /*      header       */
   /* ***************** */
+  /****************** */
+  /*      main        */
+  /* ***************** */
+  /* div content */
+  /******************  */
+  /*      footer       */
+  /* ***************** */
+  /* ================================== */
+}
+/* [💻]-{Desktop}- responsive */
+@media (min-width: 1053px) and (max-width: 1440px) {
+  /* ----------------------------- */
+  /*      _________________        */
+  /* ____/ 💻 Init lyaout  \_______*/
+  html, body {
+    min-height: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  /******************  */
+  /*      header       */
+  /* ***************** */
+  /****************** */
+  /*      main        */
+  /* ***************** */
+  /* div content */
+  /******************  */
+  /*      footer       */
+  /* ***************** */
+  /* ================================== */
 }
 
 /*# sourceMappingURL=index.css.map */

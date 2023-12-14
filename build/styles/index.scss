@@ -1,0 +1,637 @@
+/* *************************** */
+/*      _______________        */
+/* ____/  Init lyaout  \_______*/
+html, body {
+    min-height: 100vh;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --header-color:rgb(5, 3, 6);
+    --html-color: #3b1616;;
+    --css-color: #5c4719;;
+    --js-color: #063120;;
+    --php-color:  #11233e;;
+    --sql-color: #2c052d;
+    --body-background: rgb(0, 0, 0);
+    --cours-coutent-color: white;
+
+    --black09-color: rgba(20, 20, 20, 0.772);
+    --black09-color: rgba(20, 20, 20, 0.896);
+    --black09-color: rgb(10, 10, 10);
+    --black10-color: rgb(0, 0, 0);
+}
+
+/* **************************** */
+/*      .__________.___.        */
+/* +___/  Inc HOME \(/)\_______+*/
+.home {
+    display: flex;
+    flex-direction: column;
+}
+.row-home{
+    display:flex;
+    flex-direction: row;
+    min-height: 100px;
+}
+.todols{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.btn-html_card{
+    display:flex;
+    width: 300px;
+    height: 70px;
+}
+.btn-css_card{
+    display:flex;
+    width: 300px;
+    height: 70px;
+}
+.btn-js_card{
+    display:flex;
+    width: 300px;
+    height: 70px;
+}
+.content-sections{
+    display:flex;
+    background-color: white;
+    height: 100%;
+}
+.class-metsoutenancesier{
+    display:flex;
+}
+.presentation{
+    display:flex;
+    flex-direction: column;
+}
+.loading-content{
+    width: 300px;
+    height: 40px;
+}
+
+/* ************************************* */
+/*      .__________.___.                 */
+/* +___/  COURS     \(/)\_______________+*/
+
+.home_howto {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    min-height: 98%;
+    margin: 5px;
+}
+.cours-content {
+    display: contents;
+    background-color: var(--cours-coutent-color);
+}
+.left-content {
+    display: flex;
+    min-width: 20%;
+    min-height: 100%;
+    background-color: #797979;
+}
+.right-content {
+    display: flex;
+    justify-content: center;
+    min-width: 80%;
+    min-height: 100%;
+    background-color: white;
+}
+.dashboard {
+    width: 80%;
+}
+.menu-dev{
+    display: flex;
+}
+.dev-content{
+    display: flex;
+}
+.db_cours-frontend{
+    width: 80%;
+}
+.html-content {
+    display: contents;
+}
+
+.db_cours-backend {
+    width: 80%;
+}
+
+/* ***********************************  */
+/*      .__________________.___.        */
+/* +___/  P. Projets        \(/)\_______+*/
+
+.projets-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1%;
+    gap:10px;
+
+}
+.projet-content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100px;
+    background-color: rgb(245, 241, 241);
+    border-radius: 20px;
+    padding: 5px;;
+
+}
+
+.P01{}
+.P02{}
+.P03{}
+/* PROJet4 */
+.step3_mission-objectif {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.interface {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.Ohmyfood-device {
+    justify-content: space-around;
+    display: flex;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+.P04{}
+.P05{}
+.P06{}
+.P07{}
+.P08{}
+.P09{}
+.P10{}
+.P11{}
+.P12{}
+
+
+/* ***********************************  */
+/*      .__________________.___.        */
+/* +___/  P4 - step-by-step \(/)\_______+*/
+.step-by-step {
+    display: flex;
+    justify-content: center;
+    min-width: 97%;
+    min-height: 90%;
+    padding: 2%;
+}
+.windows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    min-width: 95%;
+    min-height: 610px;
+}
+.template-content{
+    min-width: 100%;
+}
+.step-loader{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 35px;
+    background-color: var(--sql-color);
+}
+.btn-step
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    &:hover{
+        width: 130%;
+        height: 110%;
+        background-color:darkorchid;
+    }
+}
+.step1_intro {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.project-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+        /******************  */
+        /*      header       */
+        /* ***************** */
+
+        header {
+            display: flex;
+            flex-direction: column;
+            min-width: 100%;
+            min-height: 10vh; 
+        }
+
+
+
+        /* NavBar */
+
+        .navbar {
+            display: flex;
+            min-width: 100%;
+            min-height: 10%;
+            align-items: center;
+            background-color: var(--header-color);
+        }
+    
+        .navbar-icon {
+            width: 50px;
+            height: 50px;
+        }
+    
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin-right: 10px;
+        }
+    
+        .dropbtn {
+            background-color: #6a0a0a;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    
+        .dropdown-content, .sub-dropdown {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            padding:10px;
+            z-index: 1;
+        }
+    
+        .sub-dropdown {
+            left: 100%;
+            top: 0;
+        }
+    
+        .dropdown-content a, .sub-dropdown a {
+            color: black;
+            text-decoration: none;
+            display: block;
+        }
+    
+        .dropdown:hover .dropdown-content, .dropdown-content:hover .sub-dropdown {
+            display: block;
+        }
+    
+        .dropdown-content a:hover, .sub-dropdown a:hover {
+            background-color: #f1f1f1;
+        }
+
+
+
+        /* Hero-ban */
+        .hero-ban {
+            display: flex;
+            min-width: 80vh;
+            min-height: 100%;
+            background-color: #241f2e;
+        }
+        .row-W{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+
+        }
+        .coln-h {
+            width: 10px;
+            height: 100%;
+        }
+        .coln-H {
+            width: 10px;
+            height: 100%;
+
+        }
+        .bloc-html{
+            display: flex;
+            margin: 3px;
+            border-radius: 5px;
+            width: 20%;
+            background-color: var(--html-color);
+        }
+        .bloc-css{
+            display: flex;
+            margin: 3px;
+            border-radius: 5px;
+            width: 20%;
+            background-color: var(--css-color);
+        }
+        .bloc-js{
+            display: flex;
+            margin: 3px;
+            border-radius: 5px;
+            width: 20%;
+            background-color: var(--js-color);
+        }
+        .bloc-php{
+            display: flex;
+            margin: 3px;
+            border-radius: 5px;
+            width: 20%;
+            background-color: var(--php-color);
+        }
+        .bloc-sql{
+            display: flex;
+            margin: 3px;
+            border-radius: 5px;
+            width: 20%;
+            background-color: var(--sql-color);
+        }
+
+        /****************** */
+        /*      main        */
+        /* ***************** */
+        main {
+            display: flex;
+            justify-content: center;
+            min-width: 100%;
+            min-height: 70VH; 
+            background-color: black;
+        }
+        .step-content{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 90%;
+        }
+
+        .step{
+            border-radius: 10px;
+        }
+
+        .step {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: rgb(179, 179, 179);
+            min-width: 100%;
+            min-height: 100%;
+            gap: 20px;
+    
+        }
+        .step1_{
+            width: 70%;
+            height: 100%;
+            padding:10px;
+            border-radius: 10px;
+            background-color: #3c2929;
+            &:hover{
+                width: 90%;
+                height: 100%;
+                background-color: #322222;
+            }
+        }
+        .step2_dev{
+            width: 70%;
+            height: 100%;
+            padding:10px;
+            border-radius: 10px;
+            background-color: #3a293c;
+            &:hover{
+                width: 90%;
+                height: 100%;
+                background-color: #2a1e2b;
+            }
+        }
+        .step3_inter{
+            width: 70%;
+            height: 100%;
+            padding:10px;
+            border-radius: 10px;
+            background-color: #30293c;
+            &:hover{
+                width: 90%;
+                height: 100%;
+                background-color: #241f2e;
+            }
+        }
+        .step4_auto-ML{
+            width: 70%;
+            height: 100%;
+            padding:10px;
+            border-radius: 10px;
+            background-color: #293c33;
+            &:hover{
+                width: 90%;
+                height: 100%;
+                background-color: #16211c;
+            }
+        }
+        .step5_it-IA{
+            width: 70%;
+            height: 100%;
+            padding:10px;
+            border-radius: 10px;
+            background-color: #3c3b29;
+            &:hover{
+                width: 90%;
+                height: 100%;
+                background-color: #55543a;
+            }
+        }
+
+        .btn-circle {
+            display: flex;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background-color: black;
+            color: rgb(197, 190, 203);
+            font-size: smaller;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            &:hover {
+                width: 64px;
+                height: 64px;
+                font-size: larger;
+            }
+        }
+        .init_td {
+            background-color: #2a633b;
+        }
+        .init_row {
+            display: flex;
+            flex-direction: row;
+            background-color: #2a633b;
+        }
+        .init_coln {
+            min-width: 10px;
+            background-color: #2a4163;
+        }
+        td {
+            background-color: #b07118;
+            
+        }
+
+        /* div content */
+
+
+
+        /******************  */
+        /*      footer       */
+        /* ***************** */
+        footer {
+            display: flex;
+            min-width: 100%;
+            min-height: 10vh;
+            background-color: #333;
+        }
+
+
+/* ================================== */
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Break point F device @media screwn } */
+
+/* *************************** */
+/*      _______________        */
+/* ____/  Init lyaout  \_______*/
+html, body {
+    min-height: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+    /* IOS android */
+
+        /******************  */
+        /*      header       */
+        /* ***************** */
+
+
+
+        /****************** */
+        /*      main        */
+        /* ***************** */
+
+        /* div content */
+
+
+
+        /******************  */
+        /*      footer       */
+        /* ***************** */
+
+/* ================================== */
+}
+
+
+
+
+
+    /* [📱]-{Desktop}- responsive */ 
+@media (min-width: 1053px) and (max-width: 1440px) {
+        
+    /* *************************** */
+    /*      _______________        */
+    /* ____/ 📱Init lyaout  \_______*/
+
+
+    html, body {
+        min-height: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    
+    
+            /******************  */
+            /*      header       */
+            /* ***************** */
+    
+    
+    
+            /****************** */
+            /*      main        */
+            /* ***************** */
+    
+            /* div content */
+    
+    
+    
+            /******************  */
+            /*      footer       */
+            /* ***************** */
+    
+    /* ================================== */
+    }
+
+/* [💻]-{Desktop}- responsive */
+@media (min-width: 1053px) and (max-width: 1440px) {
+
+    
+/* ----------------------------- */
+/*      _________________        */
+/* ____/ 💻 Init lyaout  \_______*/
+html, body {
+    min-height: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+        /******************  */
+        /*      header       */
+        /* ***************** */
+
+
+
+        /****************** */
+        /*      main        */
+        /* ***************** */
+
+        /* div content */
+
+
+
+        /******************  */
+        /*      footer       */
+        /* ***************** */
+
+/* ================================== */
+}
