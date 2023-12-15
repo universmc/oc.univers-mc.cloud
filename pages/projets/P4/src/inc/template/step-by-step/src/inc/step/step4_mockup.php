@@ -20,7 +20,7 @@ User
     <section class="model-box">
         <article class="mockup-cutting">
             <div class="bloc1">
-                <div class="html-body" id="level1">
+                <div class="ohmyfood-html-body" id="level1">
                     <span><h3>level1 [HTML] [body] [*]</h3><span>
                     <img src="assets/img/mockup/mockup-mobil.png" all="media mobile">
                 </div>

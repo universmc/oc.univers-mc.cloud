@@ -265,6 +265,91 @@ code {
   justify-content: center;
 }
 
+/* STEP4 MOCKUP */
+.mockup {
+  min-height: 35vh;
+  gap: 5px;
+}
+
+.mockup-sementique {
+  display: flex;
+  flex-direction: column;
+}
+
+.mockup-img {
+  width: 30%;
+}
+
+.model-box {
+  min-width: 90vh;
+  min-height: 65vh;
+}
+
+.mockup-cutting {
+  display: flex;
+  min-width: 100vh;
+  min-height: 100vh;
+  gap: 8px;
+}
+
+.bloc1 {
+  min-width: 20vh;
+  min-height: 100vh;
+  background-color: var(--html-color);
+  border-radius: 8px;
+}
+
+.bloc2 {
+  display: flex;
+  min-width: 20vh;
+  min-height: 100vh;
+  background-color: var(--css-color);
+  border-radius: 8px;
+}
+
+.bloc3 {
+  min-width: 20vh;
+  min-height: 100vh;
+  background-color: var(--js-color);
+  border-radius: 8px;
+}
+
+.bloc4 {
+  min-width: 20vh;
+  min-height: 100vh;
+  background-color: var(--php-color);
+  border-radius: 8px;
+}
+
+.bloc5 {
+  min-width: 20vh;
+  min-height: 100vh;
+  background-color: var(--sql-color);
+  border-radius: 8px;
+}
+
+.ohmyfood-html-body {
+  display: flex;
+}
+
+.ohmyfood-header {
+  display: flex;
+  min-height: 18%;
+  background-color: rgb(132, 125, 125);
+}
+
+.ohmyfood-main {
+  display: flex;
+  min-height: 50%;
+  background-color: rgb(172, 172, 172);
+}
+
+.ohmyfood-footer {
+  display: flex;
+  min-height: 20%;
+  background-color: rgb(29, 27, 27);
+}
+
 /******************  */
 /*      header       */
 /* ***************** */
