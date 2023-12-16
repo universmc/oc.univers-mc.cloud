@@ -27,7 +27,7 @@
                     <a class="pc-btn code-active"><button>[ACTIVE]</button></a>
                     <a class="pc-btn code-focus"><button>[FOCUS]</button></a>
                     <a class="pc-btn code-hover"><button>[HOVER]</button></a>
-                    <a class="pc-btn run"><button>[RUN(html+css)]</button></a>
+                    <a class="pc-btn run"><button>[GEN(html+css)]</button></a>
                     <a class="pc-btn run"><button>[RUN(intergration)]</button></a>
                     </div> 
 

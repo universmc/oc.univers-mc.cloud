@@ -48,17 +48,12 @@ html, body {
 
 .pc-editor {
   display: flex;
-}
-
-/* table pc-editor {
-
-}
-*/
-.pc-editor {
-  display: flex;
   flex-direction: column;
+  border-radius: 5%;
+  background-color: darkgray;
 }
 
+/* table pc-editor { */
 .html-editor table {
   border: #080808;
 }
@@ -66,6 +61,8 @@ html, body {
 .code-editor {
   display: flex;
   flex-direction: row;
+  border-radius: 2%;
+  background-color: #c4c4c4;
 }
 
 .editor-html-css {
@@ -81,6 +78,7 @@ html, body {
 .p-code {
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 
 .html-et-css {

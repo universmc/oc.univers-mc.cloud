@@ -1,4 +1,4 @@
-<div class="step01_">
+<div class="step00_">
     <section id="section1">
         <article class="">
         <div class="course-start">

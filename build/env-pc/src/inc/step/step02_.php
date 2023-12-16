@@ -23,7 +23,7 @@
                         </thead>
                         <tbody>
                             <tr class="ln-impair">
-                                <td class="coln-p">1</td>
+                                <td class="coln-init">1</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -37,7 +37,7 @@
                                 <td></td>
                             </tr>
                             <tr class="ln-pair">
-                                <td><coln>2</coln></td>
+                                <td >2</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>

@@ -1,5 +1,4 @@
-<div class="cours-content">
-    <div class="left-content">
+<div class="cours-content">    <div class="left-content">
         <h2>Sommaire du Cours HTML</h2>
         <ul>
             <li><a href="#section1">Introduction à HTML</a></li>

@@ -1,5 +1,10 @@
-<div class="step07_">
-    <article class="">
-    <h2>Step 7 - </h2>
-    </article>
+<div class="step01_">
+    <section>
+        <article>
+            <div class="article-intro">
+                <h2>Development of PC-Editor Component</h2>
+                <p>Dev component</p>
+            </div>
+        </article>
+    </section>
 </div>
