@@ -11,7 +11,7 @@
         <span>Premiers pas sur le langage HTML</span>
     </div>
     </a>
-    <a class="menu-prpjet" href="P3/index.html">
+    <a class="menu-prpjet" href="P3/index.php">
     <div class="projet-content P03">
         <h3>PROJET 3 site webooki</h3>
         <span>Créez la page d'accueil d'une agence de voyage avec HTML & CSS</span>
