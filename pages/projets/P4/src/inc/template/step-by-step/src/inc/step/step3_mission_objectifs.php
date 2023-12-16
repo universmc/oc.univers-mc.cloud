@@ -5,7 +5,7 @@
             <ul>
                 <li><span class="step3">3-1 Programmer le site web Ohmyfood< en HTML/CSS</</span></li>
                 <li><span class="step3">3-2 Amelioration annimation SASS</span></li>
-                <li><span class="step3">3-2 Github commit -m -b</span></li>
+                <li><span class="step3">3-3 Github commit -m -b</span></li>
             </ul>
             <div class="SiteWeb_Ohmyfood">
                 <h3> Ohmyfood</h3>
@@ -17,23 +17,92 @@
             </div>
         </article>
         <article class="Objectis">
-        <div class="interface">
+            <div class="interface">
                 <h3>3. Améliorez l'interface d'un site mobile avec des animations</h3>
-                <h4>3-1. Annimation en SASS</h4> 
+                <h4>3-2. Annimation en SASS</h4> 
                 <div class="components-content">
-                    <div class="ohmyfood-icon">ls-icon</div>
-                    <div class="ohmyfood-btn">ls-btn</div>
-                    <div class="ohmyfood-card">ls-card</div>
-                    <div class="ohmyfood-loader">ls-card</div>
-                <div class="components-annimation">
+                    <div class="ohmyfood-icon-content">
+                        <h5>[X]_icon</h5>
+                        <div class=google-awsone>
+                            <i class="fa-solid fa-arrow-left"></i>
+                            <span><i class="fa-solid fa-location-dot icon"></i></span>
+                            <span><i class="fa-solid fa-mobile-screen"></i></span>
+                            <span><i class="fa-solid fa-list"></i></span>
+                            <span><i class="fa-solid fa-store"></i></span>
+                            <span><i class="fa-regular fa-heart"></i></span>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-utensils"></i></span>
+                            <span><i class="fa-solid fa-handshake-angle"></i></span>
+                        </div>
+                    </div>   
+                    <div class="ohmyfood-btn-content">
+                        <h5>[button]</h5>
+                            <div class="btp-button-content">
+                            <button class="ohmyfood-btn-cnd ">[CMD]</button>                     
+                            <button class="ohmyfood-">
+                                <div class="F-numbers">
+                                    <span class="F-number">1</span>
+                                    <button class="btn-class-f">
+                                        <a class="btn-arcticle">
+                                            <i class="fa-solid fa-mobile-screen"></i>
+                                            <span><strong>FONCTIONNEMENT</strong></span>
+                                        </a>
+                                    </button>
+                                </button>
+                                </div>
+                                    <button>menu</button>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="ohmyfood-card">
+                    <div class="card-item fade-in">
+                        <span class="card-item__name">Tartare de poulpe acidulé</span>
+                        <span class="card-item__desc">Aux zestes d'orange</span>
+                        <!-- value could be a price for instance -->
+                        <span class="card-item__value">25€</span>
+                        <span class="card-item__select">
+                    <i class="fas fa-check-circle"></i>
+                    </span>
+                        <h5>[card]</h5>
+                    </div>
+                    <div class="ohmyfood-card-content">
+                            <div class="ohmyfood-card-index-mobile">[Restaurant]
+                            <article class="card">                    
+                                <a href="restaurants/Menu-La-palette-du-gout.html">
+                                    <div class="img-card-container">
+                                        <img src="assets/img/restaurants/la-palette-du-gout.jpg" alt="palette"/>
+                                        <button class="btn-new">Nouveau</button>
+                                    </div>
+                                    <div class="info-container">
+                                        <div class="info-rows">                            
+                                            <span class="card-titre"><h2>La palette du gout</h2></span>
+                                            <span class="card-sous-titre">ménilmontant</span>
+                                        </div>
+                                        <div class="heart-box">
+                                            <span class="icon-regular">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <span class="icon-solid">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                    <div class="ohmyfood-loader">
+
+                    </div>
+                </div>
+                <div class="ps-editor-include-github">
+                    <h3>3-3 readme github(add commit push keyfram)</h2>
+                </div>
             </div>
-
-            <h2>intro</h2>
-
-            <article class="description readme-md">
-            <div class="next-step">
+        </article>
+        <article class="next-step">
+            <div class="next-step-content">
                 <h3>Tips for Next Step</h3>
-                <p>Parametrage du tableau d'étape</p>
+                <p>Parametrage du tableau d'étape + gitHUB build & src</p>
                 <ul>
                     <li>intro</li>
                     <li>objectif</li>
@@ -92,17 +161,14 @@
                         <!-- Add more steps here -->
                     </tbody>
                 </table>
-            </div>
-                <div class="buttons">
-                    <h2> update version</h2>
-                    <button>[GIT]</button>
-                    <button>[FTP]</button>
+                </div>
+                    <div class="buttons">
+                        <h2> update version</h2>
+                        <button>[GIT]</button>
+                        <button>[FTP]</button>
+                    </div>
                 </div>
             </div>
-            </article>
-        </article>
-        <article class="next">
-
         </article>
     </section>
 </div>

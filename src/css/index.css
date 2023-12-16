@@ -266,6 +266,78 @@ html, body {
   padding: 5px;
 }
 
+/* OHMYFOOD */
+/* ICON */
+/* BOTTON */
+.ohmyfood-btn-cnd {
+  /* LAYOUT */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  min-width: 200px;
+  min-height: 40px;
+  background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
+  box-shadow: 0 8px 16px rgba(24, 23, 23, 0.1);
+  border-color: transparent;
+  /* FONT */
+  color: white;
+}
+.ohmyfood-btn-cnd:hover {
+  background: linear-gradient(201deg, #FF79DA -5.2%, #9356DC 110.74%);
+  box-shadow: 0 8px 16px rgba(24, 23, 23, 0.1);
+  min-width: 210px;
+  min-height: 50px;
+}
+.ohmyfood-btn-cnd:active {
+  background: linear-gradient(201deg, #FF79DA -5.2%, #9356DC 110.74%);
+  box-shadow: 0 8px 16px rgba(24, 23, 23, 0.1);
+  min-width: 210px;
+  min-height: 50px;
+}
+
+.F-number {
+  display: flex;
+  position: relative;
+  border-radius: 50%;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  background-color: #9356DC;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-class-f {
+  /* LAYOUT */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  gap: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  gap: 20px;
+  /* FONT */
+  background-color: #EAEAEA;
+}
+
+.btn-article {
+  display: flex;
+}
+.btn-article:hover {
+  background-color: #EAEAEA;
+}
+
+.fa-soild {
+  color: #7e7e7e;
+}
+
 /* PROJet4 */
 .step3_mission-objectif {
   width: 90%;
@@ -286,11 +358,260 @@ html, body {
   display: flex;
 }
 
+/* CPARD Ohmyfood */
 .card-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  gap: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
+.card {
+  /* LAYOUT */
+  display: flex;
+  width: 90%;
+  height: 250px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  border: 1px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+}
+.card a:hover {
+  filter: brightness(1.2);
+}
+
+.img-card-container {
+  width: 100%;
+  height: 65%;
+  position: relative;
+  display: inline-block;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.btn-new {
+  position: absolute;
+  background-color: #99E2D0;
+  color: #008766;
+  top: 13px;
+  right: 15px;
+}
+
+.info-container {
+  display: flex;
+  width: 100%;
+  height: 35%;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.card-titre h2 {
+  font-size: 16px;
+}
+
+.info-rows {
+  display: flex;
+  height: 80%;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+/* BOX HEART ANIMATION */
+.heart-box {
+  position: relative;
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+  transition: transform(500ms);
+}
+.heart-box.hover {
+  transform: scale(1, 2, 3);
+  display: flex;
+  font-size: 32px;
+  background-color: #9356DC;
+  position: absolute;
+}
+
+/* span FA REGULAR (FontAwesone ) */
+.icon-regular {
+  position: absolute;
+  font-size: 24px;
+}
+.icon-regular.hover {
+  display: flex;
+  font-size: 32px;
+  background-color: #9356DC;
+  position: absolute;
+}
+
+/* span FA SOLID( FontAwesone ) */
+.icon-solid {
+  position: absolute;
+  font-size: 16px;
+  color: white;
+}
+.icon-solid:hover {
+  display: flex;
+  font-size: 24px;
+  transform: scale(1.13);
+  color: #9356DC;
+}
+.icon-solid:visited {
+  display: flex;
+  font-size: 32px;
+  transform: scale(1.13);
+  color: #9356DC;
+}
+.icon-solid:focus {
+  color: #9356DC;
+}
+.icon-solid:active {
+  color: #9356DC;
+}
+
+/* card menu */
+/* CARD */
+.card-item {
+  width: 90%;
+  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 1px 5px #787878;
+  position: relative;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+.card-item__name, .card-item__desc {
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  transition: width 0.5s;
+}
+.card-item__name {
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+}
+.card-item__desc {
+  line-height: 2;
+  width: 100%;
+}
+.card-item__value {
+  position: absolute;
+  right: 6%;
+  bottom: 15%;
+  font-weight: bold;
+  transform: translate(0);
+  transition: transform 0.5s;
+}
+.card-item__select {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 100%;
+  background-color: #99E2D0;
+  transform: translateX(100%);
+  transition: transform 0.5s;
+}
+.card-item__select i {
+  font-size: 23px;
+  color: white;
+  transition: transform 0.4s;
+}
+.card-item:hover {
+  cursor: pointer;
+}
+.card-item:hover > .card-item__name {
+  width: 80%;
+}
+.card-item:hover > .card-item__desc {
+  width: 80%;
+}
+.card-item:hover > .card-item__value {
+  transform: translateX(-220%);
+}
+.card-item:hover > .card-item__select {
+  transform: translateX(0);
+}
+.card-item:hover > .card-item__select i {
+  transform: rotate(360deg);
+}
+
+/* LOADING OVERLAY */
+#overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #9356DC;
+  border-right: 16px solid #FF79DA;
+  border-bottom: 16px solid #99E2D0;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* ***********************************  */
 /*      .__________________.___.        */
 /* +___/  P4 - step-by-step \(/)\_______+*/

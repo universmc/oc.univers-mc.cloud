@@ -1,12 +1,9 @@
 <div class="step0_sommaire">
     <section class="config">
-        <article class="presentation sommaire">
+        <article class="presentation-sommaire">
             <img src="assets/img/oc-logo.png" alt="oc-icon">
-            <div>intro nlt to step by step make builder website</div>
-        </article>
-        <article class="sommaire ohmyfood">
-        <h2>Sommaire Ohmyfood buider</h2>
-        <ul>
+            <h2>Sommaire Ohmyfood buider</h2>
+            <ul>
                 <li><span class="step0"> sommaire.php</span></li>
                 <li><span class="step1"> introduction</span></li>
                 <li><span class="step2"> configuration</span></li>
@@ -20,15 +17,27 @@
                 <li><span class="step10">debug-tool</span></li>
                 <li><span class="step11">dev-Skiil</span></li>
             </ul>
-            <article class="description readme-md">
+            <div>intro nlt to step by step make builder website</div>
+        </article>
+        <article class="dev-sommaire ohmyfood">
+
+
+
+
+
+
+
+        
+        </article>
+        <article class="description readme-md">
             <div class="next-step">
-                <h3>Tips for Next Step</h3>
-                <p>Parametrage du tableau d'étape</p>
+                <h3>Site web en construction</h3>
+                <p>step by step</p>
                 <ul>
-                    <li>intro</li>
-                    <li>configuration</li>
-                    <li>objectif</li>
-                    <li>Mission</li>
+                    <li>1.intro</li>
+                    <li>1.configuration</li>
+                    <li>1.objectif</li>
+                    <li>1.Mission</li>
                 </ul>
                 <div class="construction-steps">
                 <h3>Construction Steps</h3>
@@ -125,11 +134,4 @@
                 </div>
             </div>
         </article>
-    </article>
 </section>
-</div>
-        </div>
-    </section>
-</div>
-    </article>
-</div>

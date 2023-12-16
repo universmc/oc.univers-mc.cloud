@@ -1,6 +1,7 @@
 <div class="step1_intro">
     <h2>Step 1 - Introduction</h2>
     <article class="introduction">
+        
             <h2>Améliorez l'interface d'un site mobile avec des animations CSS</h2>
             <p>
                 Bienvenue sur la page dédiée au projet Ohmyfood. Ce projet est une réalisation dans le cadre de la
