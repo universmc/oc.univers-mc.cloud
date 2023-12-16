@@ -11,13 +11,14 @@
 <article class="template-content">
         <div class="windows">
             <?php
-            $currentStep = isset($_GET['step']) ? $_GET['step'] : 'step01_';
+            $currentStep = isset($_GET['step']) ? $_GET['step'] : 'step00_';
             include "src/inc/step/{$currentStep}.php";
             ?>
         </div>
 
         <div class="step-loader timeline">
             <!-- Boutons pour chaque étape -->
+            <button onclick="window.location.href='?step=step00_'">STEP</button>
             <button onclick="window.location.href='?step=step01_'">Étape 1</button>
             <button onclick="window.location.href='?step=step02_'">Étape 2</button>
             <button onclick="window.location.href='?step=step03_'">Étape 3</button>

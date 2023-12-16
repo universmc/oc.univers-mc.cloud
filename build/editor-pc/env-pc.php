@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index - oc.univers-mc.cloud</title>
-    <link rel="stylesheet" href="../../src/css/index.css"> <!-- Chemin vers le fichier CSS compilé -->
-</head>
-<body>
 <section class="step-by-step">
 <article class="template-content">
         <div class="windows">
@@ -38,5 +29,3 @@
 
     </script>
 </section>
-</body>
-</html>
