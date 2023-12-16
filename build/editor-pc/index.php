@@ -15,7 +15,6 @@
             include "src/inc/step/{$currentStep}.php";
             ?>
         </div>
-
         <div class="step-loader timeline">
             <!-- Boutons pour chaque étape -->
             <button onclick="window.location.href='?step=step00_'">STEP</button>

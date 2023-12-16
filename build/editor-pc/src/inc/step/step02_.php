@@ -1,367 +1,63 @@
 <div class="step02_">
-    <section class="config">
-        <article class="pc-editor">
-            <div class="css-left-content">
-            <h2>Step 2 - config HTML-code</h2>
-                <div class="html-editor">
-                    <table>
-                        <thead>
-                            <tr class="ln/cpln0">
-                                <th class="coln-p">>ln/coln</th>
-                                <th>1</th>
-                                <th>2</th>
-                                <th>3</th>
-                                <th>4</th>
-                                <th>5</th>
-                                <th>6</th>
-                                <th>7</th>
-                                <th>8</th>
-                                <th>9</th>
-                                <th>10</th>
-                                <th>11</th>
-                            </tl>
-                        </thead>
-                        <tbody>
-                            <tr class="ln-impair">
-                                <td class="coln-init">1</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-pair">
-                                <td >2</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-impair">
-                                <td>3</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-pair">
-                                <td>4</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-impair">
-                                <td>5</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-pair">
-                                <td>6</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-impair">
-                                <td>7</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-pair">
-                                <td>8</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-impair">
-                                <td>9</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-pair">
-                                <td>10</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-impair">
-                                <td>11</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                            </tr>
-                        </tbody>
-                    </table>
+    <section>
+        <article>
+            <div class="article-intro">
+                <h2>Step02 - Environment Setup</h2>
+                <p>Dev component</p>
             </div>
-            </div>
-            </div>
-            <div class="css-right-content">
-                <div class="css-editor">
-                    <h2>Step 2-1 - contig CSS-code</h2>
-                    <table>
-                        <thead>
-                            <tr class="ln/cpln0">
-                                <th class="coln-p">>ln/coln</th>
-                                <th>1</th>
-                                <th>2</th>
-                                <th>3</th>
-                                <th>4</th>
-                                <th>5</th>
-                                <th>6</th>
-                                <th>7</th>
-                                <th>8</th>
-                                <th>9</th>
-                                <th>10</th>
-                                <th>11</th>
-                            </tl>
-                        </thead>
-                        <tbody>
-                            <tr class="ln-impair">
-                                <td class="coln-init">1</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-pair">
-                                <td >2</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-impair">
-                                <td>3</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-pair">
-                                <td>4</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-impair">
-                                <td>5</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-pair">
-                                <td>6</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-impair">
-                                <td>7</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-pair">
-                                <td>8</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-impair">
-                                <td>9</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-pair">
-                                <td>10</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr class="ln-impair">
-                                <td>11</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                                <td>[*]</td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="pc-editor">
+            <div class="editor-html-css">
+                <div class="code-editor">
+                    <div class="p-code">
+                        <div class="html-et-css">
+                            <div class="pre-tab-content code-active" data-tab="html">
+                        <h2>HTML Code</h2>
+                        <div class="code-tab-content">
+                            <button class="tab-btn code-active code-active code-focus code-hover" data-tab="html">HTML</button>
+                            <textarea class="code-input" id="html-code"></textarea>
+                        </div>
+                            </div>
+                        <div class="pre-tab-content code-active code-focus code-hover" data-tab="css">
+                        <h2>CSS Code</h2>
+                        <div class="code-tab-content">
+                            <button class="tab-btn" data-tab="css">CSS</button>
+                            <textarea class="code-input" id="css-code"></textarea>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="ln-btn">
+                    <a class="pc-btn code-active"><button>[ACTIVE]</button></a>
+                    <a class="pc-btn code-focus"><button>[FOCUS]</button></a>
+                    <a class="pc-btn code-hover"><button>[HOVER]</button></a>
+                    <a class="pc-btn run"><button>[RUN(html+css)]</button></a>
+                    </div> 
+
+                    </div>
+                        <div class="integration">
+                    <h2>Integration Result (HTML + CSS)</h2>
+                    <div class="result" id="integration-result"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="zshrc terminal">
+                <div class="terminal-output" id="terminal-output">
+                    <h2>PS1: ></h2>
+                    <input type="text" class="terminal-input" id="terminal-input" placeholder="Enter a command">
+                </div>
                 </div>
             </div>
-            <div class="terminal">insert cmd</div>    
+                <!-- Your PC-Editor component content goes here -->
+            </div>
+            <div class="next-step">
+                <h3>Tips for Next Step</h3>
+                <ul>
+                    <li>Document your code thoroughly.</li>
+                </ul>
+                <div class="buttons">
+                    <button>[GIT]</button>
+                    <button>[FTP]</button>
+                </div>
+            </div>
         </article>
-        <article>intégration des resltat (HMLT+CSS)</article>
     </section>
 </div>

@@ -1,35 +1,49 @@
 <div class="step01_">
-    <section class="init-pre">
-        <article class="">
-            <h2>Step 1 - init html</h2>
-            <div class="env-pc">
-    <pre>
-    <code>
-    <code class="html-code"><-code></code>
-        <code class="html-code"><-pre></code>
-        <code class="html-code"><-html></code>
-        <code class="html-code"><-head><-head></code>
-        <code class="html-code"><-body><-body></code>
-        <code class="html-code"><-/html></code>
-    <code class="html-code"><-/code></code>
-    <code class="html-code"><-pre></code>
-    </code>
-    </pre>
-        </div>
-            <h2>Step 1-1 - init css </h2>
-    <pre>
-    <code>
-    <code cass="css-code">.pre {
-        <code class="css-code">min-width: value;
-        <code class="css-code">min-height: value;
-        <code class="css-code">background-color: rgb;
-        <code class="css-code">color:var(--html-color);
-        <code class="css-code">}
-    <code class="css-code">.code {
-        <code class="css-code">}
-    </code>
-    </pre>
-        </div>
+    <section>
+        <article>
+            <div class="article-intro">
+                <h2>Development of PC-Editor Component</h2>
+                <div class="article">
+                <?php echo $readmet; ?>
+            </div>
+            </div>
+            <div class="pc-editor">
+                <?php include 'pc-editor.php'; ?>
+            <div class="next-step">
+                <h3>Tips for Next Step</h3>
+                <p>Consider the following tips for the next step in development:</p>
+                <ul>
+                    <li>Document your code thoroughly.</li>
+                    <li>Test different scenarios for robustness.</li>
+                    <li>Seek feedback from peers or users.</li>
+                </ul>
+                <div class="construction-steps">
+                <h3>Construction Steps</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Step</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Define component structure.</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Create HTML and CSS editors.</td>
+                        </tr>
+                        <!-- Add more steps here -->
+                    </tbody>
+                </table>
+            </div>
+                <div class="buttons">
+                    <button>[GIT]</button>
+                    <button>[FTP]</button>
+                </div>
+            </div>
         </article>
     </section>
 </div>
