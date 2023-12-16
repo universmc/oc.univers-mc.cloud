@@ -25,6 +25,15 @@ html, body {
 /* **************************** */
 /*      .__________.___.        */
 /* +___/  Composent \(/)\_______+*/
+/* env-pre_code */
+.env-pc {
+  display: flex;
+  min-width: 610px;
+  min-height: 233px;
+  background-color: #080808;
+  color: var(--html-color);
+}
+
 .edit-code {
   display: flex;
   background-color: #293c33;
@@ -37,8 +46,15 @@ html, body {
   height: 55px;
 }
 
-code {
-  display: flex;
+.html-code {
+  background-color: cornflowerblue;
+  padding: 5px;
+  width: 50%;
+}
+
+.css-code {
+  background-color: crimson;
+  width: 50%;
 }
 
 .step2_config {
@@ -125,7 +141,7 @@ code {
 
 .left-content {
   display: flex;
-  min-width: 20%;
+  min-width: 25%;
   min-height: 100%;
   background-color: #797979;
 }
@@ -133,9 +149,13 @@ code {
 .right-content {
   display: flex;
   justify-content: center;
-  min-width: 80%;
+  min-width: 75%;
   min-height: 100%;
   background-color: white;
+}
+
+.course-end {
+  padding: 20px;
 }
 
 .dashboard {

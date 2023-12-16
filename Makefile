@@ -1,11 +1,16 @@
+# DIsket #
+-include config.mk
+
+# Reste du Makefile (votre code actuel)...
+
 # Chemins des fichiers sources
 HTML_SOURCE := src/index.html
-SCSS_SOURCE := src/styles/main.scss
-JS_SOURCE := src/scripts/main.js
+SCSS_SOURCE := build/styles/index.scss
+JS_SOURCE := src/js/scripts.js
 
 # Chemins des fichiers cibles
-HTML_TARGET := build/pages/cours/sass/index.html
-CSS_TARGET := build/assets/css/main.css
+HTML_TARGET := build/src/index.html
+CSS_TARGET := build/src/css/styles.css
 SRC_TARGET := build/src
 
 # Commandes de compilation
@@ -32,14 +37,9 @@ src:
 	cp -r src/* $(SRC_TARGET)
 	@echo "Création du répertoire /src terminée"
 
-# Créer un composant web nommé "mon_component"
-make create_component mon_component
-
-# Créer une page web nommée "ma_page"
-make create_page ma_page
 # Variables
-SASS_FILES = build/styles/*.scss
-CSS_OUTPUT = src/styles/main.css
+SASS_FILES = build/styles/index.scss
+CSS_OUTPUT = src/css/index.css
 VENV_NAME := venv
 PYTHON := $(VENV_NAME)/bin/python
 
@@ -47,15 +47,11 @@ PYTHON := $(VENV_NAME)/bin/python
 
 # INSTALLATION
 
-install: $(VENV_NAME)
-$(PYTHON) -m pip3 install -r requirements.txt
-
-npm install  # Installer les dépendances, si nécessaire
-# Autres commandes d'installation si nécessaire
-
-
 # Commandes
-
+start-srv:
+	@echo "Démarrage du serveur PHP et compilation SASS..."
+	@php -S localhost:5502 &
+	@npm run make-sass
 
 sass:
     sass $(SASS_FILES):$(CSS_OUTPUT) --style compressed  # Compiler le SASS en CSS
@@ -65,15 +61,13 @@ watch:
 
 
 $(VENV_NAME):
-    python3 -m venv $(VENV_NAME)
+	@gpython3 -m venv $(VENV_NAME)
 
 run:
-    $(PYTHON) agent-ia.py
+	@gpython3 agent-ia.py
+
 
 clean:
-    rm -rf $(VENV_NAME)
+	@rm -rf build
 
-clean:
-	rm -rf build
-
-.PHONY: all html css src clean
+.PHONY: all html css src make srv clean
