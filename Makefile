@@ -17,8 +17,9 @@ SRC_TARGET := build/src
 SASS := sass
 HTMLLINT := html-lint
 
+
 # Règles de compilation
-all: html css src
+index: html css src
 
 html: $(HTML_SOURCE)
 	# Votre commande de génération HTML ici
