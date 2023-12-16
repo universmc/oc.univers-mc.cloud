@@ -1,4 +1,5 @@
     <div class=template_step-by-step_make-website>
+        <?php include 'step0_sommaire.php'; ?>
         <?php include 'step1_introduction.php'; ?>
         <?php include 'step2_configuration.php'; ?>
         <?php include 'step3_mission_Objectifs.php'; ?>
@@ -8,5 +9,6 @@
         <?php include 'step7_annimation-sass.php'; ?>
         <?php include 'step8_responsive-design.php'; ?>
         <?php include 'step9_validation-W3C.php'; ?>
-        <?php include 'step10_dev-Skiils.php'; ?>
+        <?php include 'step10_debug-tool.php'; ?>
+        <?php include 'step11 _dev-Skiils.php'; ?>
     </div>

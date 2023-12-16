@@ -2,13 +2,14 @@
     <article class="template-content">
         <div class="windows">
             <?php
-            $currentStep = isset($_GET['step']) ? $_GET['step'] : 'step1_introduction';
+            $currentStep = isset($_GET['step']) ? $_GET['step'] : 'step0_sommaire';
             include "src/inc/step/{$currentStep}.php";
             ?>
         </div>
 
         <div class="step-loader timeline">
             <!-- Boutons pour chaque étape -->
+            <button class="btn-step" onclick="window.location.href='?step=step0_sommaire'">Step</button>
             <button class="btn-step" onclick="window.location.href='?step=step1_introduction'">Étape 1</button>
             <button class="btn-step" onclick="window.location.href='?step=step2_configuration'">Étape 2</button>
             <button class="btn-step" onclick="window.location.href='?step=step3_mission_Objectifs'">Étape 3</button>
@@ -19,6 +20,7 @@
             <button class="btn-step" onclick="window.location.href='?step=step8_responsive-design'">Étape 8</button>
             <button class="btn-step" onclick="window.location.href='?step=step9_validation-W3C'">Étape 9</button>
             <button class="btn-step" onclick="window.location.href='?step=step10_dev-Skiils'">Étape 10</button>
+            <button class="btn-step" onclick="window.location.href='?step=step10_dev-Skiils'">Étape 11</button>
         </div>
     </article>
     <script>
