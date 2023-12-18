@@ -1,21 +1,34 @@
-<div class="step3_mission-objectifs">
-    <section class="config">
-        <article class="Mission">
+<div class="step2_mission-objectifs">
+    <section class="mission-objectif">
+        <article class="mission">
             <h2>Step 3 - Mission et Objectifs</h2>
-            <ul>
-                <li><span class="step3">3-1 Programmer le site web Ohmyfood< en HTML/CSS</</span></li>
-                <li><span class="step3">3-2 Amelioration annimation SASS</span></li>
-                <li><span class="step3">3-3 Github commit -m -b</span></li>
-            </ul>
-            <div class="SiteWeb_Ohmyfood">
-                <h3> Ohmyfood</h3>
-            <div class="Ohmyfood-device">
-                <img src="assets/img/config/mobile_site-web.png" alt="mobile">
-                <img src="assets/img/config/desktop_site-web.png" alt="mobile">
-                <!-- image du site index + pages/restaurent -->
+            <div class="ohmyfood-mail-if">
+            <div class="ohmyfood-mail-header">
+                <p>>Objet : Maquettes site OhMyFood Paris</p>
+                <p>De : Paul</p>
+                <p>À : moi</p>
             </div>
+            <div class="ohmyfood-mail-main">
+
+            <p>L’UX designer a finalisé les maquettes mobile et desktop du site ! Tu les trouveras en pièce jointe, en plus du dossier des sources du site (images et textes). Tu y trouveras également le prototype du site via Figma, incluant les animations et comportements à intégrer. Voici un extrait de ce à quoi devra ressembler le site :</p>
+            <div class="img-ohmyfood-device">
+            <img src="assets/img/mockup/media-querie-mobile.png">
+            <img src="assets/img/mockup/media-querie-desktop.png">
             </div>
-        </article>
+            <p>Il n’y a plus qu’à le développer pour mobile, tablette et desktop en s’appuyant rigoureusement sur les informations déterminées dans le brief créatif ! Pour rappel, le site doit être responsive et en “mobile first”. N'oublie surtout pas d'utiliser SASS. On veut aussi des animations soignées. Il faudra que tu m’expliques comment elles fonctionnent.</p> 
+            <p>Hâte de voir le site terminé !</p> 
+            <p>Bon courage !
+            <p>Paul</p>       
+            </div>
+                <div class="ohmyfood-mail-footer">
+                    <p>Pièce jointe :</p>
+                    <p>Maquettes mobile et desktop du site Ohmyfood</p>
+                    <p>Prototype du site</p>
+                    <p>Fichiers sources (images et textes)</p>
+                </div>
+
+                </div>
+            </article>
         <article class="Objectis">
             <div class="interface">
                 <h3>3. Améliorez l'interface d'un site mobile avec des animations</h3>

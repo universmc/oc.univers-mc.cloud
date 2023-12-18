@@ -258,13 +258,119 @@ html, body {
     background-color: rgb(245, 241, 241);
     border-radius: 20px;
     padding: 5px;;
+}
+
+
+/* ***********************************  */
+/*      .__________________.___.        */
+/* +___/  P4. Ohmyfood     \(/)\_______+*/
+
+
+
+
+
+/* OHMYFOOD INTEGRATION */
+
+
+/* ICON 
+    .fa-solid fa-arrow-left
+    .fa-solid fa-location-dot
+    .fa-solid fa-mobile-screen
+    .fa-solid fa-list
+    .fa-solid fa-store
+    .fa-regular fa-heart
+    .fa-solid fa-heart
+    .fa-solid fa-utensils
+    .fa-solid fa-handshake-angle
+*/
+
+
+/*P4 step0 SOMMAIRE */
+
+.presentation-sommaire {
+    display:flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sommaire-content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap:5px;
+}
+.btn-sommaire {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    gap:25px;
+    &:hover {
+        width: 220px;
+        height: 45px; 
+    }
 
 }
-/* OHMYFOOD */
+.step-circl {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    justify-content: center;
+    font-size: 11px;
+    margin-right: 5px;
+    background-color:#9356DC;
+    color:white;
+}
+.construction-steps
+{
+    display: flex;
+}
+.icon-lang{
+    width: 32px;
+    height: 32px;
+}
 
 
-/* ICON */
 
+/*P4 step1 intro */
+.step1_intro {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.project-image-container{
+    display: flex;
+    justify-content: center;
+}
+/* P4 STEP2 MISSION */
+.step2_mission-objectifs {
+    min-width: 90%;
+    min-height: 90%;
+}
+.mission-objectif {
+    display: flex;
+    flex-direction: column;
+}
+.mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ohmyfood-mail-if{
+    width: 80%;
+    border: black 1px solid;
+}
+.ohmyfood-mail-header{
+    background-color: #b3b3b3;
+}
+.ohmyfood-mail-main{
+}
+.ohmyfood-mail-footer{
+    background-color: #b3b3b3;
+}
 
 /* BOTTON */
 
@@ -340,26 +446,8 @@ html, body {
 .fa-soild {
     color: #7e7e7e;
 }
-/* PROJet4 */
-.step3_mission-objectif {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.interface {
-    width: 100%;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-}
-.Ohmyfood-device {
-    justify-content: space-around;
-    display: flex;
-}
 
-
-/* CPARD Ohmyfood */
+/* CARD Ohmyfood */
 .card-container
 {   
     display: flex;
@@ -666,8 +754,8 @@ $heart-color-end: #9356DC;
     height: 35px;
     background-color: var(--sql-color);
 }
-.btn-step
-{
+.btn-step {   display: flex;
+    align-items: center;
     width: 100%;
     height: 100%;
     border-radius: 5px;
@@ -677,15 +765,7 @@ $heart-color-end: #9356DC;
         background-color:darkorchid;
     }
 }
-.step1_intro {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-}
-.project-image-container{
-    display: flex;
-    justify-content: center;
-}
+
 /* STEP4 MOCKUP */
 
 .step4_mockup {}
@@ -704,9 +784,6 @@ $heart-color-end: #9356DC;
     width: 30%;
 }
 
-
-
-
 .model-box {
     min-width: 90vh;
     min-height: 65vh;
@@ -715,6 +792,7 @@ $heart-color-end: #9356DC;
 
 .mockup-cutting {
 display: flex;
+padding:10px;
 min-width: 100vh;
 min-height: 100vh;
 gap:8px;
@@ -722,39 +800,55 @@ gap:8px;
 
 
 .bloc1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-width: 20vh;
     min-height: 100vh;
     background-color:var(--html-color);
     border-radius: 8px;
+
+
 }
 .bloc2{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     min-width: 20vh;
     min-height: 100vh;
     background-color:var(--css-color);
     border-radius: 8px;
 }
 .bloc3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     min-width: 20vh;
     min-height: 100vh;
     background-color:var(--js-color);
     border-radius: 8px;
 }
 .bloc4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     min-width: 20vh;
     min-height: 100vh;
     background-color:var(--php-color);
     border-radius: 8px;
 }
-.bloc5{
-    min-width: 20vh;
-    min-height: 100vh;
-    background-color:var(--sql-color);
-    border-radius: 8px;
-}
 
-.ohmyfood-html-body{
+
+/* Ohmyfood integration */
+
+.ohmyfood-body{
     display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
 }
 
 

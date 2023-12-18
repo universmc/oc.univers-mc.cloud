@@ -14,7 +14,7 @@
                 L'équipe commerciale a déjà convaincu 4 restaurateurs d'utiliser la plateforme OhMyFood, et le site comprendra initialement 4 menus. Vous avez reçu des maquettes mobile et desktop ainsi qu'un prototype via Figma, incluant les animations et comportements à intégrer.
             </p>
             <div class="project-image-container">
-                <img src="assets/img/oc-intre.png" alt="Ohmyfood Screenshot">
+                <img src="assets/img/oc-intro.png" alt="Ohmyfood Screenshot">
             </div>
             <p>
                 Paul, le responsable du projet, a envoyé un e-mail de brief créatif avec des instructions détaillées. Le site doit être responsive, en "mobile first", et inclure des animations soignées. Il a hâte de voir le site terminé et est ouvert à une explication détaillée sur le fonctionnement des animations.

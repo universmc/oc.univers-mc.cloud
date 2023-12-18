@@ -12,24 +12,22 @@
             </ul>
         </article>
         <article class="dev config">
-            <div class="">
-                <h2>intro</h2>
+        <div class="stesrc">
+        <div class="ohmyfood-prototype">
+            <h2>PROTOTYPE figma</h2>
             </div>
-            <div class="">
+            <div class="ohmyfood-vscode">
             <h2>vscode</h2>
             </div>
-            <div class="">
+            <div class="hmyfood-vscode">
             <h2>github + repertoire src</h2>
             </div>
-            <div class="">
-            <h2>pc-editor</h2>
+            <div class="hmyfood-vscode">
+            <h2>github + repertoire src</h2>
             </div>
-            <div class="">
-            <h2>figma</h2>
+            <div class="ohmyfood-briefig">
+            <h2>Brifing</h2>
             </div>
-            
-
-            <h2>intro</h2>
 
             <article class="description readme-md">
             <div class="next-step">

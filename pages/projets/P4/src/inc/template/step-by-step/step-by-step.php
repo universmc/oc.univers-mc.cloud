@@ -9,18 +9,18 @@
 
         <div class="step-loader timeline">
             <!-- Boutons pour chaque étape -->
-            <button class="btn-step" onclick="window.location.href='?step=step0_sommaire'">Step</button>
-            <button class="btn-step" onclick="window.location.href='?step=step1_introduction'">Étape 1</button>
-            <button class="btn-step" onclick="window.location.href='?step=step2_configuration'">Étape 2</button>
-            <button class="btn-step" onclick="window.location.href='?step=step3_mission_Objectifs'">Étape 3</button>
-            <button class="btn-step" onclick="window.location.href='?step=step4_mockup'">Étape 4</button>
-            <button class="btn-step" onclick="window.location.href='?step=step5_markup-html'">Étape 5</button>
-            <button class="btn-step" onclick="window.location.href='?step=step6_attribut-css'">Étape 6</button>
-            <button class="btn-step" onclick="window.location.href='?step=step7_annimation-sass'">Étape 7</button>
-            <button class="btn-step" onclick="window.location.href='?step=step8_responsive-design'">Étape 8</button>
-            <button class="btn-step" onclick="window.location.href='?step=step9_validation-W3C'">Étape 9</button>
-            <button class="btn-step" onclick="window.location.href='?step=step10_dev-Skiils'">Étape 10</button>
-            <button class="btn-step" onclick="window.location.href='?step=step10_dev-Skiils'">Étape 11</button>
+            <button class="btn-step" onclick="window.location.href='?step=step0_sommaire'"><span class="step-circl">O</span><span>Step</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step1_introduction'"><span class="step-circl">1</span><span>intro</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step2_mission_Objectifs'"><span class="step-circl">2</span><span>objectif</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step3_configuration'"><span class="step-circl">3</span><span>config</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step4_mockup'"><span class="step-circl">4</span><span>Mockup</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step5_markup-html'"><span class="step-circl">5</span><span>html</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step6_attribut-css'"><span class="step-circl">6</span><span>css</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step7_annimation-sass'"><span class="step-circl">7</span><span>sass</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step8_responsive-design'"><span class="step-circl">8</span><span>@media</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step9_validation-W3C'"><span class="step-circl">9</span><span>W3C</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step10_dev-Skiils'"><span class="step-circl">10</span><span>debug-tool</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step10_dev-Skiils'"><span class="step-circl">11</span><span>skill-dev</span></button>
         </div>
     </article>
     <script>
