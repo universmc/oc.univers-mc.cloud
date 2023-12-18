@@ -13,7 +13,7 @@
         <main>
             <?php
             // Par exemple, un système de gestion de contenu dynamique basé sur des fichiers PHP ou des données de base de données.
-            include '../../src/inc/main_cours/javascript-cours.php';
+            include 'javascript-cours.php';
             ?>
 
         </main>
