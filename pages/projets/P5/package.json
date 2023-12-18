@@ -1,0 +1,17 @@
+{
+  "name": "asset",
+  "version": "1.0.1",
+  "description": "projet ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "sass --watch assets/sass/style.scss assets/style.css",
+    "compile-menu": "sass --watch assets/sass/menu.scss assets/sass/menu-sass.css",
+    "compile-page": "sass --watch assets/pages/cours-sass.scss assets/pages/style.css"
+  },
+  "author": "mc",
+  "license": "ISC",
+  "keywords": [
+    "make"
+  ]
+}
