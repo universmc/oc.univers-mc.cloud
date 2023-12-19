@@ -25,6 +25,51 @@ html, body {
 /*      .__________.___.        */
 /* +___/  Composent \(/)\_______+*/
 
+/* ***********************************  */
+/*      .__________________.___.        */
+/* +___/  P4 - step-by-step \(/)\_______+*/
+.step-by-step {
+    display: flex;
+    justify-content: center;
+    min-width: 97%;
+    min-height: 90%;
+    padding: 2%;
+}
+.windows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    min-width: 95%;
+    min-height: 610px;
+}
+.template-content{
+    min-width: 100%;
+}
+.step-loader{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 35px;
+    background-color: var(--sql-color);
+}
+.btn-step {   display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    &:hover{
+        width: 130%;
+        height: 110%;
+        background-color:darkorchid;
+    }
+}
+
+
+
 /* env-pre_code */
 .env-pc {
     display: flex;
@@ -224,10 +269,15 @@ html, body {
 /* COURS JAVASCRIPT */
 
 
-.Variable-js{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.section-js {
+    background-color: #dedede;
+    margin:5px;
+    padding:5px;
+    border-radius:20px;
+    &:hover {
+        background-color: #8e8686;
+    }
 }
 .cours-js-content{
     display: flex;
@@ -244,6 +294,13 @@ html, body {
     display: flex;
     flex-direction: column;
     width: 70%;
+    background-color: #b2b2b2;
+}
+
+.Variable-js{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* ***********************************  */
@@ -337,8 +394,8 @@ html, body {
     display: flex;
 }
 .icon-lang{
-    width: 32px;
-    height: 32px;
+    width: 44px;
+    height: 44px;
 }
 
 
@@ -360,12 +417,16 @@ html, body {
 }
 .mission-objectif {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 .mission {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.menu-btn {
+    display: flex;
+    gap:30px;
 }
 .ohmyfood-mail-if{
     width: 80%;
@@ -378,9 +439,80 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+.img-ohmyfood-device {
+    display: flex;
+    justify-content: center;
+}
 .ohmyfood-mail-footer{
     background-color: #b3b3b3;
 }
+
+
+.src-PJ {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.src-ohmyfood {
+    display: flex;
+    flex-direction: column;
+}
+.ohmyfood-mockup-container {
+    display: flex;
+    justify-content: center;
+
+}
+.ohmyfood-mockup {
+    width: 90%;
+}
+.ohmyfood-proto-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.ohmyfood-proto-img-desktop {
+    width: 70%;
+}
+.ohmyfood-proto-img {
+    width: 10%;
+}
+
+.ohmyfood-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-height: 100%;
+    min-width: 100%;
+    gap:5px
+}
+.ohmyfood-img-bloc img {
+    object-fit: cover;
+    width: 220px;
+    height: 150px;
+    background-color: #063120;
+    
+}
+
+
+/* OBJECTIF */
+.Objectifs {
+    display: flex;
+    flex-direction: column;
+
+}
+.ohmyfood-card {
+    width: 40%;
+}
+
+
+
+
+
+
+
+
 
 /* BOTTON */
 
@@ -732,49 +864,26 @@ $heart-color-end: #9356DC;
   }
   
 
+/* STEP3 CONFIG */
 
-/* ***********************************  */
-/*      .__________________.___.        */
-/* +___/  P4 - step-by-step \(/)\_______+*/
-.step-by-step {
+.btn-lang-container {
     display: flex;
-    justify-content: center;
-    min-width: 97%;
-    min-height: 90%;
-    padding: 2%;
+    flex-direction: row;
+    gap: 100px;
 }
-.windows {
+.btn-lang {
     display: flex;
-    flex-direction: column;
+    width: 180px;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    background-color: rgb(255, 255, 255);
-    min-width: 95%;
-    min-height: 610px;
+    background-color: white;
+    border-radius: 20px;
 }
-.template-content{
-    min-width: 100%;
-}
-.step-loader{
-    display:flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 35px;
-    background-color: var(--sql-color);
-}
-.btn-step {   display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    &:hover{
-        width: 130%;
-        height: 110%;
-        background-color:darkorchid;
-    }
-}
+
+
+
+
+
 
 /* STEP4 MOCKUP */
 

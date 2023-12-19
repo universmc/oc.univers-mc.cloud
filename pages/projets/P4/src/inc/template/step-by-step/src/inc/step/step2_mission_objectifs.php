@@ -1,118 +1,81 @@
-<div >
-    
-</div>
-
-<div class="step8_Responsive-design">
+<div class="step2_mission_objectif">
     <!-- Section Sommaire -->
-    <section id="sommaire" class="step1_intro">
-        <h2>Sommaire <span>Step 8 - Objectif de la mission</span>>/h2>
-        <ul>
+    <h2>Sommaire <span>Step 2 - Objectif de la mission</span></h2>
+    <section id="sommaire" class="mission-objectif">
+        <ul class="menu-btn">
             <!-- Liste des éléments du sommaire de l'étape -->
-            <li>Point du Sommaire SRC</li>
-            <li>Prototype & briefing</li>
-            <li>Annimation SASS</li>
-            <li>GIT source</li>
+            <li class="src-ohmyfood"><button class="ohmyfood-btn-cnd">[MISSION]</button></li>
+            <li class="src-ohmyfood"><button class="ohmyfood-btn-cnd">[Objectif]</button></li>
             <!-- Plus de points si nécessaire -->
         </ul>
     </section>
 
     <!-- Section Développement -->
     <section id="developpement">
-        <h2>Développement de l'Étape</h2>
+
         <!-- Articles/Contenus pour chaque point du sommaire -->
         <article class="mission">
-            <h2>Step 3 - Mission et Objectifs</h2>
+            <h2>Mission</h2>
             <div class="ohmyfood-mail-if">
-            <div class="ohmyfood-mail-header">
-                <p>>Objet : Maquettes site OhMyFood Paris</p>
-                <p>De : Paul</p>
-                <p>À : moi</p>
-            </div>
-            <div class="ohmyfood-mail-main">
-
-            <p>L’UX designer a finalisé les maquettes mobile et desktop du site ! Tu les trouveras en pièce jointe, en plus du dossier des sources du site (images et textes). Tu y trouveras également le prototype du site via Figma, incluant les animations et comportements à intégrer. Voici un extrait de ce à quoi devra ressembler le site :</p>
-            <div class="img-ohmyfood-device">
-            <img src="assets/img/mockup/media-querie-mobile.png">
-            <img src="assets/img/mockup/media-querie-desktop.png">
-            </div>
-            <p>Il n’y a plus qu’à le développer pour mobile, tablette et desktop en s’appuyant rigoureusement sur les informations déterminées dans le brief créatif ! Pour rappel, le site doit être responsive et en “mobile first”. N'oublie surtout pas d'utiliser SASS. On veut aussi des animations soignées. Il faudra que tu m’expliques comment elles fonctionnent.</p> 
-            <p>Hâte de voir le site terminé !</p> 
-            <p>Bon courage !
-            <p>Paul</p>       
-            </div>
+                <div class="ohmyfood-mail-header">
+                    <p>>Objet : Maquettes site OhMyFood Paris</p>
+                    <p>De : Paul</p>
+                    <p>À : moi</p>
+                </div>
+                <div class="ohmyfood-mail-main">
+                    <p>L’UX designer a finalisé les maquettes mobile et desktop du site ! Tu les trouveras en pièce jointe, en plus du dossier des sources du site (images et textes). Tu y trouveras également le prototype du site via Figma, incluant les animations et comportements à intégrer. Voici un extrait de ce à quoi devra ressembler le site :</p>
+                    <div class="img-ohmyfood-device">
+                        <img src="assets/img/mockup/media-querie-mobile.png">
+                        <img src="assets/img/mockup/media-querie-desktop.png">
+                    </div>
+                    <p>Il n’y a plus qu’à le développer pour mobile, tablette et desktop en s’appuyant rigoureusement sur les informations déterminées dans le brief créatif ! Pour rappel, le site doit être responsive et en “mobile first”. N'oublie surtout pas d'utiliser SASS. On veut aussi des animations soignées. Il faudra que tu m’expliques comment elles fonctionnent.</p> 
+                    <p>Hâte de voir le site terminé !</p> 
+                    <p>Bon courage !
+                    <p>Paul</p>       
+                </div>
                 <div class="ohmyfood-mail-footer">
-                    <p>Pièce jointe :</p>
-                    <p>Maquettes mobile et desktop du site Ohmyfood</p>
-                    <p>Prototype du site</p>
-                    <p>Fichiers sources (images et textes)</p>
-                </div>
-
-                </div>
-            </article>
-        <article>
-            <h3>Titre du Point de Sommaire 1</h3>
-            
-        </article>
-        <article>
-            <h3>Titre du Point de Sommaire 2</h3>
-        </article>
-        <article>
-        <h3>Titre du Point de Sommaire 2</h3>
-        <article class="Objectis">
-            <div class="interface">
-                <h3>3. Améliorez l'interface d'un site mobile avec des animations</h3>
-                <h4>3-2. Annimation en SASS</h4> 
-                <div class="components-content">
-                    <div class="ohmyfood-icon-content">
-                        <h5>[X]_icon</h5>
-                        <div class=google-awsone>
-                            <i class="fa-solid fa-arrow-left"></i>
-                            <span><i class="fa-solid fa-location-dot icon"></i></span>
-                            <span><i class="fa-solid fa-mobile-screen"></i></span>
-                            <span><i class="fa-solid fa-list"></i></span>
-                            <span><i class="fa-solid fa-store"></i></span>
-                            <span><i class="fa-regular fa-heart"></i></span>
-                            <span><i class="fa-solid fa-heart"></i></span>
-                            <span><i class="fa-solid fa-utensils"></i></span>
-                            <span><i class="fa-solid fa-handshake-angle"></i></span>
-                        </div>
-                    </div>   
-                    <div class="ohmyfood-btn-content">
-                        <h5>[button]</h5>
-                            <div class="btp-button-content">
-                            <button class="ohmyfood-btn-cnd ">[CMD]</button>                     
-                            <button class="ohmyfood-">
-                                <div class="F-numbers">
-                                    <span class="F-number">1</span>
-                                    <button class="btn-class-f">
-                                        <a class="btn-arcticle">
-                                            <i class="fa-solid fa-mobile-screen"></i>
-                                            <span><strong>FONCTIONNEMENT</strong></span>
-                                        </a>
-                                    </button>
-                                </button>
-                                </div>
-                                    <button>menu</button>
-                                </div>
-                            </div>
+                        <p>Pièce jointe :</p>
+                        <p>Maquettes mobile et desktop du site Ohmyfood</p>
+                        <p>Prototype du site</p>
+                        <p>Fichiers sources (images et textes)</p>
+                </div>            
+            </div>
+            <div class="src-PJ">
+                <div class="src-ohmyfood">
+                    <h3>Titre du Point de Sommaire 1 : Prototype</h3>
+                    <div class="ohmyfood-mockup-container"> 
+                        <img src="assets/img/mockup/mockup.png" class="ohmyfood-mockup" alt="mockup">
                     </div>
-                    <div class="ohmyfood-card">
-                    <div class="card-item fade-in">
-                        <span class="card-item__name">Tartare de poulpe acidulé</span>
-                        <span class="card-item__desc">Aux zestes d'orange</span>
-                        <!-- value could be a price for instance -->
-                        <span class="card-item__value">25€</span>
-                        <span class="card-item__select">
-                    <i class="fas fa-check-circle"></i>
-                    </span>
-                        <h5>[card]</h5>
-                    </div>
-                    <div class="ohmyfood-card-content">
-                            <div class="ohmyfood-card-index-mobile">[Restaurant]
-                            <article class="card">                    
+                </div>
+                <div class="src-ohmyfood">
+                    <h3>Titre du Point de Sommaire 2 :Maquette</h3>
+                    <div class="ohmyfood-proto-container">
+                    <img class="ohmyfood-proto-img"src="assets/img/proto-mobile-index.png" all="media mobile">
+                        <img class="ohmyfood-proto-img"src="assets/img/proto-mobile-restau.png" all="media mobile">   
+                        <img class="ohmyfood-proto-img-decktop"src="assets/img/proto-desktop.png" all="media mobile">
+                    </div>  
+                </div>
+                <div class="src-ohmyfood">
+                    <h3>Titre du Point de Sommaire 2: SOURCE (img+text)</h3>
+                    <div class="ohmyfood-img-container">
+                        <div class="ohmyfood-img-bloc"><img src="assets/img/ohmyfood/1.jpg"></div>
+                        <div class="ohmyfood-img-bloc"><img src="assets/img/ohmyfood/2.jpg"></div>
+                        <div class="ohmyfood-img-bloc"><img src="assets/img/ohmyfood/3.jpg"></div>
+                        <div class="ohmyfood-img-bloc"><img src="assets/img/ohmyfood/4.jpg"></div>
+                </div>
+            </div>
+        </article>
+        <article class="Objectifs">
+            <h2>OBJECTIF</h2>   
+            <h3>Améliorations du Site Web avec Animations SASS</h3>
+            <h4>3-2. briefing Annimation en SASS</h4> 
+                <!-- Description des animations (cartes, boutons, icônes) et de l'overlay au chargement -->
+            <div class="annimation-sass-ls">
+                <div class="ohmyfood-card">
+                <article class="card">                    
                                 <a href="restaurants/Menu-La-palette-du-gout.html">
                                     <div class="img-card-container">
-                                        <img src="assets/img/restaurants/la-palette-du-gout.jpg" alt="palette"/>
+                                        <img src="assets/img/ohmyfood/1.jpg" alt="palette"/>
                                         <button class="btn-new">Nouveau</button>
                                     </div>
                                     <div class="info-container">
@@ -131,16 +94,26 @@
                                     </div>
                                 </a>
                             </article>
+                </div>
+                <div class="ohmyfood-btn">
+                <div class="ohmyfood-card">
+                        <div class="card-item fade-in">
+                            <span class="card-item__name">Tartare de poulpe acidulé</span>
+                            <span class="card-item__desc">Aux zestes d'orange</span>
+                            <!-- value could be a price for instance -->
+                            <span class="card-item__value">25€</span>
+                            <span class="card-item__select">
+                        <i class="fas fa-check-circle"></i>
+                        </span>
+                            <h5>[card]</h5>
                         </div>
-                    <div class="ohmyfood-loader">
-
                     </div>
                 </div>
-                <div class="ps-editor-include-github">
-                    <h3>3-3 readme github(add commit push keyfram)</h2>
                 </div>
-            </div>
-        </article>
+                <div class="ohmyfood-icon">
+                    icon
+                </div>
+            <!-- Images et icônes si nécessaire -->
         </article>
         <!-- Plus d'articles si nécessaire -->
     </section>

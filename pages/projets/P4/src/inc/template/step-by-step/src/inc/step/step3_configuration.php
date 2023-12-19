@@ -1,138 +1,82 @@
-<div class="step0_sommaire">
-    <section class="config">
-        <article class="Configuration">
-            <img src="assets/img/oc-logo.png" alt="oc-icon">
-            <div>intro nlt to step by step make builder website</div>
-            <ul>
-                <li><span class="step1"> introduction</span></li>
-                <li><span class="step2"> env vscode</span></li>
-                <li><span class="step3"> GITHUB</span></li>
-                <li><span class="step5"> pc-Editor</span></li>
-                <li><span class="step4"> FIGMA</li>
-            </ul>
-        </article>
-        <article class="dev config">
-        <div class="stesrc">
-        <div class="ohmyfood-prototype">
-            <h2>PROTOTYPE figma</h2>
+<div class="step3_configuration">
+    <!-- Section Sommaire -->
+    <section id="sommaire" class="step8_intro">
+        <h2>Sommaire <span>Step 3 - Configuration env</span></h2>
+        <div class="btn-lang-container">
+            <button class="btn-lang"><img class="icon-lang" src="assets/img/vscode-btn.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>VSCODE</button>
+            <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/github.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>GIT HUB</button>
+            <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/sass.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>SASS</button>
             </div>
-            <div class="ohmyfood-vscode">
-            <h2>vscode</h2>
-            </div>
-            <div class="hmyfood-vscode">
-            <h2>github + repertoire src</h2>
-            </div>
-            <div class="hmyfood-vscode">
-            <h2>github + repertoire src</h2>
-            </div>
-            <div class="ohmyfood-briefig">
-            <h2>Brifing</h2>
-            </div>
+    </section>
 
-            <article class="description readme-md">
-            <div class="next-step">
-                <h3>Tips for Next Step</h3>
-                <p>Parametrage du tableau d'étape</p>
-                <ul>
-                    <li>intro</li>
-                    <li>configuration</li>
-                    <li>objectif</li>
-                    <li>Mission</li>
-                </ul>
-                <div class="construction-steps">
-                <h3>Construction Steps</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Step</th>
-                            <th>name</th>
-                            <th>description</th>
-                            <th>Progression</th>
-                            <th>debut</th>
-                            <td>fin</th>
-                            <th>-ETAT</th>
-                            <th>-NEXT</th>
-                            <th>-ressource</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>mockup</td>
-                            <td>cutting</td>
-                            <td>70%</td>
-                            <td>16-12-2023</td>
-                            <td>19-12-2023</td>
-                            <th>-terminé</th>
-                            <th>-dev mode</th>
-                            <th>-txt</th>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>HTML</td>
-                            <td>markup box model</td>
-                            <td>60%</td>
-                            <td>16-12-2023</td>
-                            <td>19-12-2023</td>
-                            <th>-dev mode</th>
-                            <th>-css</th>
-                            <th>-index</th>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td> css</td>
-                            <td>attribut selector</td>
-                            <td>20%</td>
-                            <td>16-12-2023</td>
-                            <td>19-12-2023</td>
-                            <th>-dev mode</th>
-                            <th>breack-point</th>
-                            <th>-style</th>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>responsive</td>
-                            <td>media querie</td>
-                            <td>10%</td>
-                            <td>16-12-2023</td>
-                            <td>19-12-2023</td>
-                            <th>-bre</th>
-                            <th>-css</th>
-                            <th>-ressource</th>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>annimation SASS</td>
-                            <td>dev components</td>
-                            <td>40%</td>
-                            <td>16-12-2023</td>
-                            <td>19-12-2023</td>
-                            <th>-dev mode</th>
-                            <th>-css</th>
-                            <th>-ressource</th>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Validation W3C</td>
-                            <td>norme html et css</td>
-                            <td>10%</td>
-                            <td>16-12-2023</td>
-                            <td>19-12-2023</td>
-                            <th>-dev tool</th>
-                            <th>-skill</th>
-                            <th>-code</th>
-                            
-                        </tr>
-                        <!-- Add more steps here -->
-                    </tbody>
-                </table>
+    <!-- Section Développement -->
+    <section id="developpement">
+        <h2>Développement de l'Étape</h2>
+        <!-- Articles/Contenus pour chaque point du sommaire -->
+        <article>
+            <div class="ohmyfood-vscode">
+                <h3>INIT VSCODE GIT HUB REPERTORY</h3>
+                <pre class="terminal-console">
+                <p>terminal intégré</p>
+                <button class="btn-lang"><img class="icon-lang" src="assets/img/vscode-btn.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>VSCODE</button>
+                    <code> 
+                        > git clone https://github.com/universmc/Ohmyfood
+                        > cd ohmyfood
+                        > mkdir assets build restaurant
+                        > touch index.html restaurants/menu2.html restaurants/menu3.html restaurants/menu4.htm
+                        > touch build/sass.scss assets/css/style.css
+                    </code>
+                <pre>
             </div>
-                <div class="buttons">
-                    <h2> update version</h2>
-                    <button>[GIT]</button>
-                    <button>[FTP]</button>
+                <div class="step-vscode">
+                    <img src="assets/img/git-repertory.png" alt="vscode-screen">
+                </div>
+        </article>
+        <article>
+            <h3>INIT GITHUB</h3>
+            <div class="ohmyfood-github">
+                <div class="github-instruction">
+                    <pre>
+                    <p>terminal intégré</p>
+                    <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/github.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>GIT HUB</button>
+                        <code> > git add . </code>
+                        <code> > git commit -m "initial-commit"</code>
+                        <code> > git push</code>
+                    <pre>
+                </div>
+                <div class="step-github">
+                    <img src="assets/img/github-screen.png" alt="vscode-screen">
                 </div>
             </div>
         </article>
-    </article>
-</section>
+        <article>
+            <h3>INIT SASS</h3>
+            <div class="ohmyfood-SASS">
+            <div class="node-instruction">
+                    <pre>
+                    <p>terminal intégré</p>
+                    <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/sass.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>SASS</button>
+                        <code> > npm init -y </code>
+                        <code> > vi package.json"</code>
+                        <code> > -a #scripts "make-sass": "sass --watch build/sass-index.scss assets/css/style.css"</code>
+                    <pre>
+                </div>
+            <div class="step-vscode">
+                <img src="assets/img/npm-init-sass.png" alt="sass-screen">
+            </div>
+            <div>
+        </article>
+        <!-- Plus d'articles si nécessaire -->
+    </section>
+
+    <!-- Section Conclusion -->
+    <section id="conclusion">
+        <h2>Conclusion de l'Étape</h2>
+        <p>
+            Conclusion détaillée de l'étape, en résumant les points clés abordés 
+            et en introduisant la prochaine étape.
+        </p>
+        <!-- Lien ou bouton vers la prochaine étape -->
+        <a href="step_next.php">Étape Suivante: [Titre de la Prochaine Étape]</a>
+    </section>
+</div>

@@ -4,7 +4,7 @@
         <h2>Sommaire de l'Étape</h2>
         <ul>
             <!-- Liste des éléments du sommaire de l'étape -->
-            <li>Point du Sommaire 1</li>
+            <li>Ohmyfood</li>
             <li>Point du Sommaire 2</li>
             <!-- Plus de points si nécessaire -->
         </ul>
@@ -34,8 +34,12 @@
                 <img src="assets/img/oc-intro.png" alt="Ohmyfood Screenshot">
             </div>
         </article>
-        <article>
-            <h3>Titre du Point de Sommaire 3</h3>
+        <!-- Plus d'articles si nécessaire -->
+    </section>
+
+    <!-- Section Conclusion -->
+    <section id="conclusion">
+    <article>
             <p>
                 Paul, le responsable du projet, a envoyé un e-mail de brief créatif avec des instructions détaillées. Le site doit être responsive, en "mobile first", et inclure des animations soignées. Il a hâte de voir le site terminé et est ouvert à une explication détaillée sur le fonctionnement des animations.
             </p>
@@ -50,20 +54,7 @@
                     </span>
                 </p>
             </p>
-
-            </div>
         </article>
-        <!-- Plus d'articles si nécessaire -->
-    </section>
-
-    <!-- Section Conclusion -->
-    <section id="conclusion">
-        <h2>Conclusion de l'Étape</h2>
-        <p>
-            Conclusion détaillée de l'étape, en résumant les points clés abordés 
-            et en introduisant la prochaine étape.
-        </p>
         <!-- Lien ou bouton vers la prochaine étape -->
-        <a href="step_next.php">Étape Suivante: [Titre de la Prochaine Étape]</a>
     </section>
 </div>

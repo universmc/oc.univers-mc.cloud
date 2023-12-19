@@ -15,7 +15,6 @@ User
                 Le découpage de la maquette consiste à diviser la conception visuelle en éléments concrets, prêts à être traduits en code HTML et CSS. Voici les principaux éléments identifiés pour le site Ohmyfood :
             </p>
             </div class="img-mockup">
-            <img src="assets/img/mockup/mockup.png" class="mockup-img" alt="mockup">
             </div>
         </article>
     </section>

@@ -16,14 +16,14 @@
                 </nav>
             </div>
             <div class="right-js-content">
-                <div class="01-js_variable" id="#chapitre-js-01">
+                <div class="section-js 01-js_variable" id="#chapitre-js-01">
                     <h3>1. - Les variable en javascript</h3>
                     <p>Une variable peut être imaginée comme un conteneur pour stocker des informations. En JavaScript, une variable est déclarée pour réserver un espace en mémoire, et son contenu peut varier ou être modifié au fil du temps.</p>
                     <P>Définition : "Une variable en JavaScript est un conteneur pour stocker des données. Elle peut être vue comme une boîte dans laquelle nous pouvons stocker des informations pour une utilisation ultérieure."</P>
                     <P>Importance : "Les variables sont fondamentales en JavaScript car elles permettent de manipuler des données de manière dynamique. Elles sont au cœur de presque toutes les opérations en programmation JavaScript."</P>
                     <!-- Introduction aux variables -->
                 </div>
-                <div class="02-js_Declaration_Var" id="#chapitre-js-02">
+                <div class="section-js 02-js_Declaration_Var" id="#chapitre-js-02">
                     <!-- Comment créer et initialiser les variables --> 
                     <h3>2. - Déclaration de Variables en JavaScript</h3>
                         <p>Dans ce chapitre, nous allons découvrir comment créer et initialiser des variables en JavaScript...</p>
@@ -53,7 +53,7 @@
                         <h3>Bonnes Pratiques</h3>
                         <p>Nommez vos variables de manière significative pour que votre code soit lisible et maintenable...</p>
                 </div>
-                <div class="03_data-type" id="#chapitre-js-03">
+                <div class="section-js 03_data-type" id="#chapitre-js-03">
                     <!-- Déclaration des variables : var, let, const -->
                     <h2>3. - Types de Données en JavaScript</h2>
                     <div class="JS-data-type_content">
@@ -82,22 +82,23 @@
                         <p>Comprenez et utilisez correctement les différents types de données...</p>
                     </div>
                 </div>
-                <div class="javascript-value-assignment-modification" id="#chapitre-js-03">
+                <div class="section-js 04-javascript-value-assignment-modification" id="#chapitre-js-04">
                     <div id="value-assignment-modification">
                     <h2>Affectation et Modification des Valeurs en JavaScript</h2>
                     <div class="js-content">
                         <h3>Affectation de Valeurs</h3>
                         <p>L'affectation de valeurs à une variable en JavaScript se fait à l'aide de l'opérateur d'affectation <code>=</code>.</p>
-                        <pre><code>let age = 25; // Affecte la valeur 25 à la variable age
-                        let nom = "Alice"; // Affecte la chaîne de caractères "Alice" à la variable nom</code></pre>
+                        <pre>
+                            <code>let age = 25; // Affecte la valeur 25 à la variable age</code>
+                        let nom = "EVI"; // Affecte la chaîne de caractères "Evi" à la variable nom</code></pre>
                                     
                         <h3>Modification de Valeurs</h3>
                         <p>Les valeurs des variables déclarées avec <code>let</code> peuvent être modifiées en réassignant une nouvelle valeur.</p>
                         <pre><code>let age = 25; // Déclaration initiale
                         age = 26; // Modification de la valeur de la variable age
                                     
-                        let nom = "Alice";
-                        nom = "Bob"; // Changement de la valeur de nom de "Alice" à "Bob"</code></pre>
+                        let nom = "Evi";
+                        nom = "Mike"; // Changement de la valeur de nom de "Evi" à "Mike"</code></pre>
                                     
                         <p>Ces opérations d'affectation et de modification sont essentielles pour gérer l'état et le comportement des applications en JavaScript.</p>
                     </div>
@@ -128,14 +129,14 @@
                     </div>
                     </div>
                 </div>              
-                <div class="05-js_cheatsheet" id="#chapitre-js-05">
+                <div class="section-js 05-js_cheatsheet" id="#chapitre-js-05">
                     <div class="js-cheatsheet_db3">
                     <h3>5. cheatsheet_js</h3>
                     <!-- Contenu du cheatsheet -->
                     <?php include 'js-cheatsheet.php'; ?>
                     </div>
                 </div>
-                <div class="06-j-practical-applications" id="#chapitre-js-06">
+                <div class="section-js 06-j-practical-applications" id="#chapitre-js-06">
                     <h2>Exemples Pratiques et Applications</h2>
                     <!-- Exemples de code et démos interactives -->
                     <div class="javascript-practical-applications">
@@ -170,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="06-js_conclusion" id="#chapitre-js-07">
+                <div class="section-js 06-js_conclusion" id="#chapitre-js-07">
                     <h2>Conclusion</h2>
                 <!-- Exemples de code et démos interactives -->
                 <h2>Conclusion sur les Variables en JavaScript</h2>

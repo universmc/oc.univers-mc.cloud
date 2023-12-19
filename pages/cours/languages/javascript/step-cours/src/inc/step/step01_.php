@@ -20,38 +20,5 @@
         <h2>Prêt à Commencer ?</h2>
         <p>Rejoignez-nous dans ce voyage passionnant pour découvrir la puissance de JavaScript. Que vous soyez un débutant complet ou que vous cherchiez à rafraîchir vos connaissances, ce cours est conçu pour vous fournir les bases solides nécessaires pour devenir un développeur JavaScript compétent.</p>
     </article>
-    <article class=js-var>
-      <!-- Section Variables -->
-    <h2 id="Variables">Variables</h2>
-    <p>Brief sur les variables en JavaScript, leur importance, comment les déclarer, et quelques exemples simples.</p>
-    </article>
-    <article class=js-object>
-    <!-- Section Objets -->
-    <h2 id="Objects">Objets</h2>
-    <p>Explication des objets en JavaScript, leur utilisation pour structurer des données complexes, et des exemples de base.</p>
-    </article>
-
-    <article class=js-operateurs>
-    <!-- Section Opérateurs -->
-    <h2 id="Operators">Opérateurs</h2>
-    <p>Présentation des différents types d'opérateurs en JavaScript, y compris arithmétiques, de comparaison et logiques, avec des exemples.</p>
-    </article>
-
-    <article class=js-interpolation>
-    <!-- Section Interpolation -->
-    <h2 id="Interpolation">Interpolation</h2>
-    <p>Description de l'interpolation de chaînes en JavaScript, son utilité et comment elle facilite la combinaison de chaînes et de variables.</p>
-    </article>
-
-    <article class=js-event>
-    <!-- Section Événements -->
-    <h2 id="Events">Événements</h2>
-    <p>Discussion sur les événements en JavaScript, comment ils permettent d'interagir avec l'utilisateur et l'interface, avec des exemples pratiques.</p>
-    </article>
-    <article class=js-regex>
-    <!-- Section Expressions Régulières -->
-    <h2 id="Regex">Expressions Régulières</h2>
-    <p>Introduction aux expressions régulières en JavaScript, leur rôle dans la recherche et la manipulation de chaînes de texte, accompagnée d'exemples simples.</p>
-    </article>
 </section>
 </div>

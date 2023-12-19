@@ -1,10 +1,6 @@
-<div >
-    
-</div>
-
 <div class="step8_Responsive-design">
     <!-- Section Sommaire -->
-    <section id="sommaire" class="step1_intro">
+    <section id="sommaire" class="step8_intro">
         <h2>Sommaire <span>Step 8 - Responsive Design</span>>/h2>
         <ul>
             <!-- Liste des éléments du sommaire de l'étape -->
