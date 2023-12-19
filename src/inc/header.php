@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index - oc.univers-mc.cloud</title>
+    <link rel="stylesheet" href="src/css/index.css"> <!-- Chemin vers le fichier CSS compilé -->
+    <script src="https://kit.fontawesome.com/30c54bbb9e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="HOME">
 <header>
 <?php include 'hero-ban.php'; ?> 
     <nav class="navbar">
@@ -35,6 +46,7 @@
                     <a href="pages/projets/P3/index.html">Projet3</a>
                     <a href="pages/projets/P3/index.html">Projet3</a>
                     <a href="pages/projets/P4/index.php">Projet4</a>
+                    <a href="pages/projets/P5/index.php">Projet5</a>
                     <!-- Liste des 12 projets -->
                 </div>
             </div>

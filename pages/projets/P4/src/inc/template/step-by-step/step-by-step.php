@@ -19,8 +19,8 @@
             <button class="btn-step" onclick="window.location.href='?step=step7_annimation-sass'"><span class="step-circl">7</span><span>sass</span></button>
             <button class="btn-step" onclick="window.location.href='?step=step8_responsive-design'"><span class="step-circl">8</span><span>@media</span></button>
             <button class="btn-step" onclick="window.location.href='?step=step9_validation-W3C'"><span class="step-circl">9</span><span>W3C</span></button>
-            <button class="btn-step" onclick="window.location.href='?step=step10_dev-Skiils'"><span class="step-circl">10</span><span>debug-tool</span></button>
-            <button class="btn-step" onclick="window.location.href='?step=step10_dev-Skiils'"><span class="step-circl">11</span><span>skill-dev</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step10_debug-tool'"><span class="step-circl">10</span><span>debug-tool</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step11_dev-skills'"><span class="step-circl">11</span><span>skill-dev</span></button>
         </div>
     </article>
     <script>

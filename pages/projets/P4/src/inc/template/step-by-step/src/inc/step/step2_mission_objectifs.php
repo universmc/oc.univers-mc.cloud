@@ -1,5 +1,25 @@
-<div class="step2_mission-objectifs">
-    <section class="mission-objectif">
+<div >
+    
+</div>
+
+<div class="step8_Responsive-design">
+    <!-- Section Sommaire -->
+    <section id="sommaire" class="step1_intro">
+        <h2>Sommaire <span>Step 8 - Objectif de la mission</span>>/h2>
+        <ul>
+            <!-- Liste des éléments du sommaire de l'étape -->
+            <li>Point du Sommaire SRC</li>
+            <li>Prototype & briefing</li>
+            <li>Annimation SASS</li>
+            <li>GIT source</li>
+            <!-- Plus de points si nécessaire -->
+        </ul>
+    </section>
+
+    <!-- Section Développement -->
+    <section id="developpement">
+        <h2>Développement de l'Étape</h2>
+        <!-- Articles/Contenus pour chaque point du sommaire -->
         <article class="mission">
             <h2>Step 3 - Mission et Objectifs</h2>
             <div class="ohmyfood-mail-if">
@@ -29,6 +49,15 @@
 
                 </div>
             </article>
+        <article>
+            <h3>Titre du Point de Sommaire 1</h3>
+            
+        </article>
+        <article>
+            <h3>Titre du Point de Sommaire 2</h3>
+        </article>
+        <article>
+        <h3>Titre du Point de Sommaire 2</h3>
         <article class="Objectis">
             <div class="interface">
                 <h3>3. Améliorez l'interface d'un site mobile avec des animations</h3>
@@ -112,77 +141,19 @@
                 </div>
             </div>
         </article>
-        <article class="next-step">
-            <div class="next-step-content">
-                <h3>Tips for Next Step</h3>
-                <p>Parametrage du tableau d'étape + gitHUB build & src</p>
-                <ul>
-                    <li>intro</li>
-                    <li>objectif</li>
-                    <li>Mission</li>
-                </ul>
-                <div class="construction-steps">
-                <h3>Construction Steps</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Step</th>
-                            <th>name</th>
-                            <th>description</th>
-                            <th>Progression</th>
-                            <th>debut</th>
-                            <td>fin</th>
-                            <th>-ETAT</th>
-                            <th>-NEXT</th>
-                            <th>-ressource</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>mockup</td>
-                            <td>cutting</td>
-                            <td>70%</td>
-                            <td>16-12-2023</td>
-                            <td>19-12-2023</td>
-                            <th>-terminé</th>
-                            <th>-dev mode</th>
-                            <th>-txt</th>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>HTML</td>
-                            <td>markup box model</td>
-                            <td>60%</td>
-                            <td>16-12-2023</td>
-                            <td>19-12-2023</td>
-                            <th>-dev mode</th>
-                            <th>-css</th>
-                            <th>-index</th>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td> css</td>
-                            <td>attribut selector</td>
-                            <td>20%</td>
-                            <td>16-12-2023</td>
-                            <td>19-12-2023</td>
-                            <th>-dev mode</th>
-                            <th>breack-point</th>
-                            <th>-style</th>
-                        </tr>
-                        <!-- Add more steps here -->
-                    </tbody>
-                </table>
-                </div>
-                    <div class="buttons">
-                        <h2> update version</h2>
-                        <button>[GIT]</button>
-                        <button>[FTP]</button>
-                    </div>
-                </div>
-            </div>
         </article>
+        <!-- Plus d'articles si nécessaire -->
+    </section>
+
+    <!-- Section Conclusion -->
+    <section id="conclusion">
+        <h2>Conclusion de l'Étape</h2>
+        <p>
+            Conclusion détaillée de l'étape, en résumant les points clés abordés 
+            et en introduisant la prochaine étape.
+        </p>
+        <!-- Lien ou bouton vers la prochaine étape -->
+        <a href="step_next.php">Étape Suivante: [Titre de la Prochaine Étape]</a>
     </section>
 </div>
 

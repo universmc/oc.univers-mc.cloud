@@ -10,5 +10,5 @@
         <?php include 'step8_responsive-design.php'; ?>
         <?php include 'step9_validation-W3C.php'; ?>
         <?php include 'step10_debug-tool.php'; ?>
-        <?php include 'step11 _dev-Skiils.php'; ?>
+        <?php include 'step11 _dev-skills.php'; ?>
     </div>
