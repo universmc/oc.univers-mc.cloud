@@ -1,7 +1,7 @@
 <div class="step3_configuration">
     <!-- Section Sommaire -->
     <section id="sommaire" class="step8_intro">
-        <h2>Sommaire <span>Step 3 - Configuration env</span></h2>
+        <h2>Configuration environnement de developpement</h2>
         <div class="btn-lang-container">
             <button class="btn-lang"><img class="icon-lang" src="assets/img/vscode-btn.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>VSCODE</button>
             <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/github.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>GIT HUB</button>

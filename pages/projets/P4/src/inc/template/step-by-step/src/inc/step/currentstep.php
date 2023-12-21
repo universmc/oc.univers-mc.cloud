@@ -6,8 +6,8 @@
         <?php include 'step4_mockup.php'; ?>
         <?php include 'step5_markup-html.php'; ?>
         <?php include 'step6_attribut-css.php'; ?>
-        <?php include 'step7_annimation-sass.php'; ?>
-        <?php include 'step8_responsive-design.php'; ?>
+        <?php include 'step7_responsive-design.php'; ?>
+        <?php include 'step8_annimation-sass.php'; ?>
         <?php include 'step9_validation-W3C.php'; ?>
         <?php include 'step10_debug-tool.php'; ?>
         <?php include 'step11 _dev-skills.php'; ?>

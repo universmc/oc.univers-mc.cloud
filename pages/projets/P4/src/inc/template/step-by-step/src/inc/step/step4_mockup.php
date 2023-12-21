@@ -1,81 +1,115 @@
-User
-<div class="step4_mockup">
-    <h2>Step 4 - Découpage de la Maquette</h2>
-    <section class="mockup">
-        <article class="mockup-sementique">
-            <p>
-                Le découpage de la maquette est une étape cruciale dans le processus de développement d'un site web.
-                Il s'agit de diviser la conception visuelle en éléments concrets, tels que les en-têtes, les menus, les
-                sections de contenu, etc., prêts à être traduits en code HTML et CSS.
-            </p>
-            <p>
-                Pour le site Ohmyfood, nous avons identifié les éléments principaux suivants :
-            </p>
-            <p>
-                Le découpage de la maquette consiste à diviser la conception visuelle en éléments concrets, prêts à être traduits en code HTML et CSS. Voici les principaux éléments identifiés pour le site Ohmyfood :
-            </p>
-            </div class="img-mockup">
-            </div>
-        </article>
+<div class="step5_mockup">
+    <!-- Section Sommaire -->
+    <section id="sommaire">
+        <h2>Sommaire - Découpage de la Maquette</h2>
+        <ul>
+            <li>Mockup Sémantique</li>
+            <li>Mockup Modulaire</li>
+            <li>Box Model</li>
+        </ul>
     </section>
-    <section class="model-box">
-        <article class="mockup-cutting">
-            <div class="bloc1">
-            <span><h3>level1 [HTML] [body] [*]</h3></span>
-                <div class="ohmyfood-body" id="level1">
-                    <img src="assets/img/mockup/mockup-mobil.png" all="media mobile">
+
+    <!-- Section Développement -->
+    <section id="developpement">
+    <h2>Mockup Sémantique d'OhMyFood</h2>
+        <!-- Article : Mockup Sémantique d'OhMyFood -->
+        <article id="mockup-semantique">
+
+            <div class="Mockup_mobile">
+                <h2>Mockup MOBIL d'OhMyFood</h2>
+                <div class="lvl-content">
+                    <div class="lvl-1">
+                    <h3>Mockup lvl-1</h3>
+                        <img src="assets/img/mockup/mockup-mobil.png" alt="img-mockup-mobile">
+                    </div>
+                    <div class="lvl-2">
+                    <h3>Mockup lvl-2</h3>
+                    <div class="ohmyfood-body">
+                    <div class="ohmyfood-header">[header]</div>
+                    <div class="ohmyfood-main">[main]</div>
+                    <div class="ohmyfood-footer">[footer]</div>
+                    </div>
+                    </div>
+                    <div class="lvl-3">
+                    <h3>Mockup [SECTION] lvl-3</h3>                
+                    <div class="ohmyfood-body">
+                    <div class="ohmyfood-header">
+                        <div class="ohmyfood-header-section-1">icon</div>
+                        <div class="ohmyfood-header-section-2">location</div>
+                        <div class="ohmyfood-header-section-3">hero-ban</div>
+                    </div>
+                    <div class="ohmyfood-main">
+                    <div class="ohmyfood-main-section-f">S-fonctionnement</div>
+                    <div class="ohmyfood-main-section-r">S-restaurants</div>
+                    </div>
+                    <div class="ohmyfood-footer">
+                    <div class="ohmyfood-footer-section-l">Liste</div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="lvl-4">
+                    <h3>Mockup MOBIL lvl-4</h3>
+                    <div class="ohmyfood-body">
+                    <div class="ohmyfood-header">
+                        <div class="ohmyfood-header-section-1">1</div>
+                        <div class="ohmyfood-header-section-2">2</div>
+                        <div class="ohmyfood-header-section-3">
+                            <div class="ohmyfood-btn">[BTN]</div>
+                        </div>
+                    </div>
+                    <div class="ohmyfood-main">
+                        <div class="ohmyfood-main-section-f">
+                            <button class="ohmyfood-btn-f">1</button>
+                            <button class="ohmyfood-btn-f">2</button>
+                            <button class="ohmyfood-btn-f">3</button>
+                        </div>
+                        <div class="ohmyfood-main-section-r">
+                            <div class="ohmyfood-card-r">1</div>
+                            <div class="ohmyfood-card-r">2</div>
+                            <div class="ohmyfood-card-r">3</div>
+                            <div class="ohmyfood-card-r">4</div>
+                        </div>
+                    </div>
+                    <div class="ohmyfood-footer">
+                        <div class="ohmyfood-footer-section-l">3</div>
+                    </div>
+                    </div>
                 </div>
             </div>
-            <div class="bloc2">
-            <h3>level2 [HEADER][MAIN][FOOTER]</h3>
-                <section class="ohmyfood-body header-main-footer" id="level2">
-                    
-                    <article class="ohmyfood-header">[HEADER]</article>
-                    <article class="ohmyfood-main">[MAIN]</article>
-                    <article class="ohmyfood-footer">[FOOTER]</article>
-                </section>
-            </div>
-            <div class="bloc3">
-            <h3>level3 [DIV]][SECTION][ARTICLE]</h3>
-                <section class="ohmyfood-body div-section-article" id="level3">
-                    <article class="ohmyfood-header">
-                        <div></div>
-                        <div>[HEADER]</div>
-                        <section>Hero-ban</section>
-                    </article>
 
-                    <article class="ohmyfood-main">
-                            <div>[MAIN]section1</div>
-                            <div>[MAIN]section2</div>
-                    </article>
-                    
-                    <article class="ohmyfood-footer">
-                        <section>
-                            <article>[FOOTER]<article>
-                        </section>
-                    </article>
-                </section>
-
-
-                <section>
-            </div>
-            <div class="bloc4">
-            <h3>level4 [COMPONNENTS]</h3>            
-                <section class="ohmyfood-body components" id="level4">
-                    <article class="ohmyfood-header">
-                        <div>[BTN]</div>
-                    </article>
-                    <article class="ohmyfood-main">
-                        <div>[BTN][BTN][BTN]</div>
-                        <div>[CARD][CARD][CARD][CARD]</div>
-                    </article>
-                    <article class="ohmyfood-footer">
-                        <section>
-                            <article>[FOOTER]<article>
-                        </section>
-                    </article>
-                </section>
+            <div class="Mockup_desktop">
+                <h2>Mockup MOBIL d'OhMyFood</h2>
+                <div class="lvl-content">
+                <div class="lvl-1">
+                <img src="assets/img/mockup/mockup-index-desktop.png" alt="img-mockup-mobile">
+                </div>
+                <div class="lvl-2">header,main,footer
+                <div class="ohmyfood-body">
+                    <div class="ohmyfood-desktop-header"></div>
+                    <div class="ohmyfood-desktop-main"></div>
+                    <div class="ohmyfood-desktop-footer"></div>
+                </div>
+                </div>
+                <div class="lvl-3">                
+                    <div class="ohmyfood-body">section article
+                    <div class="ohmyfood-desktop-header"></div>
+                    <div class="ohmyfood-desktop-main">
+                        
+                    </div>
+                    <div class="ohmyfood-desktop-footer"></div>
+                    </div>
+                </div>
+                <div class="lvl-4">composant
+                </div>
+                </div>
             </div>
         </article>
+    <!-- Section Conclusion -->
+    <section id="conclusion">
+        <h2>Conclusion sur le Mockup Sémantique et le Découpage Modulaire</h2>
+        <p>
+            Synthèse des points clés sur le mockup sémantique et le découpage modulaire d'OhMyFood, et leur importance pour le développement efficace du site.
+        </p>
+        <a href="step_next.php">Étape Suivante: [Titre de la Prochaine Étape]</a>
     </section>
 </div>

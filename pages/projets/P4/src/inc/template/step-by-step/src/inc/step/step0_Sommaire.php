@@ -2,10 +2,10 @@
     <article class="presentation-sommaire">
         <img src="assets/img/oc-logo.png" alt="oc-icon">
         <div class="construction-steps">
-            <img class="icon-lang" src="assets/img/hb/html.png" alt="">
-            <img class="icon-lang" src="assets/img/hb/css.png" alt="">
-            <img class="icon-lang" src="assets/img/hb/sass.png" alt="">
-            <img class="icon-lang" src="assets/img/hb/github.png" alt="">
+            <img class="icon-lang" src="assets/img/hB/html.png" alt="">
+            <img class="icon-lang" src="assets/img/hB/css.png" alt="">
+            <img class="icon-lang" src="assets/img/hB/sass.png" alt="">
+            <img class="icon-lang" src="assets/img/hB/github.png" alt="">
         </div>
     </article>
         <h2>Sommaire</h2>

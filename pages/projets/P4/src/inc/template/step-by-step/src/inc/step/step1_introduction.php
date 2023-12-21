@@ -1,13 +1,7 @@
 <div class="step1_intro">
     <!-- Section Sommaire -->
     <section id="sommaire" class="step1_intro">
-        <h2>Sommaire de l'Étape</h2>
-        <ul>
-            <!-- Liste des éléments du sommaire de l'étape -->
-            <li>Ohmyfood</li>
-            <li>Point du Sommaire 2</li>
-            <!-- Plus de points si nécessaire -->
-        </ul>
+        <h2>Ohmyfood</h2>
     </section>
 
     <!-- Section Développement -->
@@ -15,7 +9,6 @@
         <h2>Développement de l'Étape</h2>
         <!-- Articles/Contenus pour chaque point du sommaire -->
         <article>
-            <h3>Titre du Point de Sommaire 1</h3>
             <h2>Améliorez l'interface d'un site mobile avec des animations CSS</h2>
             <p>
                 Bienvenue sur la page dédiée au projet Ohmyfood. Ce projet est une réalisation dans le cadre de la
@@ -29,7 +22,6 @@
             </p></p>
         </article>
         <article>
-            <h3>Titre du Point de Sommaire 2</h3>
             <div class="project-image-container">
                 <img src="assets/img/oc-intro.png" alt="Ohmyfood Screenshot">
             </div>

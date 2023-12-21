@@ -42,13 +42,13 @@
             </div>
             <div class="src-PJ">
                 <div class="src-ohmyfood">
-                    <h3>Titre du Point de Sommaire 1 : Prototype</h3>
+                    <h3>Réception du Prototype</h3>
                     <div class="ohmyfood-mockup-container"> 
                         <img src="assets/img/mockup/mockup.png" class="ohmyfood-mockup" alt="mockup">
                     </div>
                 </div>
                 <div class="src-ohmyfood">
-                    <h3>Titre du Point de Sommaire 2 :Maquette</h3>
+                    <h3>Récéption de la Maquette</h3>
                     <div class="ohmyfood-proto-container">
                     <img class="ohmyfood-proto-img"src="assets/img/proto-mobile-index.png" all="media mobile">
                         <img class="ohmyfood-proto-img"src="assets/img/proto-mobile-restau.png" all="media mobile">   
@@ -56,7 +56,7 @@
                     </div>  
                 </div>
                 <div class="src-ohmyfood">
-                    <h3>Titre du Point de Sommaire 2: SOURCE (img+text)</h3>
+                    <h3>Réception des SOURCES (img+text)</h3>
                     <div class="ohmyfood-img-container">
                         <div class="ohmyfood-img-bloc"><img src="assets/img/ohmyfood/1.jpg"></div>
                         <div class="ohmyfood-img-bloc"><img src="assets/img/ohmyfood/2.jpg"></div>
