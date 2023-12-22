@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index - oc.univers-mc.cloud</title>
     <link rel="stylesheet" href="src/css/index.css"> <!-- Chemin vers le fichier CSS compilé -->
+    <link rel="stylesheet" href="pages/projets/P4/build/Ohmyfood/src/css/index.css"> <!-- Ohmyfood-->
     <script src="https://kit.fontawesome.com/30c54bbb9e.js" crossorigin="anonymous"></script>
 </head>
 <body>

@@ -70,49 +70,10 @@
             <h3>Améliorations du Site Web avec Animations SASS</h3>
             <h4>3-2. briefing Annimation en SASS</h4> 
                 <!-- Description des animations (cartes, boutons, icônes) et de l'overlay au chargement -->
-            <div class="annimation-sass-ls">
-                <div class="ohmyfood-card">
-                <article class="card">                    
-                                <a href="restaurants/Menu-La-palette-du-gout.html">
-                                    <div class="img-card-container">
-                                        <img src="assets/img/ohmyfood/1.jpg" alt="palette"/>
-                                        <button class="btn-new">Nouveau</button>
-                                    </div>
-                                    <div class="info-container">
-                                        <div class="info-rows">                            
-                                            <span class="card-titre"><h2>La palette du gout</h2></span>
-                                            <span class="card-sous-titre">ménilmontant</span>
-                                        </div>
-                                        <div class="heart-box">
-                                            <span class="icon-regular">
-                                                <i class="fa-regular fa-heart"></i>
-                                            </span>
-                                            <span class="icon-solid">
-                                                <i class="fa-solid fa-heart"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </article>
-                </div>
-                <div class="ohmyfood-btn">
-                <div class="ohmyfood-card">
-                        <div class="card-item fade-in">
-                            <span class="card-item__name">Tartare de poulpe acidulé</span>
-                            <span class="card-item__desc">Aux zestes d'orange</span>
-                            <!-- value could be a price for instance -->
-                            <span class="card-item__value">25€</span>
-                            <span class="card-item__select">
-                        <i class="fas fa-check-circle"></i>
-                        </span>
-                            <h5>[card]</h5>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                <div class="ohmyfood-icon">
-                    icon
-                </div>
+            <div class="">
+                <button></button>
+                <button>telecharger Briefing</button>
+            </div>
             <!-- Images et icônes si nécessaire -->
         </article>
         <!-- Plus d'articles si nécessaire -->

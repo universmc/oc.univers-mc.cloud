@@ -894,7 +894,7 @@ html, body {
   padding: 5px;
   border-radius: 5px;
   width: 100%;
-  height: 100%;
+  height: 95%;
   align-items: center;
 }
 
@@ -927,6 +927,10 @@ html, body {
 }
 
 .ohmyfood-header-section-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   min-height: 75%;
   min-width: 90%;
   background-color: #F6F6F6;
@@ -944,6 +948,9 @@ html, body {
 }
 
 .ohmyfood-main-section-f {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   min-height: 35%;
   min-width: 90%;
   align-items: center;
@@ -952,11 +959,26 @@ html, body {
   border: 1px solid;
 }
 
+.ohmyfood-btn-f {
+  width: 70%;
+}
+
 .ohmyfood-main-section-r {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
   min-height: 65%;
   min-width: 90%;
   background-color: #F6F6F6;
   border: 1px solid;
+}
+
+.ohmyfood-card-r {
+  width: 80%;
+  background-color: antiquewhite;
+  height: 20%;
 }
 
 .ohmyfood-footer {
@@ -974,6 +996,44 @@ html, body {
   height: 80%;
   width: 80%;
   background-color: #353535;
+}
+
+.github-instruction {
+  background-color: #0b1d35;
+  color: wheat;
+  border-radius: 22px;
+  padding-left: 20px;
+  width: 60%;
+  padding-right: 20px;
+}
+
+.terminal {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: brown;
+}
+
+/* step Markup */
+.ohmyfood-pc-editor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.ohmyfood-article-btn {
+  display: flex;
+}
+
+/* Step atrib CSS */
+/* step Responsive */
+/* step Annimation SASS */
+/* step val W3C */
+.link-val-W3C {
+  display: flex;
+  width: 144px;
+  height: 55px;
 }
 
 /******************  */

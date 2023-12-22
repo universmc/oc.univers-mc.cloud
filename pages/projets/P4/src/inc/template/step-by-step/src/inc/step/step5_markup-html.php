@@ -1,59 +1,77 @@
 <div class="step6_Markup">
     <!-- Section Sommaire -->
     <section id="sommaire">
-        <h2>Sommaire</h2>
+        <h2>Sommaire - Balisage HTML d'OhMyFood</h2>
         <ul>
-            <li>Introduction au Balisage HTML</li>
-            <li>Structure HTML de Base</li>
-            <li>Éléments Spécifiques d'OhMyFood</li>
-            <li>Accessibilité et SEO</li>
+            <li>Structure HTML Globale</li>
+            <li>Balisage des Sections Principales</li>
+            <li>Éléments HTML Spécifiques</li>
         </ul>
     </section>
 
     <!-- Section Développement -->
     <section id="developpement">
-        <h2>Développement de l'Étape</h2>
-        
-        <!-- Introduction au Balisage HTML -->
-        <article id="intro-balisage">
-            <h3>Introduction au Balisage HTML</h3>
-            <p>Explication de l'importance du balisage HTML et de son rôle dans la création de pages web structurées et accessibles.</p>
+        <h2>Présentation du Balisage HTML</h2>
+
+        <!-- Structure HTML Globale -->
+        <article id="structure-html-globale">
+            <h3>Structure HTML Globale</h3>
+            <p>
+                Description de la structure HTML globale, y compris l'utilisation des balises sémantiques telles que les <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>dans  <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, et <code>&lt;footer&gt;</code>.
+            </p>
+            <p>
+                Explication du balisage des sections principales, comme la barre de navigation, la section de contenu principal, et le pied de page. Mention des éléments HTML spécifiques utilisés dans chaque section.
+            </p>
+            <!-- Exemples de code HTML pour les sections principales -->
+            <div class="ohmyfood-pc-editor">
+                <div class="fonction-mockup">
+                    <img src="assets/img/markup/dev-mockup.png" alt="mockup">
+                </div>
+                <div class="pc-html">
+                    <div class="pc-header">
+                    <h3>[header]</h3>
+                        <img src="assets/img/markup/dev-header.png" alt="mockup">
+                    </div>
+                    <div class="pc-main">
+                    <h3>[main]</h3>
+                        <img src="assets/img/markup/dev-main.png" alt="mockup">
+                    </div>
+                    <div class="pc-footer">
+                    <h2>[footer]</h2>
+                        <img src="assets/img/markup/dev-footer.png" alt="mockup">
+                    </div>
+                </div>    
+            </div>         
         </article>
 
-        <!-- Structure HTML de Base -->
-        <article id="structure-html">
-            <h3>Structure HTML de Base d'OhMyFood</h3>
-            <p>
-                Description de la structure HTML de base d'OhMyFood, en se concentrant sur l'utilisation des balises `<header>`, `<main>`, et `<footer>`. Exemples de code et explications sur leur rôle dans la structure globale du site.
-            </p>
-            <!-- Exemple de code pour le header -->
-            <pre><code>&lt;header&gt; ... &lt;/header&gt;</code></pre>
-            <!-- Exemple de code pour le main -->
-            <pre><code>&lt;main&gt; ... &lt;/main&gt;</code></pre>
-            <!-- Exemple de code pour le footer -->
-            <pre><code>&lt;footer&gt; ... &lt;/footer&gt;</code></pre>
-        </article>
+        <!-- Balisage des Sections Principales -->
 
-        <!-- Éléments Spécifiques d'OhMyFood -->
-        <article id="elements-specifiques">
-            <h3>Éléments Spécifiques d'OhMyFood</h3>
+        <!-- Éléments HTML Spécifiques -->
+        <article id="elements-html-specifiques">
+            <h3>Éléments HTML Spécifiques</h3>
             <p>
-                Détail des éléments HTML spécifiques d'OhMyFood, en expliquant les sections comme les boutons dans la section fonctionnement et les cartes dans la section restaurant. Inclure des extraits de code pour illustrer.
+                Détail des éléments HTML spécifiques comme les boutons, les cartes de restaurant, et autres composants interactifs. Discussion sur leur rôle et leur intégration dans la structure globale.
             </p>
-            <!-- Exemple de code pour les boutons -->
-            <pre><code>&lt;article class="btn"&gt; ... &lt;/article&gt;</code></pre>
-            <!-- Exemple de code pour les cartes -->
-            <pre><code>&lt;article class="card"&gt; ... &lt;/article&gt;</code></pre>
-        </article>
-
-        <!-- Accessibilité et SEO -->
-        <article id="accessibilite-seo">
-            <h3>Accessibilité et SEO</h3>
-            <p>
-                Discussion sur l'importance de l'accessibilité et du SEO dans le balisage HTML d'OhMyFood, en montrant comment les meta-tags et les attributs alt sont utilisés pour améliorer l'accessibilité et le référencement.
-            </p>
-            <!-- Exemple de meta-tags -->
-            <pre><code>&lt;meta name="description" content="..."&gt;</code></pre>
+            <!-- Exemples de code HTML pour les éléments spécifiques -->
+            <div class="ohmyfood-article-btn">
+                <div class="ohmyfood-btn-1">
+                    <button class="hero-btn">Explorer nos restaurants</button>
+                    <img src="assets/img/mockup/mockup-btn-rest.png" alt="mockup-btn">
+                </div>
+                <div class="ohmyfood-btn-1">
+                <img src="assets/img/mockup/mockup-btn-fonct.png" alt="mockup-btn">
+                </div>
+                <div class="ohmyfood-btn-1">
+                <img src="assets/img/mockup/mockup-btn-menu.png" alt="mockup-btn">
+                </div>
+            </div>
+            <div class="ohmyfood-article-card">
+            <h4> Article card</h4>
+            <div class="ohmyfood-card">
+                <img src="assets/img/mockup/mockup-card-index.png" alt="mockup-btn">
+                </div>
+            <img src="markup" alt="markup-btn">
+            </div>
         </article>
     </section>
 
@@ -61,8 +79,16 @@
     <section id="conclusion">
         <h2>Conclusion sur le Balisage HTML</h2>
         <p>
-            Résumé sur la manière dont le balisage HTML structure OhMyFood et prépare la base pour les étapes suivantes, notamment l'application des styles CSS. 
+            Récapitulatif sur l'importance d'un balisage HTML sémantique et structuré pour l'accessibilité et l'expérience utilisateur. Lien avec la prochaine étape, qui est l'application des styles CSS.
         </p>
-        <a href="step_next.php">Étape Suivante: Attributs CSS</a>
+        <div class="github-instruction">
+            <pre>
+            <p class="terminal">terminal intégré</p>
+            <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/github.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>GIT HUB</button>
+                <code> > git add . </code>
+                <code> > git commit -m "initial-HTML"</code>
+                <code> > git push</code>
+            <pre>
+        </div>
     </section>
 </div>

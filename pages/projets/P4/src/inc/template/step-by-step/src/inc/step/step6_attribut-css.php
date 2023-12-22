@@ -1,33 +1,43 @@
 <div class="step7_AttribCSS">
     <!-- Section Sommaire -->
     <section id="sommaire">
-        <h2>Sommaire</h2>
+        <h2>Sommaire - Attributs CSS d'OhMyFood</h2>
         <ul>
-            <li>Style de Base et Box Model</li>
-            <li>Stylisation des Composants Principaux</li>
+            <li>Application des Styles de Base</li>
+            <li>Stylisation des Composants Spécifiques</li>
+            <li>Techniques CSS Avancées</li>
         </ul>
     </section>
 
     <!-- Section Développement -->
     <section id="developpement">
-        <h2>Développement de l'Étape</h2>
-        
-        <!-- Style de Base et Box Model -->
-        <article id="style-base">
-            <h3>Style de Base et Box Model</h3>
+        <h2>Présentation des Attributs CSS</h2>
+
+        <!-- Application des Styles de Base -->
+        <article id="styles-de-base">
+            <h3>Styles de Base</h3>
             <p>
-                Description de la mise en place du style de base, en mettant l'accent sur l'utilisation du Box Model pour structurer les éléments principaux (header, main, footer).
+                Discussion sur les styles de base appliqués sur le site OhMyFood, y compris la typographie, les couleurs, et le Box Model.
             </p>
-            <!-- Exemple de CSS pour le Box Model -->
+            <!-- Exemples de code CSS pour les styles de base -->
         </article>
 
-        <!-- Stylisation des Composants Principaux -->
+        <!-- Stylisation des Composants Spécifiques -->
         <article id="stylisation-composants">
-            <h3>Stylisation des Composants Principaux</h3>
+            <h3>Stylisation des Composants Spécifiques</h3>
             <p>
-                Discussion sur la stylisation spécifique des composants principaux, tels que les boutons, les cartes, etc.
+                Explication sur la manière dont les composants spécifiques tels que les boutons, les cartes de restaurants, et les en-têtes sont stylisés.
             </p>
-            <!-- Exemples de CSS pour les composants -->
+            <!-- Exemples de code CSS pour les composants spécifiques -->
+        </article>
+
+        <!-- Techniques CSS Avancées -->
+        <article id="techniques-css-avancees">
+            <h3>Techniques CSS Avancées</h3>
+            <p>
+                Présentation des techniques CSS avancées utilisées, telles que les flexbox, grid, et les pseudo-éléments pour améliorer l'expérience utilisateur.
+            </p>
+            <!-- Exemples de code CSS pour les techniques avancées -->
         </article>
     </section>
 
@@ -35,8 +45,16 @@
     <section id="conclusion">
         <h2>Conclusion sur les Attributs CSS</h2>
         <p>
-            Récapitulatif de l'importance des styles CSS dans la création d'une interface utilisateur cohérente et attrayante pour OhMyFood.
+            Synthèse sur l'importance des attributs CSS dans la création d'une expérience utilisateur riche et visuellement attrayante pour OhMyFood.
         </p>
-        <a href="step_next.php">Étape Suivante: Design Responsive</a>
+        <div class="github-instruction">
+            <pre>
+            <p class="terminal">terminal intégré</p>
+            <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/github.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>GIT HUB</button>
+                <code> > git add . </code>
+                <code> > git commit -m "initial-CSS"</code>
+                <code> > git push</code>
+            <pre>
+        </div>
     </section>
 </div>

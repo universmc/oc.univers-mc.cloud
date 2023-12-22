@@ -1,7 +1,7 @@
 <div class="step9_validation-W3C">
     <!-- Section Sommaire -->
     <section id="sommaire">
-        <h2>Sommaire <span><h2>Step 9 - Validation W3C</h2></span>>/h2>
+        <h2>Sommaire <span><h2>Step 9 - Validation W3C</h2></span></h2>
         <ul>
             <!-- Liste des éléments du sommaire de l'étape -->
             <li>Point du Sommaire 1</li>
@@ -14,8 +14,9 @@
     <section id="developpement">
         <h2>Développement de l'Étape</h2>
         <!-- Articles/Contenus pour chaque point du sommaire -->
-        <article>
-            <h3>Titre du Point de Sommaire 1</h3>
+        <article>   
+            <div class="link-val-W3C">
+            </div>
         </article>
         <article>
             <h3>Titre du Point de Sommaire 2</h3>

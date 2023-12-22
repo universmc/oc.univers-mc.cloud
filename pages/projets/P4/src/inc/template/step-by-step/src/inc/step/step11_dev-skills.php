@@ -1,7 +1,7 @@
 <div class=step19_dev-Skills>
     <!-- Section Sommaire -->
     <section id="sommaire">
-        <h2>Sommaire <span><h2>Step 10 - Développement des Compétences</h2></span>>/h2>
+        <h2>Sommaire <span><h2>Step 10 - Développement des Compétences</h2></span></h2>
         <ul>
             <!-- Liste des éléments du sommaire de l'étape -->
             <li>Point du Sommaire 1</li>

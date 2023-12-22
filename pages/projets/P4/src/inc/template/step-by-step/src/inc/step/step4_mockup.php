@@ -16,14 +16,17 @@
         <article id="mockup-semantique">
 
             <div class="Mockup_mobile">
-                <h2>Mockup MOBIL d'OhMyFood</h2>
+            <h3>Mockup Mobile d'OhMyFood</h3>
+                <p>Présentation de la maquette mobile, mettant en évidence la structure sémantique et modulaire.</p>
                 <div class="lvl-content">
                     <div class="lvl-1">
-                    <h3>Mockup lvl-1</h3>
+                    <h4>Mockup Niveau 1</h4>
+                    <p>Vue d'Ensemble</p>
                         <img src="assets/img/mockup/mockup-mobil.png" alt="img-mockup-mobile">
                     </div>
                     <div class="lvl-2">
-                    <h3>Mockup lvl-2</h3>
+                    <h4>Mockup Niveau 2</h4>
+                    <p>Structure Sémantique</p>
                     <div class="ohmyfood-body">
                     <div class="ohmyfood-header">[header]</div>
                     <div class="ohmyfood-main">[main]</div>
@@ -31,7 +34,8 @@
                     </div>
                     </div>
                     <div class="lvl-3">
-                    <h3>Mockup [SECTION] lvl-3</h3>                
+                    <h4>Mockup Niveau 3</h4>
+                    <p>Sections Détails</p>               
                     <div class="ohmyfood-body">
                     <div class="ohmyfood-header">
                         <div class="ohmyfood-header-section-1">icon</div>
@@ -48,13 +52,14 @@
                     </div>
                     </div>
                     <div class="lvl-4">
-                    <h3>Mockup MOBIL lvl-4</h3>
+                    <h4>Mockup Niveau 4</h4>
+                     <p>Composants Détails</p>
                     <div class="ohmyfood-body">
                     <div class="ohmyfood-header">
                         <div class="ohmyfood-header-section-1">1</div>
                         <div class="ohmyfood-header-section-2">2</div>
                         <div class="ohmyfood-header-section-3">
-                            <div class="ohmyfood-btn">[BTN]</div>
+                            <button class="ohmyfood-btn-c">[BTN]</button>
                         </div>
                     </div>
                     <div class="ohmyfood-main">
@@ -110,6 +115,14 @@
         <p>
             Synthèse des points clés sur le mockup sémantique et le découpage modulaire d'OhMyFood, et leur importance pour le développement efficace du site.
         </p>
-        <a href="step_next.php">Étape Suivante: [Titre de la Prochaine Étape]</a>
+        <div class="github-instruction">
+            <pre>
+            <p class="terminal">terminal intégré</p>
+            <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/github.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>GIT HUB</button>
+                <code> > git add . </code>
+                <code> > git commit -m "initial-mockup"</code>
+                <code> > git push</code>
+            <pre>
+        </div>
     </section>
 </div>

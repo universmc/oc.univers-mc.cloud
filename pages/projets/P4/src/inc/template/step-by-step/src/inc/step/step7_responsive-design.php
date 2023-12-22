@@ -37,6 +37,14 @@
         <p>
             Synthèse sur l'importance du design responsive et de l'approche mobile-first pour une expérience utilisateur optimale sur tous les appareils.
         </p>
-        <a href="step_next.php">Étape Suivante: Animations</a>
+        <div class="github-instruction">
+            <pre>
+            <p class="terminal">terminal intégré</p>
+            <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/github.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>GIT HUB</button>
+                <code> > git add . </code>
+                <code> > git commit -m "init @media-querie"</code>
+                <code> > git push</code>
+            <pre>
+        </div>
     </section>
 </div>
