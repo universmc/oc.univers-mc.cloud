@@ -6,6 +6,7 @@
     <title>build website step-by-step</title>
     <link rel="stylesheet" href="../../../../../src/css/index.css">
     <link rel="stylesheet" href="../../../../../pages/projets/P4/build/Ohmyfood/src/css/index.css"> <!-- Ohmyfood-->
+    <link rel="stylesheet" href="../assets/css/style-resto.css">
     <script src="https://kit.fontawesome.com/30c54bbb9e.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

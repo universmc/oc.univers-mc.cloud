@@ -54,23 +54,64 @@
             </p>
             <!-- Exemples de code HTML pour les éléments spécifiques -->
             <div class="ohmyfood-article-btn">
-                <div class="ohmyfood-btn-1">
-                    <button class="hero-btn">Explorer nos restaurants</button>
-                    <img src="assets/img/mockup/mockup-btn-rest.png" alt="mockup-btn">
+                <div>
+                    <div class="ohmyfood-btn-1">
+                    <h4> Article button</h4>
+                        <article class="btn-1">
+                        <button class="hero-btn">Explorer nos restaurants</button>
+                        </article>
+                        <div class="pc-html">
+                        <img src="assets/img/markup/ohmyfood-btn-1.png" alt="markup-btn">
+                        </div>
+                    </div>
                 </div>
+                <div>
                 <div class="ohmyfood-btn-1">
-                <img src="assets/img/mockup/mockup-btn-fonct.png" alt="mockup-btn">
-                </div>
-                <div class="ohmyfood-btn-1">
-                <img src="assets/img/mockup/mockup-btn-menu.png" alt="mockup-btn">
+                <h4> Article button</h4>
+                    <article class="btn">                            
+                        <div class="F-numbers">
+                            <span class="F-number">1</span>
+                        </div>
+                        <button class="btn-class-f">
+                            <a class="btn-arcticle">
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                <span><strong>Choisisser un restaurant</strong></span>
+                            </a>
+                        </button>
+                    </article>
+                    <div class="pc-html">
+                        <img src="assets/img/markup/markup-btn.png" alt="markup-btn">
+                    </div>
                 </div>
             </div>
+            </div>
             <div class="ohmyfood-article-card">
-            <h4> Article card</h4>
             <div class="ohmyfood-card">
-                <img src="assets/img/mockup/mockup-card-index.png" alt="mockup-btn">
+            <h4> Article card</h4>
+            <article class="card">  
+                    <a href="restaurants/Menu-La-palette-du-gout.html" class="card">
+                        <div class="img-card-container">
+                        <img src="assets/img/ohmyfood/1.jpg" alt="palette"/>
+                        <button class="btn-new">Nouveau</button>
+                        </div>
+                        <div class="info-container">
+                        <div class="info-rows">                            
+                            <span class="card-titre"><h2>La Palette du Gout</h2></span>
+                            <span class="card-sous-titre">Ménilmontant</span>
+                        </div>
+                        <div class="heart-box">
+                            <span class="icon-regular">
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span class="icon-solid">
+                                <i class="fa-solid fa-heart"></i>
+                            </span>
+                        </div>
+                        </div>
+                    </a>
+                </article>
                 </div>
-            <img src="markup" alt="markup-btn">
+            <img src="assets/img/markup/markup-card-index.png" alt="markup-btn">
             </div>
         </article>
     </section>

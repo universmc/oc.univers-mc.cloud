@@ -3,33 +3,78 @@
     <section id="sommaire">
         <h2>Sommaire - Attributs CSS d'OhMyFood</h2>
         <ul>
-            <li>Application des Styles de Base</li>
-            <li>Stylisation des Composants Spécifiques</li>
-            <li>Techniques CSS Avancées</li>
+            <li>Briefing Chartre Graphique</li>
+            <li>Balisage Html sementique</li>
+            <li>Stylisation CSS</li>
+            
         </ul>
     </section>
 
     <!-- Section Développement -->
     <section id="developpement">
-        <h2>Présentation des Attributs CSS</h2>
-
-        <!-- Application des Styles de Base -->
-        <article id="styles-de-base">
-            <h3>Styles de Base</h3>
+        <article class="chatre-graphique">
+        <h2>Briefing Chartre Graphique</h2>
+    </article>
+            <!-- Structure HTML Globale -->
+        <article id="structure-html-globale">
+            <h3>Structure HTML Globale</h3>
             <p>
-                Discussion sur les styles de base appliqués sur le site OhMyFood, y compris la typographie, les couleurs, et le Box Model.
+                Description de la structure HTML globale, y compris l'utilisation des balises sémantiques telles que les <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>dans  <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, et <code>&lt;footer&gt;</code>.
             </p>
-            <!-- Exemples de code CSS pour les styles de base -->
+            <p>
+                Explication du balisage des sections principales, comme la barre de navigation, la section de contenu principal, et le pied de page. Mention des éléments HTML spécifiques utilisés dans chaque section.
+            </p>
+            <!-- Exemples de code HTML pour les sections principales -->
+            <div class="ohmyfood-pc-editor">
+                <div class="fonction-mockup">
+                    <img src="assets/img/markup/dev-mockup.png" alt="mockup">
+                </div>
+                <div class="pc-html">
+                    <div class="pc-header">
+                    <h3>[header]</h3>
+                        <img src="assets/img/markup/dev-header.png" alt="mockup">
+                    </div>
+                    <div class="pc-main">
+                    <h3>[main]</h3>
+                        <img src="assets/img/markup/dev-main.png" alt="mockup">
+                    </div>
+                    <div class="pc-footer">
+                    <h2>[footer]</h2>
+                        <img src="assets/img/markup/dev-footer.png" alt="mockup">
+                    </div>
+                </div>
+                <div class="pc-css">______</div>
+                <div class="mockup-ohmyfood-img">
+                <img src="assets/img/mockup/mockup-mobil.png" alt="img-mockup-mobile">
+
+                </div>    
+            </div>         
         </article>
 
-        <!-- Stylisation des Composants Spécifiques -->
-        <article id="stylisation-composants">
-            <h3>Stylisation des Composants Spécifiques</h3>
-            <p>
-                Explication sur la manière dont les composants spécifiques tels que les boutons, les cartes de restaurants, et les en-têtes sont stylisés.
-            </p>
-            <!-- Exemples de code CSS pour les composants spécifiques -->
-        </article>
+
+
+<!-- Application des Styles de Base index -->
+
+<!-- Application des Styles de Base HEADER -->
+<?php include 'env-pc-header-ohmyfood.php'; ?>
+<?php include 'env-pc-hero-ban-btn.php'; ?>
+
+<!-- Application des Styles MAIN -->
+<?php include 'env-pc-main-ohmyfood.php'; ?>
+<?php include 'env-pc-btn-fonction.php'; ?>
+<?php include 'env-pc-card.php'; ?>
+
+
+<!-- Application des Styles de Base FOOTER -->
+<?php include 'env-pc-footer-ohmyfood.php'; ?>
+
+
+<!-- Application des Styles de Base index -->
+
+
+
+
+
 
         <!-- Techniques CSS Avancées -->
         <article id="techniques-css-avancees">

@@ -1014,7 +1014,13 @@ html, body {
   background-color: brown;
 }
 
-/* step Markup */
+/* step6 Markup */
+.step6_Markup {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
 .ohmyfood-pc-editor {
   display: flex;
   justify-content: center;
@@ -1024,9 +1030,80 @@ html, body {
 
 .ohmyfood-article-btn {
   display: flex;
+  flex-direction: column;
 }
 
-/* Step atrib CSS */
+.ohmyfood-btn-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.pc-html {
+  width: 50%;
+}
+
+.btn1 {
+  width: 50%;
+}
+
+/* Step6 atrib CSS */
+.step7_AttribCSS {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.pc-html-css-result {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border: 5px salmon solid;
+}
+
+.header-html-css {
+  height: 10%;
+}
+
+.main-pc-env {
+  display: flex;
+  flex-direction: row;
+  width: 99%;
+  height: 80%;
+  border: 5px blueviolet solid;
+}
+
+.pc-html {
+  width: 33%;
+  background-color: #7e7e7e;
+  padding: 5px;
+  border-right: 2px solid;
+}
+
+.pc-css {
+  width: 33%;
+  background-color: #7e7e7e;
+  padding: 5px;
+  border-left: 5px solid;
+}
+
+.pc-resultat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
+.footer-pc {
+  background-color: #008766;
+  padding: 1px;
+  height: 10%;
+  border: 1px solid;
+}
+
 /* step Responsive */
 /* step Annimation SASS */
 /* step val W3C */
@@ -1102,9 +1179,9 @@ header {
 }
 
 /* Hero-ban */
-.hero-ban {
+.hero-ban-home {
   display: flex;
-  min-width: 80vh;
+  min-width: 100%;
   min-height: 100%;
   background-color: #241f2e;
 }

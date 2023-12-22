@@ -1,4 +1,4 @@
-<div class="hero-ban">
+<div class="hero-ban-home">
     <div class="coln-h">
             <div class="coln-H">H</div>
             <div class="coln-H">H</div>
