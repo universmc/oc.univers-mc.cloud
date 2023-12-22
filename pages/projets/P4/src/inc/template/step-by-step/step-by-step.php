@@ -14,9 +14,8 @@
             <button class="btn-step" onclick="window.location.href='?step=step2_mission_objectifs'"><span class="step-circl">2</span><span>objectif</span></button>
             <button class="btn-step" onclick="window.location.href='?step=step3_configuration'"><span class="step-circl">3</span><span>config</span></button>
             <button class="btn-step" onclick="window.location.href='?step=step4_mockup-responsive'"><span class="step-circl">4</span><span>Mockup</span></button>
-            <button class="btn-step" onclick="window.location.href='?step=step5_html-css-responsive'"><span class="step-circl">5</span><span>html-css</span></button>
-            <button class="btn-step" onclick="window.location.href='?step=step6_attribut-css'"><span class="step-circl">6</span><span>css</span></button>
-            <button class="btn-step" onclick="window.location.href='?step=step6_annimation-sass'"><span class="step-circl">6</span><span>sass</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step5_html-css-index'"><span class="step-circl">5</span><span>html-css index</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step6_html-sass-resto'"><span class="step-circl">6</span><span>html-sass resto</span></button>
             <button class="btn-step" onclick="window.location.href='?step=step7_validation-W3C'"><span class="step-circl">7</span><span>W3C</span></button>
             <button class="btn-step" onclick="window.location.href='?step=step8_debug-tool'"><span class="step-circl">8</span><span>debug-tool</span></button>
             <button class="btn-step" onclick="window.location.href='?step=step9_dev-skills'"><span class="step-circl">9</span><span>skill-dev</span></button>

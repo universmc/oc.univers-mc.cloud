@@ -22,17 +22,54 @@
     <div class="pc-css">
         <h3>CSS</h3>
         <pre><code>
-/* Exemple de CSS pour un bouton */
-.btn {
-    background-color: #ff4b2b;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 50px;
-    transition: background-color 300ms;
+/* Exemple de CSS pour un bouton FONTIONNEMENT */
+article.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 75px;
+  width: 100%;
 }
 
-.btn:hover {
-    background-color: #ff3a1c;
+.F-number {
+  display: flex;
+  position: relative;
+  border-radius: 50%;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  background-color: #9356DC;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-class-f {
+  /* LAYOUT */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  gap: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  gap: 20px;
+  /* FONT */
+  background-color: #EAEAEA;
+}
+
+.btn-article {
+  display: flex;
+}
+.btn-article:hover {
+  background-color: #EAEAEA;
+}
+
+.fa-soild {
+  color: #7e7e7e;
 }
         </code></pre>
     </div>

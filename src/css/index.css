@@ -870,7 +870,7 @@ html, body {
   border-radius: 20px;
 }
 
-/* STEP5 MOCKUP */
+/* STEP4 MOCKUP */
 .step5_mockup {
   display: flex;
   flex-direction: column;
@@ -1014,7 +1014,7 @@ html, body {
   background-color: brown;
 }
 
-/* step6 Markup */
+/* step5 HTML-CSS - INDEX */
 .step6_Markup {
   display: flex;
   flex-direction: column;
@@ -1025,7 +1025,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 150px;
+  gap: 10px;
 }
 
 .ohmyfood-article-btn {
@@ -1050,10 +1050,19 @@ html, body {
 }
 
 /* Step6 atrib CSS */
-.step7_AttribCSS {
+.step5_HTML-CSS {
   display: flex;
   flex-direction: column;
   width: 90%;
+}
+
+.mockup-ohmyfood-img {
+  display: flex;
+  justify-content: center;
+}
+
+.mockup-ohmyfood-img-conf {
+  width: 85%;
 }
 
 .pc-html-css-result {
@@ -1062,6 +1071,31 @@ html, body {
   width: 100%;
   height: 100%;
   border: 5px salmon solid;
+}
+
+.pc-html pre, .pc-css pre {
+  max-height: 400px; /* Hauteur maximale avant que la barre de défilement apparaisse */
+  overflow-y: auto; /* Active la barre de défilement verticale si nécessaire */
+  background-color: #f5f5f5; /* Couleur de fond pour une meilleure lisibilité */
+  padding: 10px; /* Espacement intérieur pour une meilleure présentation */
+  border-radius: 5px; /* Bords arrondis pour l'esthétique */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet de profondeur */
+  font-family: "Courier New", monospace; /* Police de caractères pour le code */
+  color: #333; /* Couleur du texte */
+}
+
+/* Personnalisation de la barre de défilement */
+.pc-html pre::-webkit-scrollbar, .pc-css pre::-webkit-scrollbar {
+  width: 8px; /* Largeur de la barre de défilement */
+}
+
+.pc-html pre::-webkit-scrollbar-thumb, .pc-css pre::-webkit-scrollbar-thumb {
+  background-color: #888; /* Couleur de la barre de défilement */
+  border-radius: 4px; /* Bords arrondis pour la barre */
+}
+
+.pc-html pre::-webkit-scrollbar-thumb:hover, .pc-css pre::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Couleur de la barre au survol */
 }
 
 .header-html-css {
@@ -1104,7 +1138,7 @@ html, body {
   border: 1px solid;
 }
 
-/* step Responsive */
+/* step6 HTML-SASS - RESTO */
 /* step Annimation SASS */
 /* step val W3C */
 .link-val-W3C {

@@ -14,7 +14,7 @@
         <h3>HTML</h3>
         <pre><code>
 &lt;!-- Exemple de balisage HTML pour un bouton --&gt;
-&lt;button class="btn"&gt;Cliquez-moi&lt;/button&gt;
+&lt;button class="btn"&gt;Explorer nos restaurants&lt;/button&gt;
         </code></pre>
     </div>
 
@@ -22,17 +22,31 @@
     <div class="pc-css">
         <h3>CSS</h3>
         <pre><code>
-/* Exemple de CSS pour un bouton */
-.btn {
-    background-color: #ff4b2b;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 50px;
-    transition: background-color 300ms;
+/* Exemple de CSS pour un bouton HERO-BAN */
+.hero-btn {
+  /* LAYOUT */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  min-width: 200px;
+  min-height: 40px;
+  background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
+  box-shadow: 0 8px 16px rgba(24, 23, 23, 0.1);
+  border-color: transparent;
+  /* FONT */
+  color: white;
 }
-
-.btn:hover {
-    background-color: #ff3a1c;
+.hero-btn:hover {
+  background: linear-gradient(201deg, #FF79DA -5.2%, #9356DC 110.74%);
+  box-shadow: 0 8px 16px rgba(24, 23, 23, 0.1);
+}
+.hero-btn:active {
+  background: linear-gradient(201deg, #FF79DA -5.2%, #9356DC 110.74%);
+  box-shadow: 0 8px 16px rgba(24, 23, 23, 0.1);
+  min-width: 210px;
+  min-height: 50px;
 }
         </code></pre>
     </div>
