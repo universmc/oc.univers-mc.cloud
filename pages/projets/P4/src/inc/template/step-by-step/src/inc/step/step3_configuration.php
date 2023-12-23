@@ -71,12 +71,5 @@
 
     <!-- Section Conclusion -->
     <section id="conclusion">
-        <h2>Conclusion de l'Étape</h2>
-        <p>
-            Conclusion détaillée de l'étape, en résumant les points clés abordés 
-            et en introduisant la prochaine étape.
-        </p>
-        <!-- Lien ou bouton vers la prochaine étape -->
-        <a href="step_next.php">Étape Suivante: [Titre de la Prochaine Étape]</a>
     </section>
 </div>

@@ -1,6 +1,6 @@
 <!-- Stylisation des Composants card-->
 <article id="stylisation-composants">
-            <h3>Stylisation des Composants CARD Ohmyfood</h3>
+            <h3>Stylisation et annimation sur le Composants CARD Ohmyfood</h3>
             <p>
                 Explication sur la manière dont les composants spécifiques tels que les boutons, les cartes de restaurants, et les en-têtes sont stylisés.
             </p>

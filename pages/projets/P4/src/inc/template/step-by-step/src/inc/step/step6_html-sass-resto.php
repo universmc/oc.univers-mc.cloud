@@ -3,20 +3,21 @@
     <section id="sommaire">
         <h2>INDEX en Mobile fist</h2>
         <ul>
-            <li>Briefing Chartre Graphique</li>
-            <li>Balisage Html & attributs css</li>
-            <li>annimation SASS/li>
-            
+            <li>Page Menu</li>
+            <li>Annimation SASS</li>
         </ul>
     </section>
 
     <!-- Section Développement -->
     <section id="developpement">
         <article class="chatre-graphique">
-        <h2>Briefing Chartre Graphique</h2>
-        </article>
+        <h2>Page Menu </h2>
             <!-- Structure HTML Globale -->
-        
+            <div class="page-menu">
+            <img src="assets/img/mockup/mockup-resto-mobil.png" alt="mockup resto">
+            <img src="assets/img/mockup/mockup-resto-desktop.png" alt="mockup resto">
+            </div>
+        </article>
         <article>
         <?php include 'env-pc-resto/env-pc-menu-resto.php'; ?>
         <!-- Application des Styles de Base index -->

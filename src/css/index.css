@@ -524,12 +524,47 @@ html, body {
 .Objectifs {
   display: flex;
   flex-direction: column;
+  padding: 40px;
 }
 
 .ohmyfood-card {
   width: 40%;
 }
 
+.btn-Dl-contenair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#loader2 {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #9356DC;
+  border-right: 16px solid #FF79DA;
+  border-bottom: 16px solid #99E2D0;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* BOTTON */
 .ohmyfood-btn-cnd {
   /* LAYOUT */
@@ -1139,7 +1174,21 @@ html, body {
 }
 
 /* step6 HTML-SASS - RESTO */
-/* step Annimation SASS */
+.chatre-graphique {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-menu {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.menu-ohmyfood-content {
+  margin: 30px;
+}
+
 /* step val W3C */
 .link-val-W3C {
   display: flex;

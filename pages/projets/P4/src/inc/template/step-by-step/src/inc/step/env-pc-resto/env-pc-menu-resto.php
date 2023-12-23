@@ -55,7 +55,7 @@
     <!-- Bloc Résultat -->
     <div class="pc-resultat">
         <div class="windows-resultat">
-        <div>
+        <div class="menu-ohmyfood-content">
                 <!-- Section Entrée -->
                 <div class="menu-category entrees animation">
             <div class="menu">

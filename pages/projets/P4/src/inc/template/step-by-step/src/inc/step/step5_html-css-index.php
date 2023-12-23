@@ -810,12 +810,10 @@ footer {
 
 <!-- Application des Styles de Base HEADER -->
 <?php include 'env-pc-header-ohmyfood.php'; ?>
-<?php include 'env-pc-hero-ban-btn.php'; ?>
+
 
 <!-- Application des Styles MAIN -->
 <?php include 'env-pc-main-ohmyfood.php'; ?>
-<?php include 'env-pc-btn-fonction.php'; ?>
-<?php include 'env-pc-card.php'; ?>
 
 
 <!-- Application des Styles de Base FOOTER -->
@@ -831,11 +829,17 @@ footer {
 
         <!-- Techniques CSS Avancées -->
         <article id="techniques-css-avancees">
-            <h3>Techniques CSS Avancées</h3>
+            <h3>Annimation CSS page d'acceuil</h3>
             <p>
                 Présentation des techniques CSS avancées utilisées, telles que les flexbox, grid, et les pseudo-éléments pour améliorer l'expérience utilisateur.
             </p>
+            <?php include 'env-pc-hero-ban-btn.php'; ?>
             <!-- Exemples de code CSS pour les techniques avancées -->
+
+            <?php include 'env-pc-card.php'; ?>
+
+            <?php include 'env-pc-loader.php'; ?>
+            
         </article>
     </section>
 
