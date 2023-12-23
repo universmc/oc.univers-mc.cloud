@@ -1,6 +1,6 @@
 <!-- Stylisation des Composants Spécifiques -->
 <article id="stylisation-composants">
-<h3>Stylisation des Composants Header Ohmyfood</h3>
+<h3>Bloc sémentique [HEADER]</h3>
     <p>Explication de la manière dont les composants du header, tels que le logo, la localisation, et la bannière héroïque, sont stylisés.</p>
             <!-- Exemples de code CSS pour les composants spécifiques -->
 
@@ -159,7 +159,7 @@ header {
         </div>
     </div>
 </div>
-<div class="footer-pc">[SECLECTOR][HTML]</div>
+<div class="footer-pc"><p>On peut observer la structure ou layout le header qu'il est constitué de trois grandes sections donc une première section contient le logo le deuxième section nommée location et la troisième section et qui contient le héros bannière</p></div>
 </div>
 
 </article>

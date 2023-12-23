@@ -1,6 +1,6 @@
         <!-- Stylisation des Composants Spécifiques -->
         <article id="stylisation-composants">
-            <h3>Stylisation des Composants BUTTON Ohmyfood</h3>
+            <h3>Annimation Composants BUTTON Ohmyfood</h3>
             <p>
                 Explication sur la manière dont les composants spécifiques tels que les boutons, les cartes de restaurants, et les en-têtes sont stylisés.
             </p>
@@ -20,7 +20,7 @@
 
     <!-- Bloc CSS -->
     <div class="pc-css">
-        <h3>CSS</h3>
+        <h3>SASS</h3>
         <pre><code>
 /* Exemple de CSS pour un card _  */
 /* CARD */

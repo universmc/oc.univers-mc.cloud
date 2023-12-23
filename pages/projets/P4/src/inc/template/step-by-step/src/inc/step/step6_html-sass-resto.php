@@ -18,7 +18,7 @@
             <img src="assets/img/mockup/mockup-resto-desktop.png" alt="mockup resto">
             </div>
         </article>
-        <article>
+        <article class="dev-content">
         <?php include 'env-pc-resto/env-pc-menu-resto.php'; ?>
         <!-- Application des Styles de Base index -->
         <?php include 'env-pc-resto/env-pc-btn-resto.php'; ?>
@@ -31,7 +31,7 @@
 
     <!-- Section Conclusion -->
     <section id="conclusion">
-        <h2>Conclusion sur les Attributs CSS</h2>
+        <h2>Github update</h2>
         <p>
             Synthèse sur l'importance des attributs CSS dans la création d'une expérience utilisateur riche et visuellement attrayante pour OhMyFood.
         </p>
@@ -40,7 +40,7 @@
             <p class="terminal">terminal intégré</p>
             <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/github.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>GIT HUB</button>
                 <code> > git add . </code>
-                <code> > git commit -m "initial-CSS"</code>
+                <code> > git commit -m "annimation-sass-menu"</code>
                 <code> > git push</code>
             <pre>
         </div>

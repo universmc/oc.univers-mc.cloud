@@ -1,6 +1,6 @@
 <!-- Stylisation des Composants Spécifiques -->
         <article id="stylisation-composants">
-            <h3>Stylisation des Composants BUTTON Ohmyfood</h3>
+            <h3>Bloc sementique [FOOTER]</h3>
             <p>
                 Explication sur la manière dont les composants spécifiques tels que les boutons, les cartes de restaurants, et les en-têtes sont stylisés.
             </p>
@@ -52,9 +52,9 @@
     <!-- Bloc Résultat -->
     <div class="pc-resultat">
         <div class="windows-resultat">
-            <div class="footer-ohmyfood">
-                <span class="footer-titre">Ohmyfood</span>
-                <div class="ls-container">
+            <div class="footer-ohmyfood-inter">
+                <span class="footer-titre-">Ohmyfood</span>
+                <div class="footer-ls-container">
                     <i class="fa-solid fa-utensils"><span> Proposer un restaurant</span></i>
                     <i class="fa-solid fa-handshake-angle"><span> Devenir partenair</span></i>
                     <span>Mention Légales</span>
@@ -64,7 +64,9 @@
         </div>
     </div>
 </div>
-<div class="footer-pc">[SECLECTOR][HTML]</div>
+<div class="footer-pc"
+><p> on peut observer dans ce bloc sémantique nommé foutez qu'il est constitué d'un logo et d'une liste de liens</p>
+<p> on peut aussi noter que dans la version <strong>MOBILE</strong> on utilise une Flexbox flex-direction row alors que dans la version <strong>DESKTOP</strong> utilise une Flex box et flex-direction row</p> </p></div>
 </div>
 
 </article>

@@ -1,6 +1,6 @@
 <!-- Stylisation des Composants Spécifiques -->
 <article id="stylisation-composants">
-            <h3>Stylisation des Composants BUTTON Ohmyfood</h3>
+            <h3>Bloc sementique [MAIN]</h3>
             <p>
                 Explication sur la manière dont les composants spécifiques tels que les boutons, les cartes de restaurants, et les en-têtes sont stylisés.
             </p>
@@ -263,9 +263,9 @@ article.btn {
         <div class="windows-resultat">
         <div>
             <section class="fonctionnement">
-            <div class="row">
-            <span class="titre"><strong>Fonctionnement</strong></span>
-            <div class="btn-container">
+              <div class="row">
+              <span class="titre"><strong>Fonctionnement</strong></span>
+              <div class="flexbox-ohmyfood">
                 <article class="btn">                            
                     <div class="F-numbers">
                         <span class="F-number">1</span>
@@ -290,18 +290,18 @@ article.btn {
                     <div class="F-numbers">
                     <span class="F-number">3</span>
                 </div>
-            <button class="btn-class-f">
+              <button class="btn-class-f">
                 <i class="fa-solid fa-store"></i>
                 <span><strong>Dégustez au restaurant</strong></span>
-            </button>
+              </button>
                 </article>
-            </div>
-            </div>
+              </div>
+              </div>
             </section>
             <section class="restaurants">
             <div class="row">
                 <span class="titre"><strong>Restaurants</strong></span>
-            <div class="card-container">
+            <div class="flexbox-card-container">
                 <article class="card">  
                     <a href="restaurants/Menu-La-palette-du-gout.html" class="card">
                         <div class="img-card-container">
@@ -395,7 +395,10 @@ article.btn {
 </div>
     </div>
 </div>
-<div class="footer-pc">[SECLECTOR][HTML]</div>
+<div class="footer-pc">
+  <p> On peut observer dans cette section [main] qu'il est constitué de deux grands blocs sémentique une section dédié au fonctionnement qui contient 3 articles buttons et une section dédié au restaurants qui contient 4 articles card</p>
+  <p> on peut aussi noter que dans cette section nous utilisons une Flex box pour la version mobile et un attribue Grid pour la version desktop</p>
+</div>
 </div>
 
 </article>

@@ -430,13 +430,16 @@ html, body {
 }
 .ohmyfood-mail-if{
     width: 80%;
+    padding: 5px;
     border: black 1px solid;
 }
 .ohmyfood-mail-header{
     background-color: #b3b3b3;
+    padding: 5px;
 }
 .ohmyfood-mail-main{
     display: flex;
+    padding: 5px;
     flex-direction: column;
 }
 .img-ohmyfood-device {
@@ -445,6 +448,7 @@ html, body {
 }
 .ohmyfood-mail-footer{
     background-color: #b3b3b3;
+    padding: 5px;
 }
 
 
@@ -1085,7 +1089,7 @@ display: flex;
 .btn1 {
     width: 50%;
 }
-/* Step6 atrib CSS */
+/* Step5 atrib html-css index */
 .step5_HTML-CSS {
     display: flex;
     flex-direction: column;
@@ -1170,6 +1174,26 @@ display: flex;
     height: 10%;
     border: 1px solid;
 }
+.flexbox-ohmyfood {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-height: 75px;
+    min-width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.flexbox-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footer-ls-container {
+    display: flex;
+    flex-direction: column;
+}
 /* step6 HTML-SASS - RESTO */
 .chatre-graphique {
     display: flex;
@@ -1184,7 +1208,24 @@ display: flex;
 {
     margin:30px;
 }
-
+.footer-ohmyfood-inter {
+    display: flex;
+    flex-direction: column;
+    background-color: #353535;
+    color: white;
+    padding: 25px;
+  gap: 15px;
+}
+.dev-content {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#style-env-pc-ohmyfood
+{
+    width: 80%;
+}
 /* step val W3C */ 
 
 .link-val-W3C {

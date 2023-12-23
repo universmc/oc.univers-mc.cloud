@@ -44,7 +44,7 @@
         </div>
     </div>
 </div>
-<div class="footer-pc">[SECLECTOR][HTML]</div>
+<div class="footer-pc"><p>On peut observer sur ce composant bouton des animations ou survol de la souris <strong> atribut sass &:hover</strong> on a un changement de couleur et on ajoute de l'ombrage avec le box shadow</p></div>
 </div>
 
 </article>

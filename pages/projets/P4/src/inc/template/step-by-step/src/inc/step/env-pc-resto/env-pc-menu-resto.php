@@ -1,6 +1,6 @@
 <!-- Stylisation des Composants Spécifiques -->
-<article id="stylisation-composants">
-            <h3>Stylisation des Composants BUTTON Ohmyfood</h3>
+<article id="style-env-pc-ohmyfood">
+            <h3>Annimation MENU</h3>
             <p>
                 Explication sur la manière dont les composants spécifiques tels que les boutons, les cartes de restaurants, et les en-têtes sont stylisés.
             </p>
@@ -20,7 +20,7 @@
 
     <!-- Bloc CSS -->
     <div class="pc-css">
-        <h3>CSS</h3>
+        <h3>SASS</h3>
         <pre><code>
 .menu-category {
   width: 90%;
@@ -174,7 +174,7 @@
         </div>
     </div>
 </div>
-<div class="footer-pc">[SECLECTOR][HTML]</div>
+<div class="footer-pc"> observer sur ce composant menu une animation qui fait apparaître progressivement les différentes catégories du menu "entrée" plat dessert avec un léger décalage dans le temps pour cela nous utilisons des animations SASS sur la class "menu-catégory" avec des attributs <strong>translate Y</strong> Et un délai d'affichage sur le sous menu (nth-child) espacées de 0,3 ms</div>
 </div>
 
 </article>

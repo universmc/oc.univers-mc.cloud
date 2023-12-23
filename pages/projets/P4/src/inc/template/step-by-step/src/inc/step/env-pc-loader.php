@@ -103,7 +103,8 @@ $overlay-animation-duration: 3s;
         </div>
     </div>
 </div>
-<div class="footer-pc">[SECLECTOR][HTML]</div>
+<div class="footer-pc"><p> on peut observer sur le composant Il est constitué de deux blocs un bloc <strong>overlay</strong> qui occupent la totalité Du body et du body sur Z-index d'une durée de trois secondes</p>
+<p> Le bloc loader quant à lui est une annimation sur le bordure un cercle avec une animation <strong>rotate</strong> à partir de pseudo class <strong>keyfram transforme</strong> de 0% à 100 sur 360°</p></div>
 </div>
 
 </article>

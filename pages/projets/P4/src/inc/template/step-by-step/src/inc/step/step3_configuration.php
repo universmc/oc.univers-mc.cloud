@@ -40,7 +40,7 @@
                     <p>terminal intégré</p>
                     <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/github.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>GIT HUB</button>
                         <code> > git add . </code>
-                        <code> > git commit -m "initial-commit"</code>
+                        <code> > git commit -m "repertory assets"</code>
                         <code> > git push</code>
                     <pre>
                 </div>
@@ -66,10 +66,25 @@
             </div>
             <div>
         </article>
+
         <!-- Plus d'articles si nécessaire -->
     </section>
 
     <!-- Section Conclusion -->
     <section id="conclusion">
+    <article>
+            <h3>INIT GITHUB</h3>
+            <div class="ohmyfood-github">
+                <div class="github-instruction">
+                    <pre>
+                    <p>terminal intégré</p>
+                    <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/github.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>GIT HUB</button>
+                        <code> > git add . </code>
+                        <code> > git commit -m "sass update"</code>
+                        <code> > git push</code>
+                    <pre>
+                </div>
+            </div>
+        </article>
     </section>
 </div>

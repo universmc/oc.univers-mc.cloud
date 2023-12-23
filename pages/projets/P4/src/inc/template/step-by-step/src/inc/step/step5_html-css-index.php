@@ -854,7 +854,7 @@ footer {
             <p class="terminal">terminal intégré</p>
             <button class="btn-lang"><img class="icon-lang" src="assets/img/hb/github.png" alt=""><span><i class="fa-solid fa-arrow-right"></i></span>GIT HUB</button>
                 <code> > git add . </code>
-                <code> > git commit -m "initial-CSS"</code>
+                <code> > git commit -m "balisage html & annimation sass"</code>
                 <code> > git push</code>
             <pre>
         </div>
