@@ -24,5 +24,6 @@
         <!-- Scripts JS si nécessaire -->
         <script src="src/js/usr_personne.js"></script>
     <script src="src/js/script.js"></script>
+    <script src="src/js/gen-condition.js"></script>
 </body>
 </html>

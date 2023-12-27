@@ -6,5 +6,7 @@
         <?php include 'step04_.php'; ?>
         <?php include 'step05_.php'; ?>
         <?php include 'step06_.php'; ?>
-        <?php include 'step06_.php'; ?>
+        <?php include 'step07_.php'; ?>
+        <?php include 'step08_.php'; ?>
+        <?php include 'step08_.php'; ?>
     </div>

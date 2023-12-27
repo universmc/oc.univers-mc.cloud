@@ -12,10 +12,9 @@
             <button class="btn-step" onclick="window.location.href='?step=step0_sommaire'"><span class="step-circl">O</span><span>Sommaire</span></button>
             <button class="btn-step" onclick="window.location.href='?step=step1_introduction'"><span class="step-circl">0</span><span>intro</span></button>
             <button class="btn-step" onclick="window.location.href='?step=step2_mission_Objectifs'"><span class="step-circl">0</span><span>objectif</span></button>
-            <button class="btn-step" onclick="window.location.href='?step=step3_configuration'"><span class="step-circl">0</span><span>config</span></button>
-            <button class="btn-step" onclick="window.location.href='?step=step4_1-html'"><span class="step-circl">1</span><span>html</span></button>
-            <button class="btn-step" onclick="window.location.href='?step=step5_2-event-js'"><span class="step-circl">2</span><span>even-js</span></button>
-            <button class="btn-step" onclick="window.location.href='?step=step6_3-slider'"><span class="step-circl">3</span><span>slider</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step3_1-html-css'"><span class="step-circl">1</span><span>html-css</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step4_2-eventListeners'"><span class="step-circl">2</span><span>Js-eventListeners</span></button>
+            <button class="btn-step" onclick="window.location.href='?step=step5_3-sliders-bullet'"><span class="step-circl">3</span><span>slider-bullet</span></button>
             <button class="btn-step" onclick="window.location.href='?step=step7_4-slider-clic'"><span class="step-circl">4</span><span>clic</span></button>
             <button class="btn-step" onclick="window.location.href='?step=step8_5-carrousel'"><span class="step-circl">5</span><span>carrousel</span></button>
         </div>

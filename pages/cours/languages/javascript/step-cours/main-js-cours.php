@@ -13,10 +13,12 @@
             <button onclick="window.location.href='?step=step01_'">Intro</button>
             <button onclick="window.location.href='?step=step02_'">Variable</button>
             <button onclick="window.location.href='?step=step03_'">Object</button>
-            <button onclick="window.location.href='?step=step04_'">Operateurs</button>
-            <button onclick="window.location.href='?step=step05_'">interpolation</button>
-            <button onclick="window.location.href='?step=step06_'">event</button>
-            <button onclick="window.location.href='?step=step06_'">regex</button>
+            <button onclick="window.location.href='?step=step04_'">array</button>
+            <button onclick="window.location.href='?step=step05_'">Operateurs</button>
+            <button onclick="window.location.href='?step=step06_'">condition</button>
+            <button onclick="window.location.href='?step=step06_'">interpolation</button>
+            <button onclick="window.location.href='?step=step07_'">event</button>
+            <button onclick="window.location.href='?step=step08_'">regex</button>
         </div>
 </article>
     <script>
