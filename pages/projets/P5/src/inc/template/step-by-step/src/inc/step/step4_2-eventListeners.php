@@ -4,20 +4,22 @@
         <p>
             La deuxième étape du projet "Print it" consistait à rendre le carrousel interactif en ajoutant des event listeners aux flèches de navigation. Cette fonctionnalité permet aux utilisateurs de cliquer sur les flèches pour naviguer entre les images du carrousel. L'ajout de ces event listeners a été une introduction essentielle aux concepts de programmation JavaScript, démontrant l'importance de l'interactivité dans les interfaces utilisateur modernes.
         </p>
+        <div class="carrousel-img">
         <img class="arrow" src="assets/img/objectif-carrousel.png" alt="carrousel">
+        </div>
         <!-- Exemple du code HTML du carrousel -->
         <div class="btn-contenair">
             <h2>Dans le fichier script.js</h2>
             <p>j'ai donc ajouter le scipt</p>
             <div>
-            <button id="bouton1">[<]</button>
+            <button class="btn-arow" id="bouton1">[<]</button>
 <pre><code>
 let bouton1 = document.getElementById("bouton1");
 bouton1.addEventListener("click", () =&gt; {
     console.log("click OK button slide gauche")
 })</code></pre>
 </div>
-<button id="bouton2">[>]</button>
+<button class="btn-arow" id="bouton2">[>]</button>
 <pre><code>
 let bouton2 = document.getElementById("bouton2");
 bouton2.addEventListener("click", () =&gt; {

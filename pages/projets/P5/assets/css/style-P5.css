@@ -19,7 +19,6 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
   border-radius: 25px;
   border: 1px solid;
 }
@@ -38,8 +37,99 @@ code {
   justify-content: center;
 }
 
+.arrow_content-P5 {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-arow {
+  width: 40px;
+  height: 40px;
+}
+
+.btn-arow img {
+  width: 32px;
+  height: 32px;
+}
+
+.mail-directeur {
+  text-align: center;
+}
+
 .step2_objectif {
   width: 80%;
+}
+
+.github-pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-github {
+  display: flex;
+  width: 255px;
+  height: 50px;
+  align-items: center;
+  gap: 25px;
+  background-color: white;
+  box-shadow: #24212c;
+}
+.btn-github:hover {
+  width: 265px;
+  height: 60px;
+}
+
+.btn-github img {
+  width: 32px;
+  height: 32px;
+}
+
+.video-contenair {
+  display: flex;
+  justify-content: center;
+}
+
+.ls-step-contenair {
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.step-contenair {
+  display: flex;
+  height: 120px;
+  width: 10%;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+#P5-step1 {
+  background-color: #2c2b2f;
+}
+
+#P5-step2 {
+  background-color: #242229;
+}
+
+#P5-step3 {
+  background-color: #24212c;
+}
+
+#P5-step4 {
+  background-color: #201d29;
+}
+
+#P5-step5 {
+  background-color: #201d29;
 }
 
 /* ========== */
@@ -71,7 +161,12 @@ code {
 }
 
 .arrow {
-  width: 80%;
+  width: 8 0%;
+}
+
+.carrousel-img {
+  display: flex;
+  justify-content: center;
 }
 
 /* ========== */

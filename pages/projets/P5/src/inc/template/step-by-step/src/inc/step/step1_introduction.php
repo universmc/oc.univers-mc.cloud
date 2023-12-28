@@ -8,16 +8,13 @@
             <p>Ce projet, intitulé "Print it", est conçu pour initier les développeurs au langage JavaScript, un outil essentiel dans le développement web moderne.</p>
             <div class="P5-img-content">
             
-            <div class="arrow_content">
-				<button id="bouton1" class="arrow_left">
+            <div class="arrow_content-P5">
+				<button class="btn-arow" id="bouton1" class="arrow_left">
 				<img src="Print-it/assets/images/arrow_left.png" alt="arrow_left">
 				</button>
                 <img src="assets/img/print-it-intro.png">
-                <div class="dotsContainer"> 
-				<div class="dots"></div>
-		        </div>
-				<button id="bouton2" class="arrow_right">
-					<img src="Print-it/assets/images/arrow_right.png" alt="arrow_right">
+				<button class="btn-arow" id="bouton2" class="arrow_right">
+					<img  src="Print-it/assets/images/arrow_right.png" alt="arrow_right">
 				</button>
 			</div>
 
