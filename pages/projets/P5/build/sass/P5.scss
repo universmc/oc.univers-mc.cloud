@@ -23,6 +23,34 @@
   justify-content: center;
 }
 
+.step1_updateHTML {
+	width: 80%;
+}
+
+.img-carrousel {
+	width: 100%;
+	&:hover{
+		position:relative;
+		left:-400px;
+		width: 200%;
+	}
+}
+
+.step2_eventListeners {
+	width:80%
+}
+.eventListeners {
+	display: flex;
+	flex-direction: column;
+ 	align-items: center;
+}
+.arrow {
+	width: 80%;
+}
+
+
+
+
 
 /* exo carrosel */
 
@@ -41,12 +69,6 @@
 #banner .arrow_right {
 	position: absolute;
 	right: 10px;
-}
-button {
-    background: none;
-    border: none;
-    outline: none;
-    box-shadow: none;
 }
 
 

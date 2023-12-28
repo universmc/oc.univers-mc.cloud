@@ -13,13 +13,14 @@
 				<img src="Print-it/assets/images/arrow_left.png" alt="arrow_left">
 				</button>
                 <img src="assets/img/print-it-intro.png">
+                <div class="dotsContainer"> 
+				<div class="dots"></div>
+		        </div>
 				<button id="bouton2" class="arrow_right">
 					<img src="Print-it/assets/images/arrow_right.png" alt="arrow_right">
 				</button>
 			</div>
-			<div class="dotsContainer"> 
-				<div class="dots"></div>
-		</div>
+
 	</div>
             </div>
             <p>
