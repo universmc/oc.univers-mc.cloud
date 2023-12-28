@@ -1,101 +1,58 @@
-# Projet 4 - Documentation
+# Projet P5 "Print it" - OpenClassrooms
 
-## Introduction
-Bienvenue dans la documentation du Projet 4. Ce projet a été développé dans le cadre de la formation OpenClassrooms.
+## Contexte du Projet
+Développeur front-end freelance, vous travaillez pour dynamiser le site Internet d'une imprimerie familiale, Print it, avec une approche centrée sur le JavaScript.
 
-## Contenu du Projet
-Le projet consiste en la création d'un site web pour un restaurant gastronomique nommé "Ohmyfood". Le site doit être développé en utilisant HTML, CSS, et Sass, en suivant les meilleures pratiques du développement web.
+## Objectif
+Maîtriser les bases du JavaScript pour rendre le site de Print it plus interactif, en commençant par le développement d'un carrousel d'images dynamique.
 
-## Méthodes de Travail
+---
 
-### Structure du Projet
-- `/src`: Contient les fichiers source du projet.
-- `/build`: Le répertoire de sortie pour les fichiers prêts à être livrés.
+## Étapes du Projet
 
-### Séquençage de la Maquette
-- **Balisage HTML**: Structuration de la page selon les éléments de la maquette.
-- **Attribution CSS**: Ajout de styles visuels à chaque élément de la maquette.
-- **Paramétrage Sass**: Utilisation de Sass pour optimiser et structurer les feuilles de style.
-- **Responsive Design**: Mise en place du design réactif en suivant la méthodologie "Mobile First" avec des breakpoints pour tablettes et ordinateurs de bureau.
-- **Norme W3C**: Validation des pages HTML selon les normes W3C pour garantir une sémantique correcte.
-- **Plan de Développement pour la Soutenance**: Détails sur les étapes de développement pour la soutenance, y compris la sémantique, les animations, et la 
+### Étape 1 : Mise à Jour du Code HTML
+- Intégration des images des flèches pour la navigation du carrousel.
+- Analyse du code HTML/CSS existant.
+- Utilisation des ressources du cours "Créez votre site web avec HTML5 et CSS3".
 
-### Étapes du Projet "Ohmyfood"
+### Étape 2 : Ajout des Event Listeners sur les Flèches
+- Rendre les flèches interactives avec JavaScript.
+- Tests avec `console.log` et `alert()`.
+- Distinction des clics sur les flèches gauche et droite.
 
-    Step 1 - Introduction
-        Présentation du projet et de ses objectifs.
-        Contexte et but du projet.
+### Étape 3 : Ajout des Bullet Points au Slider
+- Affichage des bullet points pour chaque slide.
+- Utilisation de JavaScript pour le comptage des éléments.
+- Style des bullet points avec le CSS existant.
 
-    Step 2 - Configuration de l'Environnement de Développement
-        Mise en place de l'environnement (IDE, outils nécessaires).
-        Configuration initiale (répertoires, fichiers de base).
+### Étape 4 : Modification du Slide au Clic sur les Boutons
+- Changement de l'image, du bullet point actif et du texte correspondant au clic.
+- Gestion du changement de slides via les index du tableau.
 
-    Step 3 - Mission et Objectifs
-        Description détaillée de la mission du projet.
-        Objectifs spécifiques à atteindre.
+### Étape 5 : Mise en Place du Défilement Infini sur le Carrousel
+- Logique pour un carrousel tournant en boucle.
+- Gestion des cas aux extrémités du carrousel.
 
-    Step 4 - Découpage du Mockup
-        Analyse et découpage du mockup en éléments HTML.
+---
 
-    Step 5 - Balisage HTML
-        Création de la structure HTML du projet.
-        Utilisation des balises sémantiques pour la structure de la page.
+## Livrables
+- [Lien vers le repo GitHub](https://github.com/universmc/Print-it/)
+- [Lien vers la démo GitHub Pages](https://universmc.github.io/print-it/)
 
-    Step 6 - Attribution CSS
-        Stylisation initiale avec CSS.
-        Application des styles de base.
+---
 
-    Step 7 - Animation avec SASS
-        Utilisation de SASS pour les animations et styles avancés.
-        Structuration et organisation du code SASS.
+## Soutenance
+- **Présentation des Livrables** : 10 minutes
+- **Débriefing** : 15 minutes
+- **Conseils** : 5 minutes
 
-    Step 8 - Responsive Design
-        Techniques pour rendre le projet responsive.
-        Utilisation des Media Queries.
+---
 
-    Step 9 - Validation W3C
-        Vérification de la conformité aux standards W3C.
-        Correction des éventuelles erreurs HTML/CSS.
+## Compétences Évaluées
+- Programmation en JavaScript.
 
-    Step 10 - Développement des Compétences
-        Réflexion sur les compétences développées pendant le projet.
-        Identification des domaines d'amélioration.
+---
 
-
-
-
-
-
-
-
-
-
-
-programmation front-end.
-
-
-
-
-
-
-
-### Documentation des Composants
-- **Loader**: Composant affiché au chargement de la page pour indiquer que le contenu est en cours de chargement.
-- **Hero Banner**: Composant de bannière pour chaque cours.
-- **Card**: Composant pour afficher des informations de manière visuellement attrayante.
-- **Button**: Composant pour des actions interactives.
-- **Menu-Déroulant**: Composant pour une navigation fluide.
-
-## Utilisation
-1. Cloner le répertoire source à partir de GitHub.
-2. Initialiser Node.js en exécutant `npm init -y`.
-3. Installer les dépendances pour compiler Sass avec `npm install node-sass --save-dev`.
-
-## Contribution
-Pour contribuer au projet, veuillez suivre les bonnes pratiques de contribution et ouvrir une Pull Request.
-
-## Auteurs
-- [Votre Nom]
-
-## Licence
-Ce projet est sous licence [insérer la licence appropriée].
+## Ressources et Documentation
+- [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [OpenClassrooms - Cours JavaScript](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript)

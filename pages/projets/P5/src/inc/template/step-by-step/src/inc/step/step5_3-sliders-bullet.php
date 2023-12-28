@@ -1,6 +1,6 @@
 <div class="step3_bulletPoints">
     <h2>Step 3 - Ajout des Bullet Points au Slider</h2>
-
+    
     <article class="code-implementation">
         <h3>Implémentation des Bullet Points</h3>
         <p>Présentation du code JavaScript utilisé pour ajouter les bullet points au carrousel.</p>
@@ -25,25 +25,7 @@
 	    </div>
         <p>[Insérez une image ou une description du carrousel avec les bullet points]</p>
         <!-- Exemple du code JavaScript -->
-        <pre><code>
-        // Créez les bullet points (dots) en fonction du nombre de slides
-let numberOfSlides = slides.length;
-const dotsContainer = document.querySelector('.dots');
-for (let i = 0; i < numberOfSlides; i++) {
-    const dot = document.createElement('div');
-    dot.className = 'dot';
-    dotsContainer.appendChild(dot);
-}
-
-// Marquez le premier bullet point comme actif
-dotsContainer.firstChild.classList.add('dot_selected');
-</code></pre>
-
-
-
-    </article>
-
-    <article class="bullet-point-explanation">
+        <article class="bullet-point-explanation">
     <h3>Explication du Script pour les Bullet Points</h3>
     <p>
         <strong>Calcul du Nombre de Slides :</strong><br>
@@ -81,5 +63,24 @@ dotsContainer.firstChild.classList.add('dot_selected');
         Cette ligne sélectionne le premier enfant du conteneur 'dotsContainer', qui est le premier bullet point créé. Ensuite, elle ajoute la classe 'dot_selected'. Cela a pour effet de le rendre visuellement distinct, indiquant qu'il correspond à la première image du carrousel actuellement affichée.
     </p>
 </article>
+        <pre><code>
+        // Créez les bullet points (dots) en fonction du nombre de slides
+let numberOfSlides = slides.length;
+const dotsContainer = document.querySelector('.dots');
+for (let i = 0; i < numberOfSlides; i++) {
+    const dot = document.createElement('div');
+    dot.className = 'dot';
+    dotsContainer.appendChild(dot);
+}
+
+// Marquez le premier bullet point comme actif
+dotsContainer.firstChild.classList.add('dot_selected');
+</code></pre>
+
+
+
+    </article>
+
+    
 
 </div>
