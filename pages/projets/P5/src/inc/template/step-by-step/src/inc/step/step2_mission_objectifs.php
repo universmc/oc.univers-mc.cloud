@@ -36,7 +36,7 @@
             <li>Étape 1 - Mise à jour du code HTML pour le carrousel</li>
             <li>Étape 2 - Ajout des event listeners sur les flèches</li>
             <li>Étape 3 - Ajout des bullet points au slider</li>
-            <li>Étape 4 : Modifiez le slide au clic sur le bouton/li>
+            <li>Étape 4 : Modifiez le slide au clic sur le bouton</li>
             <li>Étape 5 : Mettez en place le défilement infini sur le carrousel</li>
             <!-- Ajoutez les autres étapes ici -->
         </ol>

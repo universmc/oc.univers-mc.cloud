@@ -15,7 +15,7 @@
     <!-- Chemin vers le fichier CSS compilé -->
 </head>
 <body>
-    <div class="P4">
+    <div class="P5">
         <?php include '../../../src/inc/header.php'; ?> <!-- Inclusion de l'en-tête -->
 
         <main>
@@ -31,6 +31,6 @@
         </footer>
     </div>
         <!-- Scripts JS si nécessaire -->
-    <script src="../../../src/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

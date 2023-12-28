@@ -1,5 +1,13 @@
+pre {
+  background: #162633;
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 10px;
+}
 
-
+code {
+	color:white;
+}
 
 
 .art-intro {
@@ -36,6 +44,10 @@
 	}
 }
 
+.step2_objectif {
+width: 80%;
+}
+
 .step2_eventListeners {
 	width:80%
 }
@@ -51,9 +63,25 @@
 
 
 
-
-/* exo carrosel */
-
+#banner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	min-height: 470px;
+	position: relative;
+}
+.banner-img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	object-fit: cover;
+	object-position: center;
+}
+/* Code CSS en prévision de l'ajout d'un carousel pour la bannière */
+/* Gestion des fleches du carrousel */
 #banner .arrow {
 	position: absolute;
 }
@@ -70,7 +98,6 @@
 	position: absolute;
 	right: 10px;
 }
-
 
 
 /* Gestion des points du carrousel */
@@ -91,4 +118,3 @@
 .dot_selected {
 	background-color: #fff;
 }
-/* Fin du code CSS pour le carousel */
